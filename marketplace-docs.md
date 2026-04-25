@@ -1,0 +1,2747 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "跳转到主要内容" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - link "Claude Code Docs home page light logo" [ref=e14] [cursor=pointer]:
+              - /url: /docs/zh-CN/overview
+              - generic [ref=e15]: Claude Code Docs home page
+              - img "light logo" [ref=e16]
+            - button "简体中文" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 简体中文
+              - img [ref=e20]
+          - generic [ref=e22]:
+            - button "打开搜索" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]:
+                - img [ref=e25]
+                - generic [ref=e28]: 搜索...
+              - generic [ref=e29]: Ctrl K
+            - button "切换助手面板" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - generic [ref=e34]: 询问AI
+          - generic [ref=e35]:
+            - navigation [ref=e36]:
+              - list [ref=e37]:
+                - listitem [ref=e38]:
+                  - link "Claude Developer Platform" [ref=e39] [cursor=pointer]:
+                    - /url: https://platform.claude.com/
+                - listitem [ref=e40]:
+                  - link "Claude Code on the Web" [ref=e41] [cursor=pointer]:
+                    - /url: https://claude.ai/code
+                    - generic [ref=e43]:
+                      - generic [ref=e44]: Claude Code on the Web
+                      - img [ref=e45]
+            - button "切换深色模式" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+        - generic [ref=e57]:
+          - link "快速开始" [ref=e58] [cursor=pointer]:
+            - /url: /docs/zh-CN/overview
+            - text: 快速开始
+          - link "使用 Claude Code 构建" [ref=e60] [cursor=pointer]:
+            - /url: /docs/zh-CN/sub-agents
+            - text: 使用 Claude Code 构建
+          - link "部署" [ref=e62] [cursor=pointer]:
+            - /url: /docs/zh-CN/third-party-integrations
+            - text: 部署
+          - link "管理" [ref=e64] [cursor=pointer]:
+            - /url: /docs/zh-CN/admin-setup
+            - text: 管理
+          - link "配置" [ref=e66] [cursor=pointer]:
+            - /url: /docs/zh-CN/settings
+            - text: 配置
+          - link "参考" [ref=e68] [cursor=pointer]:
+            - /url: /docs/zh-CN/cli-reference
+            - text: 参考
+          - link "Agent SDK" [ref=e70] [cursor=pointer]:
+            - /url: /docs/zh-CN/agent-sdk/overview
+            - text: Agent SDK
+          - link "最新动态" [ref=e72] [cursor=pointer]:
+            - /url: /docs/zh-CN/whats-new
+            - text: 最新动态
+          - link "资源" [ref=e74] [cursor=pointer]:
+            - /url: /docs/zh-CN/legal-and-compliance
+            - text: 资源
+      - generic [ref=e76]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - heading "设置和访问" [level=5] [ref=e83]
+            - list [ref=e84]:
+              - listitem [ref=e85]:
+                - link "为您的组织设置 Claude Code" [ref=e86] [cursor=pointer]:
+                  - /url: /docs/zh-CN/admin-setup
+                  - generic [ref=e89]: 为您的组织设置 Claude Code
+              - listitem [ref=e90]:
+                - link "高级设置" [ref=e91] [cursor=pointer]:
+                  - /url: /docs/zh-CN/setup
+                  - generic [ref=e94]: 高级设置
+              - listitem [ref=e95]:
+                - link "身份验证" [ref=e96] [cursor=pointer]:
+                  - /url: /docs/zh-CN/authentication
+                  - generic [ref=e99]: 身份验证
+              - listitem [ref=e100]:
+                - link "服务器管理的设置" [ref=e101] [cursor=pointer]:
+                  - /url: /docs/zh-CN/server-managed-settings
+                  - generic [ref=e104]: 服务器管理的设置
+              - listitem [ref=e105]:
+                - link "自动模式" [ref=e106] [cursor=pointer]:
+                  - /url: /docs/zh-CN/auto-mode-config
+                  - generic [ref=e109]: 自动模式
+          - generic [ref=e110]:
+            - heading "使用情况和成本" [level=5] [ref=e112]
+            - list [ref=e113]:
+              - listitem [ref=e114]:
+                - link "监控" [ref=e115] [cursor=pointer]:
+                  - /url: /docs/zh-CN/monitoring-usage
+                  - generic [ref=e118]: 监控
+              - listitem [ref=e119]:
+                - link "成本" [ref=e120] [cursor=pointer]:
+                  - /url: /docs/zh-CN/costs
+                  - generic [ref=e123]: 成本
+              - listitem [ref=e124]:
+                - link "使用分析跟踪团队使用情况" [ref=e125] [cursor=pointer]:
+                  - /url: /docs/zh-CN/analytics
+                  - generic [ref=e128]: 使用分析跟踪团队使用情况
+          - generic [ref=e129]:
+            - heading "插件分发" [level=5] [ref=e131]
+            - list [ref=e132]:
+              - listitem [ref=e133]:
+                - link "创建和分发 plugin marketplace" [ref=e134] [cursor=pointer]:
+                  - /url: /docs/zh-CN/plugin-marketplaces
+                  - generic [ref=e137]: 创建和分发 plugin marketplace
+              - listitem [ref=e138]:
+                - link "插件依赖版本" [ref=e139] [cursor=pointer]:
+                  - /url: /docs/zh-CN/plugin-dependencies
+                  - generic [ref=e142]: 插件依赖版本
+          - generic [ref=e143]:
+            - heading "安全和数据" [level=5] [ref=e145]
+            - list [ref=e146]:
+              - listitem [ref=e147]:
+                - link "安全性" [ref=e148] [cursor=pointer]:
+                  - /url: /docs/zh-CN/security
+                  - generic [ref=e151]: 安全性
+              - listitem [ref=e152]:
+                - link "数据使用" [ref=e153] [cursor=pointer]:
+                  - /url: /docs/zh-CN/data-usage
+                  - generic [ref=e156]: 数据使用
+              - listitem [ref=e157]:
+                - link "零数据保留" [ref=e158] [cursor=pointer]:
+                  - /url: /docs/zh-CN/zero-data-retention
+                  - generic [ref=e161]: 零数据保留
+        - generic [ref=e164]:
+          - banner [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: 插件分发
+              - generic [ref=e168]:
+                - heading "创建和分发 plugin marketplace" [level=1] [ref=e169]
+                - generic [ref=e170]:
+                  - button "复制页面" [ref=e171] [cursor=pointer]:
+                    - generic [ref=e172]:
+                      - img [ref=e173]
+                      - generic [ref=e176]: 复制页面
+                  - button "更多操作" [ref=e177] [cursor=pointer]:
+                    - img [ref=e178]
+            - paragraph [ref=e181]: 构建和托管 plugin marketplace，以在团队和社区中分发 Claude Code 扩展。
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - strong [ref=e184]: plugin marketplace
+              - text: 是一个目录，让你能够将 plugins 分发给他人。Marketplace 提供集中式发现、版本跟踪、自动更新以及对多种源类型（git 存储库、本地路径等）的支持。本指南展示了如何创建自己的 marketplace，与你的团队或社区共享 plugins。
+            - generic [ref=e185]:
+              - text: 想要从现有 marketplace 安装 plugins？请参阅
+              - link "发现和安装预构建的 plugins" [ref=e186] [cursor=pointer]:
+                - /url: /docs/zh-CN/discover-plugins
+              - text: 。
+            - heading "导航到标题 概述" [level=2] [ref=e187]:
+              - link "导航到标题" [ref=e188] [cursor=pointer]:
+                - /url: "#概述"
+                - img [ref=e190]
+              - generic [ref=e192] [cursor=pointer]: 概述
+            - generic [ref=e193]: 创建和分发 marketplace 涉及：
+            - list [ref=e194]:
+              - listitem [ref=e195]:
+                - strong [ref=e196]: 创建 plugins
+                - text: ：使用 skills、agents、hooks、MCP servers 或 LSP servers 构建一个或多个 plugins。本指南假设你已经有要分发的 plugins；有关如何创建 plugins 的详细信息，请参阅
+                - link "创建 plugins" [ref=e197] [cursor=pointer]:
+                  - /url: /docs/zh-CN/plugins
+                - text: 。
+              - listitem [ref=e198]:
+                - strong [ref=e199]: 创建 marketplace 文件
+                - text: ：定义一个
+                - code [ref=e200]: marketplace.json
+                - text: ，列出你的 plugins 及其位置（请参阅
+                - link "创建 marketplace 文件" [ref=e201] [cursor=pointer]:
+                  - /url: "#create-the-marketplace-file"
+                - text: ）。
+              - listitem [ref=e202]:
+                - strong [ref=e203]: 托管 marketplace
+                - text: ：推送到 GitHub、GitLab 或其他 git 主机（请参阅
+                - link "托管和分发 marketplaces" [ref=e204] [cursor=pointer]:
+                  - /url: "#host-and-distribute-marketplaces"
+                - text: ）。
+              - listitem [ref=e205]:
+                - strong [ref=e206]: 与用户共享
+                - text: ：用户使用
+                - code [ref=e207]: /plugin marketplace add
+                - text: 添加你的 marketplace 并安装单个 plugins（请参阅
+                - link "发现和安装 plugins" [ref=e208] [cursor=pointer]:
+                  - /url: /docs/zh-CN/discover-plugins
+                - text: ）。
+            - generic [ref=e209]:
+              - text: 一旦你的 marketplace 上线，你可以通过推送更改到你的存储库来更新它。用户使用
+              - code [ref=e210]: /plugin marketplace update
+              - text: 刷新他们的本地副本。
+            - heading "导航到标题 演练：创建本地 marketplace" [level=2] [ref=e211]:
+              - link "导航到标题" [ref=e212] [cursor=pointer]:
+                - /url: "#演练：创建本地-marketplace"
+                - img [ref=e214]
+              - generic [ref=e216] [cursor=pointer]: 演练：创建本地 marketplace
+            - generic [ref=e217]:
+              - text: 此示例创建一个包含一个 plugin 的 marketplace：一个用于代码审查的
+              - code [ref=e218]: /quality-review
+              - text: skill。你将创建目录结构、添加 skill、创建 plugin manifest 和 marketplace 目录，然后安装并测试它。
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - generic [ref=e223]:
+                  - generic [ref=e224]: "1"
+                  - link "Navigate to header" [ref=e226] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e228]
+                - generic [ref=e230]:
+                  - paragraph [ref=e231]: 创建目录结构
+                  - generic [ref=e233]:
+                    - generic [ref=e234]:
+                      - button "报告错误代码" [ref=e236] [cursor=pointer]:
+                        - img [ref=e237]
+                      - button "复制代码块内容" [ref=e240] [cursor=pointer]:
+                        - img [ref=e241]
+                      - button "询问AI" [ref=e245] [cursor=pointer]:
+                        - img [ref=e246]
+                    - code [ref=e252]:
+                      - generic [ref=e253]: mkdir -p my-marketplace/.claude-plugin
+                      - generic [ref=e254]: mkdir -p my-marketplace/plugins/quality-review-plugin/.claude-plugin
+                      - generic [ref=e255]: mkdir -p my-marketplace/plugins/quality-review-plugin/skills/quality-review
+              - listitem [ref=e256]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]: "2"
+                  - link "Navigate to header" [ref=e262] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e264]
+                - generic [ref=e266]:
+                  - paragraph [ref=e267]: 创建 skill
+                  - generic [ref=e268]:
+                    - generic [ref=e269]:
+                      - text: 创建一个
+                      - code [ref=e270]: SKILL.md
+                      - text: 文件，定义
+                      - code [ref=e271]: /quality-review
+                      - text: skill 的功能。
+                    - generic [ref=e272]:
+                      - generic [ref=e273]:
+                        - generic "my-marketplace/plugins/quality-review-plugin/skills/quality-review/SKILL.md" [ref=e275]
+                        - generic [ref=e276]:
+                          - button "报告错误代码" [ref=e278] [cursor=pointer]:
+                            - img [ref=e279]
+                          - button "复制代码块内容" [ref=e282] [cursor=pointer]:
+                            - img [ref=e283]
+                          - button "询问AI" [ref=e287] [cursor=pointer]:
+                            - img [ref=e288]
+                      - code [ref=e294]:
+                        - generic [ref=e295]: "---"
+                        - generic [ref=e296]: "description: Review code for bugs, security, and performance"
+                        - generic [ref=e297]: "disable-model-invocation: true"
+                        - generic [ref=e298]: "---"
+                        - generic [ref=e299]: "Review the code I've selected or the recent changes for:"
+                        - generic [ref=e300]: "- Potential bugs or edge cases"
+                        - generic [ref=e301]: "- Security concerns"
+                        - generic [ref=e302]: "- Performance issues"
+                        - generic [ref=e303]: "- Readability improvements"
+                        - generic [ref=e304]: Be concise and actionable.
+              - listitem [ref=e305]:
+                - generic [ref=e308]:
+                  - generic [ref=e309]: "3"
+                  - link "Navigate to header" [ref=e311] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e313]
+                - generic [ref=e315]:
+                  - paragraph [ref=e316]: 创建 plugin manifest
+                  - generic [ref=e317]:
+                    - generic [ref=e318]:
+                      - text: 创建一个
+                      - code [ref=e319]: plugin.json
+                      - text: 文件，描述该 plugin。manifest 位于
+                      - code [ref=e320]: .claude-plugin/
+                      - text: 目录中。
+                    - generic [ref=e321]:
+                      - generic [ref=e322]:
+                        - generic "my-marketplace/plugins/quality-review-plugin/.claude-plugin/plugin.json" [ref=e324]
+                        - generic [ref=e325]:
+                          - button "报告错误代码" [ref=e327] [cursor=pointer]:
+                            - img [ref=e328]
+                          - button "复制代码块内容" [ref=e331] [cursor=pointer]:
+                            - img [ref=e332]
+                          - button "询问AI" [ref=e336] [cursor=pointer]:
+                            - img [ref=e337]
+                      - code [ref=e343]:
+                        - generic [ref=e344]: "{"
+                        - generic [ref=e345]: "\"name\": \"quality-review-plugin\","
+                        - generic [ref=e346]: "\"description\": \"Adds a /quality-review skill for quick code reviews\","
+                        - generic [ref=e347]: "\"version\": \"1.0.0\""
+                        - generic [ref=e348]: "}"
+                    - generic [ref=e349]:
+                      - img "注意" [ref=e351]
+                      - generic [ref=e354]:
+                        - text: 设置
+                        - code [ref=e355]: version
+                        - text: 意味着用户仅在你更改此字段时才会收到更新，因此在每次发布时都要提升版本号。如果你省略
+                        - code [ref=e356]: version
+                        - text: 并在 git 中托管此 marketplace，每次提交都会自动计为新版本。请参阅
+                        - link "版本解析" [ref=e357] [cursor=pointer]:
+                          - /url: "#version-resolution-and-release-channels"
+                        - text: 以选择正确的方法。
+              - listitem [ref=e358]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]: "4"
+                  - link "Navigate to header" [ref=e364] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e366]
+                - generic [ref=e368]:
+                  - paragraph [ref=e369]: 创建 marketplace 文件
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: 创建列出你的 plugin 的 marketplace 目录。
+                    - generic [ref=e372]:
+                      - generic [ref=e373]:
+                        - generic "my-marketplace/.claude-plugin/marketplace.json" [ref=e375]
+                        - generic [ref=e376]:
+                          - button "报告错误代码" [ref=e378] [cursor=pointer]:
+                            - img [ref=e379]
+                          - button "复制代码块内容" [ref=e382] [cursor=pointer]:
+                            - img [ref=e383]
+                          - button "询问AI" [ref=e387] [cursor=pointer]:
+                            - img [ref=e388]
+                      - code [ref=e394]:
+                        - generic [ref=e395]: "{"
+                        - generic [ref=e396]: "\"name\": \"my-plugins\","
+                        - generic [ref=e397]: "\"owner\": {"
+                        - generic [ref=e398]: "\"name\": \"Your Name\""
+                        - generic [ref=e399]: "},"
+                        - generic [ref=e400]: "\"plugins\": ["
+                        - generic [ref=e401]: "{"
+                        - generic [ref=e402]: "\"name\": \"quality-review-plugin\","
+                        - generic [ref=e403]: "\"source\": \"./plugins/quality-review-plugin\","
+                        - generic [ref=e404]: "\"description\": \"Adds a /quality-review skill for quick code reviews\""
+                        - generic [ref=e405]: "}"
+                        - generic [ref=e406]: "]"
+                        - generic [ref=e407]: "}"
+              - listitem [ref=e408]:
+                - generic [ref=e411]:
+                  - generic [ref=e412]: "5"
+                  - link "Navigate to header" [ref=e414] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e416]
+                - generic [ref=e418]:
+                  - paragraph [ref=e419]: 添加和安装
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: 添加 marketplace 并安装 plugin。
+                    - generic [ref=e422]:
+                      - generic [ref=e423]:
+                        - button "报告错误代码" [ref=e425] [cursor=pointer]:
+                          - img [ref=e426]
+                        - button "复制代码块内容" [ref=e429] [cursor=pointer]:
+                          - img [ref=e430]
+                        - button "询问AI" [ref=e434] [cursor=pointer]:
+                          - img [ref=e435]
+                      - code [ref=e441]:
+                        - generic [ref=e442]: /plugin marketplace add ./my-marketplace
+                        - generic [ref=e443]: /plugin install quality-review-plugin@my-plugins
+              - listitem [ref=e444]:
+                - generic [ref=e447]:
+                  - generic [ref=e448]: "6"
+                  - link "Navigate to header" [ref=e450] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e452]
+                - generic [ref=e454]:
+                  - paragraph [ref=e455]: 尝试一下
+                  - generic [ref=e456]:
+                    - generic [ref=e457]: 在编辑器中选择一些代码并运行你的新 skill。
+                    - generic [ref=e458]:
+                      - generic [ref=e459]:
+                        - button "报告错误代码" [ref=e461] [cursor=pointer]:
+                          - img [ref=e462]
+                        - button "复制代码块内容" [ref=e465] [cursor=pointer]:
+                          - img [ref=e466]
+                        - button "询问AI" [ref=e470] [cursor=pointer]:
+                          - img [ref=e471]
+                      - code [ref=e477]:
+                        - generic [ref=e478]: /quality-review
+            - generic [ref=e479]:
+              - text: 要了解更多关于 plugins 可以做什么的信息，包括 hooks、agents、MCP servers 和 LSP servers，请参阅
+              - link "Plugins" [ref=e480] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugins
+              - text: 。
+            - generic [ref=e481]:
+              - img "注意" [ref=e483]
+              - generic [ref=e485]:
+                - generic [ref=e486]:
+                  - strong [ref=e487]: plugins 如何安装
+                  - text: ：当用户安装 plugin 时，Claude Code 将 plugin 目录复制到缓存位置。这意味着 plugins 无法使用
+                  - code [ref=e488]: ../shared-utils
+                  - text: 之类的路径引用其目录外的文件，因为这些文件不会被复制。
+                - generic [ref=e489]:
+                  - text: 如果你需要在 plugins 之间共享文件，请使用符号链接。有关详细信息，请参阅
+                  - link "Plugin 缓存和文件解析" [ref=e490] [cursor=pointer]:
+                    - /url: /docs/zh-CN/plugins-reference#plugin-caching-and-file-resolution
+                  - text: 。
+            - heading "导航到标题 创建 marketplace 文件" [level=2] [ref=e491]:
+              - link "导航到标题" [ref=e492] [cursor=pointer]:
+                - /url: "#创建-marketplace-文件"
+                - img [ref=e494]
+              - generic [ref=e496] [cursor=pointer]: 创建 marketplace 文件
+            - generic [ref=e497]:
+              - text: 在你的存储库根目录中创建
+              - code [ref=e498]: .claude-plugin/marketplace.json
+              - text: 。此文件定义你的 marketplace 的名称、所有者信息以及包含其源的 plugins 列表。
+            - generic [ref=e499]:
+              - text: 每个 plugin 条目至少需要一个
+              - code [ref=e500]: name
+              - text: 和
+              - code [ref=e501]: source
+              - text: （从哪里获取它）。有关所有可用字段，请参阅下面的
+              - link "完整架构" [ref=e502] [cursor=pointer]:
+                - /url: "#marketplace-schema"
+              - text: 。
+            - generic [ref=e503]:
+              - generic [ref=e504]:
+                - button "报告错误代码" [ref=e506] [cursor=pointer]:
+                  - img [ref=e507]
+                - button "复制代码块内容" [ref=e510] [cursor=pointer]:
+                  - img [ref=e511]
+                - button "询问AI" [ref=e515] [cursor=pointer]:
+                  - img [ref=e516]
+              - code [ref=e522]:
+                - generic [ref=e523]: "{"
+                - generic [ref=e524]: "\"name\": \"company-tools\","
+                - generic [ref=e525]: "\"owner\": {"
+                - generic [ref=e526]: "\"name\": \"DevTools Team\","
+                - generic [ref=e527]: "\"email\": \"devtools@example.com\""
+                - generic [ref=e528]: "},"
+                - generic [ref=e529]: "\"plugins\": ["
+                - generic [ref=e530]: "{"
+                - generic [ref=e531]: "\"name\": \"code-formatter\","
+                - generic [ref=e532]: "\"source\": \"./plugins/formatter\","
+                - generic [ref=e533]: "\"description\": \"Automatic code formatting on save\","
+                - generic [ref=e534]: "\"version\": \"2.1.0\","
+                - generic [ref=e535]: "\"author\": {"
+                - generic [ref=e536]: "\"name\": \"DevTools Team\""
+                - generic [ref=e537]: "}"
+                - generic [ref=e538]: "},"
+                - generic [ref=e539]: "{"
+                - generic [ref=e540]: "\"name\": \"deployment-tools\","
+                - generic [ref=e541]: "\"source\": {"
+                - generic [ref=e542]: "\"source\": \"github\","
+                - generic [ref=e543]: "\"repo\": \"company/deploy-plugin\""
+                - generic [ref=e544]: "},"
+                - generic [ref=e545]: "\"description\": \"Deployment automation tools\""
+                - generic [ref=e546]: "}"
+                - generic [ref=e547]: "]"
+                - generic [ref=e548]: "}"
+            - heading "导航到标题 Marketplace 架构" [level=2] [ref=e549]:
+              - link "导航到标题" [ref=e550] [cursor=pointer]:
+                - /url: "#marketplace-架构"
+                - img [ref=e552]
+              - generic [ref=e554] [cursor=pointer]: Marketplace 架构
+            - heading "导航到标题 必需字段" [level=3] [ref=e555]:
+              - link "导航到标题" [ref=e556] [cursor=pointer]:
+                - /url: "#必需字段"
+                - img [ref=e558]
+              - generic [ref=e560] [cursor=pointer]: 必需字段
+            - table [ref=e563]:
+              - rowgroup [ref=e564]:
+                - row "字段 类型 描述 示例" [ref=e565]:
+                  - columnheader "字段" [ref=e566]
+                  - columnheader "类型" [ref=e567]
+                  - columnheader "描述" [ref=e568]
+                  - columnheader "示例" [ref=e569]
+              - rowgroup [ref=e570]:
+                - row "name string Marketplace 标识符（kebab-case，无空格）。这是面向公众的：用户在安装 plugins 时会看到它（例如，/plugin install my-tool@your-marketplace）。 \"acme-tools\"" [ref=e571]:
+                  - cell "name" [ref=e572]:
+                    - code [ref=e573]: name
+                  - cell "string" [ref=e574]
+                  - cell "Marketplace 标识符（kebab-case，无空格）。这是面向公众的：用户在安装 plugins 时会看到它（例如，/plugin install my-tool@your-marketplace）。" [ref=e575]:
+                    - text: Marketplace 标识符（kebab-case，无空格）。这是面向公众的：用户在安装 plugins 时会看到它（例如，
+                    - code [ref=e576]: /plugin install my-tool@your-marketplace
+                    - text: ）。
+                  - cell "\"acme-tools\"" [ref=e577]:
+                    - code [ref=e578]: "\"acme-tools\""
+                - row "owner object Marketplace 维护者信息（见下面的字段）" [ref=e579]:
+                  - cell "owner" [ref=e580]:
+                    - code [ref=e581]: owner
+                  - cell "object" [ref=e582]
+                  - cell "Marketplace 维护者信息（见下面的字段）" [ref=e583]:
+                    - text: Marketplace 维护者信息（
+                    - link "见下面的字段" [ref=e584] [cursor=pointer]:
+                      - /url: "#owner-fields"
+                    - text: ）
+                  - cell [ref=e585]
+                - row "plugins array 可用 plugins 列表 见下文" [ref=e586]:
+                  - cell "plugins" [ref=e587]:
+                    - code [ref=e588]: plugins
+                  - cell "array" [ref=e589]
+                  - cell "可用 plugins 列表" [ref=e590]
+                  - cell "见下文" [ref=e591]
+            - generic [ref=e592]:
+              - img "注意" [ref=e594]
+              - generic [ref=e597]:
+                - strong [ref=e598]: 保留名称
+                - text: ：以下 marketplace 名称为 Anthropic 官方使用保留，第三方 marketplaces 无法使用：
+                - code [ref=e599]: claude-code-marketplace
+                - text: 、
+                - code [ref=e600]: claude-code-plugins
+                - text: 、
+                - code [ref=e601]: claude-plugins-official
+                - text: 、
+                - code [ref=e602]: anthropic-marketplace
+                - text: 、
+                - code [ref=e603]: anthropic-plugins
+                - text: 、
+                - code [ref=e604]: agent-skills
+                - text: 、
+                - code [ref=e605]: knowledge-work-plugins
+                - text: 、
+                - code [ref=e606]: life-sciences
+                - text: 。冒充官方 marketplaces 的名称（如
+                - code [ref=e607]: official-claude-plugins
+                - text: 或
+                - code [ref=e608]: anthropic-tools-v2
+                - text: ）也被阻止。
+            - heading "导航到标题 所有者字段" [level=3] [ref=e609]:
+              - link "导航到标题" [ref=e610] [cursor=pointer]:
+                - /url: "#所有者字段"
+                - img [ref=e612]
+              - generic [ref=e614] [cursor=pointer]: 所有者字段
+            - table [ref=e617]:
+              - rowgroup [ref=e618]:
+                - row "字段 类型 必需 描述" [ref=e619]:
+                  - columnheader "字段" [ref=e620]
+                  - columnheader "类型" [ref=e621]
+                  - columnheader "必需" [ref=e622]
+                  - columnheader "描述" [ref=e623]
+              - rowgroup [ref=e624]:
+                - row "name string 是 维护者或团队的名称" [ref=e625]:
+                  - cell "name" [ref=e626]:
+                    - code [ref=e627]: name
+                  - cell "string" [ref=e628]
+                  - cell "是" [ref=e629]
+                  - cell "维护者或团队的名称" [ref=e630]
+                - row "email string 否 维护者的联系电子邮件" [ref=e631]:
+                  - cell "email" [ref=e632]:
+                    - code [ref=e633]: email
+                  - cell "string" [ref=e634]
+                  - cell "否" [ref=e635]
+                  - cell "维护者的联系电子邮件" [ref=e636]
+            - heading "导航到标题 可选字段" [level=3] [ref=e637]:
+              - link "导航到标题" [ref=e638] [cursor=pointer]:
+                - /url: "#可选字段"
+                - img [ref=e640]
+              - generic [ref=e642] [cursor=pointer]: 可选字段
+            - table [ref=e645]:
+              - rowgroup [ref=e646]:
+                - row "字段 类型 描述" [ref=e647]:
+                  - columnheader "字段" [ref=e648]
+                  - columnheader "类型" [ref=e649]
+                  - columnheader "描述" [ref=e650]
+              - rowgroup [ref=e651]:
+                - row "metadata.description string 简短的 marketplace 描述" [ref=e652]:
+                  - cell "metadata.description" [ref=e653]:
+                    - code [ref=e654]: metadata.description
+                  - cell "string" [ref=e655]
+                  - cell "简短的 marketplace 描述" [ref=e656]
+                - row "metadata.version string Marketplace 版本" [ref=e657]:
+                  - cell "metadata.version" [ref=e658]:
+                    - code [ref=e659]: metadata.version
+                  - cell "string" [ref=e660]
+                  - cell "Marketplace 版本" [ref=e661]
+                - 'row "metadata.pluginRoot string 前置到相对 plugin 源路径的基目录（例如，\"./plugins\" 让你写 \"source\": \"formatter\" 而不是 \"source\": \"./plugins/formatter\"）" [ref=e662]':
+                  - cell "metadata.pluginRoot" [ref=e663]:
+                    - code [ref=e664]: metadata.pluginRoot
+                  - cell "string" [ref=e665]
+                  - 'cell "前置到相对 plugin 源路径的基目录（例如，\"./plugins\" 让你写 \"source\": \"formatter\" 而不是 \"source\": \"./plugins/formatter\"）" [ref=e666]':
+                    - text: 前置到相对 plugin 源路径的基目录（例如，
+                    - code [ref=e667]: "\"./plugins\""
+                    - text: 让你写
+                    - code [ref=e668]: "\"source\": \"formatter\""
+                    - text: 而不是
+                    - code [ref=e669]: "\"source\": \"./plugins/formatter\""
+                    - text: ）
+                - row "allowCrossMarketplaceDependenciesOn array 此 marketplace 中的 plugins 可能依赖的其他 marketplaces。来自此处未列出的 marketplace 的依赖项在安装时被阻止。见依赖来自另一个 marketplace 的 plugin。" [ref=e670]:
+                  - cell "allowCrossMarketplaceDependenciesOn" [ref=e671]:
+                    - code [ref=e672]: allowCrossMarketplaceDependenciesOn
+                  - cell "array" [ref=e673]
+                  - cell "此 marketplace 中的 plugins 可能依赖的其他 marketplaces。来自此处未列出的 marketplace 的依赖项在安装时被阻止。见依赖来自另一个 marketplace 的 plugin。" [ref=e674]:
+                    - text: 此 marketplace 中的 plugins 可能依赖的其他 marketplaces。来自此处未列出的 marketplace 的依赖项在安装时被阻止。见
+                    - link "依赖来自另一个 marketplace 的 plugin" [ref=e675] [cursor=pointer]:
+                      - /url: /docs/zh-CN/plugin-dependencies#depend-on-a-plugin-from-another-marketplace
+                    - text: 。
+            - heading "导航到标题 Plugin 条目" [level=2] [ref=e676]:
+              - link "导航到标题" [ref=e677] [cursor=pointer]:
+                - /url: "#plugin-条目"
+                - img [ref=e679]
+              - generic [ref=e681] [cursor=pointer]: Plugin 条目
+            - generic [ref=e682]:
+              - code [ref=e683]: plugins
+              - text: 数组中的每个 plugin 条目描述一个 plugin 及其位置。你可以包含
+              - link "plugin manifest 架构" [ref=e684] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugins-reference#plugin-manifest-schema
+              - text: 中的任何字段（如
+              - code [ref=e685]: description
+              - text: 、
+              - code [ref=e686]: version
+              - text: 、
+              - code [ref=e687]: author
+              - text: 、
+              - code [ref=e688]: commands
+              - text: 、
+              - code [ref=e689]: hooks
+              - text: 等），加上这些 marketplace 特定的字段：
+              - code [ref=e690]: source
+              - text: 、
+              - code [ref=e691]: category
+              - text: 、
+              - code [ref=e692]: tags
+              - text: 和
+              - code [ref=e693]: strict
+              - text: 。
+            - heading "导航到标题 必需字段" [level=3] [ref=e694]:
+              - link "导航到标题" [ref=e695] [cursor=pointer]:
+                - /url: "#必需字段-2"
+                - img [ref=e697]
+              - generic [ref=e699] [cursor=pointer]: 必需字段
+            - table [ref=e702]:
+              - rowgroup [ref=e703]:
+                - row "字段 类型 描述" [ref=e704]:
+                  - columnheader "字段" [ref=e705]
+                  - columnheader "类型" [ref=e706]
+                  - columnheader "描述" [ref=e707]
+              - rowgroup [ref=e708]:
+                - row "name string Plugin 标识符（kebab-case，无空格）。这是面向公众的：用户在安装时会看到它（例如，/plugin install my-plugin@marketplace）。" [ref=e709]:
+                  - cell "name" [ref=e710]:
+                    - code [ref=e711]: name
+                  - cell "string" [ref=e712]
+                  - cell "Plugin 标识符（kebab-case，无空格）。这是面向公众的：用户在安装时会看到它（例如，/plugin install my-plugin@marketplace）。" [ref=e713]:
+                    - text: Plugin 标识符（kebab-case，无空格）。这是面向公众的：用户在安装时会看到它（例如，
+                    - code [ref=e714]: /plugin install my-plugin@marketplace
+                    - text: ）。
+                - row "source string|object 从哪里获取 plugin（见下面的 Plugin 源）" [ref=e715]:
+                  - cell "source" [ref=e716]:
+                    - code [ref=e717]: source
+                  - cell "string|object" [ref=e718]
+                  - cell "从哪里获取 plugin（见下面的 Plugin 源）" [ref=e719]:
+                    - text: 从哪里获取 plugin（见下面的
+                    - link "Plugin 源" [ref=e720] [cursor=pointer]:
+                      - /url: "#plugin-sources"
+                    - text: ）
+            - heading "导航到标题 可选 plugin 字段" [level=3] [ref=e721]:
+              - link "导航到标题" [ref=e722] [cursor=pointer]:
+                - /url: "#可选-plugin-字段"
+                - img [ref=e724]
+              - generic [ref=e726] [cursor=pointer]: 可选 plugin 字段
+            - strong [ref=e728]: 标准元数据字段：
+            - table [ref=e731]:
+              - rowgroup [ref=e732]:
+                - row "字段 类型 描述" [ref=e733]:
+                  - columnheader "字段" [ref=e734]
+                  - columnheader "类型" [ref=e735]
+                  - columnheader "描述" [ref=e736]
+              - rowgroup [ref=e737]:
+                - row "description string 简短的 plugin 描述" [ref=e738]:
+                  - cell "description" [ref=e739]:
+                    - code [ref=e740]: description
+                  - cell "string" [ref=e741]
+                  - cell "简短的 plugin 描述" [ref=e742]
+                - row "version string Plugin 版本。如果设置（在此处或在 plugin.json 中），plugin 将固定到此字符串，用户仅在其更改时才会收到更新。省略以回退到 git commit SHA。见 版本解析。" [ref=e743]:
+                  - cell "version" [ref=e744]:
+                    - code [ref=e745]: version
+                  - cell "string" [ref=e746]
+                  - cell "Plugin 版本。如果设置（在此处或在 plugin.json 中），plugin 将固定到此字符串，用户仅在其更改时才会收到更新。省略以回退到 git commit SHA。见 版本解析。" [ref=e747]:
+                    - text: Plugin 版本。如果设置（在此处或在
+                    - code [ref=e748]: plugin.json
+                    - text: 中），plugin 将固定到此字符串，用户仅在其更改时才会收到更新。省略以回退到 git commit SHA。见
+                    - link "版本解析" [ref=e749] [cursor=pointer]:
+                      - /url: "#version-resolution-and-release-channels"
+                    - text: 。
+                - row "author object Plugin 作者信息（name 必需，email 可选）" [ref=e750]:
+                  - cell "author" [ref=e751]:
+                    - code [ref=e752]: author
+                  - cell "object" [ref=e753]
+                  - cell "Plugin 作者信息（name 必需，email 可选）" [ref=e754]:
+                    - text: Plugin 作者信息（
+                    - code [ref=e755]: name
+                    - text: 必需，
+                    - code [ref=e756]: email
+                    - text: 可选）
+                - row "homepage string Plugin 主页或文档 URL" [ref=e757]:
+                  - cell "homepage" [ref=e758]:
+                    - code [ref=e759]: homepage
+                  - cell "string" [ref=e760]
+                  - cell "Plugin 主页或文档 URL" [ref=e761]
+                - row "repository string 源代码存储库 URL" [ref=e762]:
+                  - cell "repository" [ref=e763]:
+                    - code [ref=e764]: repository
+                  - cell "string" [ref=e765]
+                  - cell "源代码存储库 URL" [ref=e766]
+                - row "license string SPDX 许可证标识符（例如，MIT、Apache-2.0）" [ref=e767]:
+                  - cell "license" [ref=e768]:
+                    - code [ref=e769]: license
+                  - cell "string" [ref=e770]
+                  - cell "SPDX 许可证标识符（例如，MIT、Apache-2.0）" [ref=e771]
+                - row "keywords array 用于 plugin 发现和分类的标签" [ref=e772]:
+                  - cell "keywords" [ref=e773]:
+                    - code [ref=e774]: keywords
+                  - cell "array" [ref=e775]
+                  - cell "用于 plugin 发现和分类的标签" [ref=e776]
+                - row "category string Plugin 类别以供组织" [ref=e777]:
+                  - cell "category" [ref=e778]:
+                    - code [ref=e779]: category
+                  - cell "string" [ref=e780]
+                  - cell "Plugin 类别以供组织" [ref=e781]
+                - row "tags array 用于可搜索性的标签" [ref=e782]:
+                  - cell "tags" [ref=e783]:
+                    - code [ref=e784]: tags
+                  - cell "array" [ref=e785]
+                  - cell "用于可搜索性的标签" [ref=e786]
+                - row "strict boolean 控制 plugin.json 是否是组件定义的权威（默认：true）。见下面的 Strict 模式。" [ref=e787]:
+                  - cell "strict" [ref=e788]:
+                    - code [ref=e789]: strict
+                  - cell "boolean" [ref=e790]
+                  - cell "控制 plugin.json 是否是组件定义的权威（默认：true）。见下面的 Strict 模式。" [ref=e791]:
+                    - text: 控制
+                    - code [ref=e792]: plugin.json
+                    - text: 是否是组件定义的权威（默认：true）。见下面的
+                    - link "Strict 模式" [ref=e793] [cursor=pointer]:
+                      - /url: "#strict-mode"
+                    - text: 。
+            - strong [ref=e795]: 组件配置字段：
+            - table [ref=e798]:
+              - rowgroup [ref=e799]:
+                - row "字段 类型 描述" [ref=e800]:
+                  - columnheader "字段" [ref=e801]
+                  - columnheader "类型" [ref=e802]
+                  - columnheader "描述" [ref=e803]
+              - rowgroup [ref=e804]:
+                - row "skills string|array 包含 <name>/SKILL.md 的 skill 目录的自定义路径" [ref=e805]:
+                  - cell "skills" [ref=e806]:
+                    - code [ref=e807]: skills
+                  - cell "string|array" [ref=e808]
+                  - cell "包含 <name>/SKILL.md 的 skill 目录的自定义路径" [ref=e809]:
+                    - text: 包含
+                    - code [ref=e810]: <name>/SKILL.md
+                    - text: 的 skill 目录的自定义路径
+                - row "commands string|array 平面 .md skill 文件或目录的自定义路径" [ref=e811]:
+                  - cell "commands" [ref=e812]:
+                    - code [ref=e813]: commands
+                  - cell "string|array" [ref=e814]
+                  - cell "平面 .md skill 文件或目录的自定义路径" [ref=e815]:
+                    - text: 平面
+                    - code [ref=e816]: .md
+                    - text: skill 文件或目录的自定义路径
+                - row "agents string|array agent 文件的自定义路径" [ref=e817]:
+                  - cell "agents" [ref=e818]:
+                    - code [ref=e819]: agents
+                  - cell "string|array" [ref=e820]
+                  - cell "agent 文件的自定义路径" [ref=e821]
+                - row "hooks string|object 自定义 hooks 配置或 hooks 文件的路径" [ref=e822]:
+                  - cell "hooks" [ref=e823]:
+                    - code [ref=e824]: hooks
+                  - cell "string|object" [ref=e825]
+                  - cell "自定义 hooks 配置或 hooks 文件的路径" [ref=e826]
+                - row "mcpServers string|object MCP server 配置或 MCP 配置的路径" [ref=e827]:
+                  - cell "mcpServers" [ref=e828]:
+                    - code [ref=e829]: mcpServers
+                  - cell "string|object" [ref=e830]
+                  - cell "MCP server 配置或 MCP 配置的路径" [ref=e831]
+                - row "lspServers string|object LSP server 配置或 LSP 配置的路径" [ref=e832]:
+                  - cell "lspServers" [ref=e833]:
+                    - code [ref=e834]: lspServers
+                  - cell "string|object" [ref=e835]
+                  - cell "LSP server 配置或 LSP 配置的路径" [ref=e836]
+            - heading "导航到标题 Plugin 源" [level=2] [ref=e837]:
+              - link "导航到标题" [ref=e838] [cursor=pointer]:
+                - /url: "#plugin-源"
+                - img [ref=e840]
+              - generic [ref=e842] [cursor=pointer]: Plugin 源
+            - generic [ref=e843]:
+              - text: Plugin 源告诉 Claude Code 在你的 marketplace 中列出的每个单独 plugin 从哪里获取。这些在
+              - code [ref=e844]: marketplace.json
+              - text: 中每个 plugin 条目的
+              - code [ref=e845]: source
+              - text: 字段中设置。
+            - generic [ref=e846]:
+              - text: 一旦 plugin 被克隆或复制到本地机器，它就会被复制到本地版本化 plugin 缓存中，位置为
+              - code [ref=e847]: ~/.claude/plugins/cache
+              - text: 。
+            - table [ref=e850]:
+              - rowgroup [ref=e851]:
+                - row "源 类型 字段 注释" [ref=e852]:
+                  - columnheader "源" [ref=e853]
+                  - columnheader "类型" [ref=e854]
+                  - columnheader "字段" [ref=e855]
+                  - columnheader "注释" [ref=e856]
+              - rowgroup [ref=e857]:
+                - row "相对路径 string（例如 \"./my-plugin\"） 无 marketplace repo 中的本地目录。必须以 ./ 开头。相对于 marketplace 根目录解析，而不是 .claude-plugin/ 目录" [ref=e858]:
+                  - cell "相对路径" [ref=e859]
+                  - cell "string（例如 \"./my-plugin\"）" [ref=e860]:
+                    - code [ref=e861]: string
+                    - text: （例如
+                    - code [ref=e862]: "\"./my-plugin\""
+                    - text: ）
+                  - cell "无" [ref=e863]
+                  - cell "marketplace repo 中的本地目录。必须以 ./ 开头。相对于 marketplace 根目录解析，而不是 .claude-plugin/ 目录" [ref=e864]:
+                    - text: marketplace repo 中的本地目录。必须以
+                    - code [ref=e865]: ./
+                    - text: 开头。相对于 marketplace 根目录解析，而不是
+                    - code [ref=e866]: .claude-plugin/
+                    - text: 目录
+                - row "github object repo、ref?、sha?" [ref=e867]:
+                  - cell "github" [ref=e868]:
+                    - code [ref=e869]: github
+                  - cell "object" [ref=e870]
+                  - cell "repo、ref?、sha?" [ref=e871]:
+                    - code [ref=e872]: repo
+                    - text: 、
+                    - code [ref=e873]: ref?
+                    - text: 、
+                    - code [ref=e874]: sha?
+                  - cell [ref=e875]
+                - row "url object url、ref?、sha? Git URL 源" [ref=e876]:
+                  - cell "url" [ref=e877]:
+                    - code [ref=e878]: url
+                  - cell "object" [ref=e879]
+                  - cell "url、ref?、sha?" [ref=e880]:
+                    - code [ref=e881]: url
+                    - text: 、
+                    - code [ref=e882]: ref?
+                    - text: 、
+                    - code [ref=e883]: sha?
+                  - cell "Git URL 源" [ref=e884]
+                - row "git-subdir object url、path、ref?、sha? git repo 中的子目录。稀疏克隆以最小化大型 monorepos 的带宽" [ref=e885]:
+                  - cell "git-subdir" [ref=e886]:
+                    - code [ref=e887]: git-subdir
+                  - cell "object" [ref=e888]
+                  - cell "url、path、ref?、sha?" [ref=e889]:
+                    - code [ref=e890]: url
+                    - text: 、
+                    - code [ref=e891]: path
+                    - text: 、
+                    - code [ref=e892]: ref?
+                    - text: 、
+                    - code [ref=e893]: sha?
+                  - cell "git repo 中的子目录。稀疏克隆以最小化大型 monorepos 的带宽" [ref=e894]
+                - row "npm object package、version?、registry? 通过 npm install 安装" [ref=e895]:
+                  - cell "npm" [ref=e896]:
+                    - code [ref=e897]: npm
+                  - cell "object" [ref=e898]
+                  - cell "package、version?、registry?" [ref=e899]:
+                    - code [ref=e900]: package
+                    - text: 、
+                    - code [ref=e901]: version?
+                    - text: 、
+                    - code [ref=e902]: registry?
+                  - cell "通过 npm install 安装" [ref=e903]:
+                    - text: 通过
+                    - code [ref=e904]: npm install
+                    - text: 安装
+            - generic [ref=e905]:
+              - img "注意" [ref=e907]
+              - generic [ref=e909]:
+                - generic [ref=e910]:
+                  - strong [ref=e911]: Marketplace 源与 plugin 源
+                  - text: ：这些是控制不同事物的不同概念。
+                - list [ref=e912]:
+                  - listitem [ref=e913]:
+                    - strong [ref=e914]: Marketplace 源
+                    - text: — 从哪里获取
+                    - code [ref=e915]: marketplace.json
+                    - text: 目录本身。在用户运行
+                    - code [ref=e916]: /plugin marketplace add
+                    - text: 或在
+                    - code [ref=e917]: extraKnownMarketplaces
+                    - text: 设置中设置。支持
+                    - code [ref=e918]: ref
+                    - text: （分支/标签）但不支持
+                    - code [ref=e919]: sha
+                    - text: 。
+                  - listitem [ref=e920]:
+                    - strong [ref=e921]: Plugin 源
+                    - text: — 从哪里获取 marketplace 中列出的单个 plugin。在
+                    - code [ref=e922]: marketplace.json
+                    - text: 内每个 plugin 条目的
+                    - code [ref=e923]: source
+                    - text: 字段中设置。支持
+                    - code [ref=e924]: ref
+                    - text: （分支/标签）和
+                    - code [ref=e925]: sha
+                    - text: （精确提交）。
+                - generic [ref=e926]:
+                  - text: 例如，托管在
+                  - code [ref=e927]: acme-corp/plugin-catalog
+                  - text: 的 marketplace（marketplace 源）可以列出从
+                  - code [ref=e928]: acme-corp/code-formatter
+                  - text: 获取的 plugin（plugin 源）。marketplace 源和 plugin 源指向不同的存储库，并独立固定。
+            - heading "导航到标题 相对路径" [level=3] [ref=e929]:
+              - link "导航到标题" [ref=e930] [cursor=pointer]:
+                - /url: "#相对路径"
+                - img [ref=e932]
+              - generic [ref=e934] [cursor=pointer]: 相对路径
+            - generic [ref=e935]:
+              - text: 对于同一存储库中的 plugins，使用以
+              - code [ref=e936]: ./
+              - text: 开头的路径：
+            - generic [ref=e937]:
+              - generic [ref=e938]:
+                - button "报告错误代码" [ref=e940] [cursor=pointer]:
+                  - img [ref=e941]
+                - button "复制代码块内容" [ref=e944] [cursor=pointer]:
+                  - img [ref=e945]
+                - button "询问AI" [ref=e949] [cursor=pointer]:
+                  - img [ref=e950]
+              - code [ref=e956]:
+                - generic [ref=e957]: "{"
+                - generic [ref=e958]: "\"name\": \"my-plugin\","
+                - generic [ref=e959]: "\"source\": \"./plugins/my-plugin\""
+                - generic [ref=e960]: "}"
+            - generic [ref=e961]:
+              - text: 路径相对于 marketplace 根目录解析，即包含
+              - code [ref=e962]: .claude-plugin/
+              - text: 的目录。在上面的示例中，
+              - code [ref=e963]: ./plugins/my-plugin
+              - text: 指向
+              - code [ref=e964]: <repo>/plugins/my-plugin
+              - text: ，即使
+              - code [ref=e965]: marketplace.json
+              - text: 位于
+              - code [ref=e966]: <repo>/.claude-plugin/marketplace.json
+              - text: 。不要使用
+              - code [ref=e967]: ../
+              - text: 来引用 marketplace 根目录外的路径。
+            - generic [ref=e968]:
+              - img "注意" [ref=e970]
+              - generic [ref=e973]:
+                - text: 相对路径仅在用户通过 Git（GitHub、GitLab 或 git URL）添加你的 marketplace 时有效。如果用户通过直接 URL 添加你的 marketplace 到
+                - code [ref=e974]: marketplace.json
+                - text: 文件，相对路径将无法正确解析。对于基于 URL 的分发，请改用 GitHub、npm 或 git URL 源。有关详细信息，请参阅
+                - link "故障排除" [ref=e975] [cursor=pointer]:
+                  - /url: "#plugins-with-relative-paths-fail-in-url-based-marketplaces"
+                - text: 。
+            - heading "导航到标题 GitHub 存储库" [level=3] [ref=e976]:
+              - link "导航到标题" [ref=e977] [cursor=pointer]:
+                - /url: "#github-存储库"
+                - img [ref=e979]
+              - generic [ref=e981] [cursor=pointer]: GitHub 存储库
+            - generic [ref=e982]:
+              - generic [ref=e983]:
+                - button "报告错误代码" [ref=e985] [cursor=pointer]:
+                  - img [ref=e986]
+                - button "复制代码块内容" [ref=e989] [cursor=pointer]:
+                  - img [ref=e990]
+                - button "询问AI" [ref=e994] [cursor=pointer]:
+                  - img [ref=e995]
+              - code [ref=e1001]:
+                - generic [ref=e1002]: "{"
+                - generic [ref=e1003]: "\"name\": \"github-plugin\","
+                - generic [ref=e1004]: "\"source\": {"
+                - generic [ref=e1005]: "\"source\": \"github\","
+                - generic [ref=e1006]: "\"repo\": \"owner/plugin-repo\""
+                - generic [ref=e1007]: "}"
+                - generic [ref=e1008]: "}"
+            - generic [ref=e1009]: 你可以固定到特定的分支、标签或提交：
+            - generic [ref=e1010]:
+              - generic [ref=e1011]:
+                - button "报告错误代码" [ref=e1013] [cursor=pointer]:
+                  - img [ref=e1014]
+                - button "复制代码块内容" [ref=e1017] [cursor=pointer]:
+                  - img [ref=e1018]
+                - button "询问AI" [ref=e1022] [cursor=pointer]:
+                  - img [ref=e1023]
+              - code [ref=e1029]:
+                - generic [ref=e1030]: "{"
+                - generic [ref=e1031]: "\"name\": \"github-plugin\","
+                - generic [ref=e1032]: "\"source\": {"
+                - generic [ref=e1033]: "\"source\": \"github\","
+                - generic [ref=e1034]: "\"repo\": \"owner/plugin-repo\","
+                - generic [ref=e1035]: "\"ref\": \"v2.0.0\","
+                - generic [ref=e1036]: "\"sha\": \"a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0\""
+                - generic [ref=e1037]: "}"
+                - generic [ref=e1038]: "}"
+            - table [ref=e1041]:
+              - rowgroup [ref=e1042]:
+                - row "字段 类型 描述" [ref=e1043]:
+                  - columnheader "字段" [ref=e1044]
+                  - columnheader "类型" [ref=e1045]
+                  - columnheader "描述" [ref=e1046]
+              - rowgroup [ref=e1047]:
+                - row "repo string 必需。owner/repo 格式的 GitHub 存储库" [ref=e1048]:
+                  - cell "repo" [ref=e1049]:
+                    - code [ref=e1050]: repo
+                  - cell "string" [ref=e1051]
+                  - cell "必需。owner/repo 格式的 GitHub 存储库" [ref=e1052]:
+                    - text: 必需。
+                    - code [ref=e1053]: owner/repo
+                    - text: 格式的 GitHub 存储库
+                - row "ref string 可选。Git 分支或标签（默认为存储库默认分支）" [ref=e1054]:
+                  - cell "ref" [ref=e1055]:
+                    - code [ref=e1056]: ref
+                  - cell "string" [ref=e1057]
+                  - cell "可选。Git 分支或标签（默认为存储库默认分支）" [ref=e1058]
+                - row "sha string 可选。完整的 40 字符 git 提交 SHA 以固定到精确版本" [ref=e1059]:
+                  - cell "sha" [ref=e1060]:
+                    - code [ref=e1061]: sha
+                  - cell "string" [ref=e1062]
+                  - cell "可选。完整的 40 字符 git 提交 SHA 以固定到精确版本" [ref=e1063]
+            - heading "导航到标题 Git 存储库" [level=3] [ref=e1064]:
+              - link "导航到标题" [ref=e1065] [cursor=pointer]:
+                - /url: "#git-存储库"
+                - img [ref=e1067]
+              - generic [ref=e1069] [cursor=pointer]: Git 存储库
+            - generic [ref=e1070]:
+              - generic [ref=e1071]:
+                - button "报告错误代码" [ref=e1073] [cursor=pointer]:
+                  - img [ref=e1074]
+                - button "复制代码块内容" [ref=e1077] [cursor=pointer]:
+                  - img [ref=e1078]
+                - button "询问AI" [ref=e1082] [cursor=pointer]:
+                  - img [ref=e1083]
+              - code [ref=e1089]:
+                - generic [ref=e1090]: "{"
+                - generic [ref=e1091]: "\"name\": \"git-plugin\","
+                - generic [ref=e1092]: "\"source\": {"
+                - generic [ref=e1093]: "\"source\": \"url\","
+                - generic [ref=e1094]: "\"url\": \"https://gitlab.com/team/plugin.git\""
+                - generic [ref=e1095]: "}"
+                - generic [ref=e1096]: "}"
+            - generic [ref=e1097]: 你可以固定到特定的分支、标签或提交：
+            - generic [ref=e1098]:
+              - generic [ref=e1099]:
+                - button "报告错误代码" [ref=e1101] [cursor=pointer]:
+                  - img [ref=e1102]
+                - button "复制代码块内容" [ref=e1105] [cursor=pointer]:
+                  - img [ref=e1106]
+                - button "询问AI" [ref=e1110] [cursor=pointer]:
+                  - img [ref=e1111]
+              - code [ref=e1117]:
+                - generic [ref=e1118]: "{"
+                - generic [ref=e1119]: "\"name\": \"git-plugin\","
+                - generic [ref=e1120]: "\"source\": {"
+                - generic [ref=e1121]: "\"source\": \"url\","
+                - generic [ref=e1122]: "\"url\": \"https://gitlab.com/team/plugin.git\","
+                - generic [ref=e1123]: "\"ref\": \"main\","
+                - generic [ref=e1124]: "\"sha\": \"a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0\""
+                - generic [ref=e1125]: "}"
+                - generic [ref=e1126]: "}"
+            - table [ref=e1129]:
+              - rowgroup [ref=e1130]:
+                - row "字段 类型 描述" [ref=e1131]:
+                  - columnheader "字段" [ref=e1132]
+                  - columnheader "类型" [ref=e1133]
+                  - columnheader "描述" [ref=e1134]
+              - rowgroup [ref=e1135]:
+                - row "url string 必需。完整的 git 存储库 URL（https:// 或 git@）。.git 后缀是可选的，所以 Azure DevOps 和 AWS CodeCommit URL 不带后缀也可以工作" [ref=e1136]:
+                  - cell "url" [ref=e1137]:
+                    - code [ref=e1138]: url
+                  - cell "string" [ref=e1139]
+                  - cell "必需。完整的 git 存储库 URL（https:// 或 git@）。.git 后缀是可选的，所以 Azure DevOps 和 AWS CodeCommit URL 不带后缀也可以工作" [ref=e1140]:
+                    - text: 必需。完整的 git 存储库 URL（
+                    - code [ref=e1141]: https://
+                    - text: 或
+                    - code [ref=e1142]: git@
+                    - text: ）。
+                    - code [ref=e1143]: .git
+                    - text: 后缀是可选的，所以 Azure DevOps 和 AWS CodeCommit URL 不带后缀也可以工作
+                - row "ref string 可选。Git 分支或标签（默认为存储库默认分支）" [ref=e1144]:
+                  - cell "ref" [ref=e1145]:
+                    - code [ref=e1146]: ref
+                  - cell "string" [ref=e1147]
+                  - cell "可选。Git 分支或标签（默认为存储库默认分支）" [ref=e1148]
+                - row "sha string 可选。完整的 40 字符 git 提交 SHA 以固定到精确版本" [ref=e1149]:
+                  - cell "sha" [ref=e1150]:
+                    - code [ref=e1151]: sha
+                  - cell "string" [ref=e1152]
+                  - cell "可选。完整的 40 字符 git 提交 SHA 以固定到精确版本" [ref=e1153]
+            - heading "导航到标题 Git 子目录" [level=3] [ref=e1154]:
+              - link "导航到标题" [ref=e1155] [cursor=pointer]:
+                - /url: "#git-子目录"
+                - img [ref=e1157]
+              - generic [ref=e1159] [cursor=pointer]: Git 子目录
+            - generic [ref=e1160]:
+              - text: 使用
+              - code [ref=e1161]: git-subdir
+              - text: 指向位于 git 存储库子目录中的 plugin。Claude Code 使用稀疏的部分克隆来仅获取子目录，最小化大型 monorepos 的带宽。
+            - generic [ref=e1162]:
+              - generic [ref=e1163]:
+                - button "报告错误代码" [ref=e1165] [cursor=pointer]:
+                  - img [ref=e1166]
+                - button "复制代码块内容" [ref=e1169] [cursor=pointer]:
+                  - img [ref=e1170]
+                - button "询问AI" [ref=e1174] [cursor=pointer]:
+                  - img [ref=e1175]
+              - code [ref=e1181]:
+                - generic [ref=e1182]: "{"
+                - generic [ref=e1183]: "\"name\": \"my-plugin\","
+                - generic [ref=e1184]: "\"source\": {"
+                - generic [ref=e1185]: "\"source\": \"git-subdir\","
+                - generic [ref=e1186]: "\"url\": \"https://github.com/acme-corp/monorepo.git\","
+                - generic [ref=e1187]: "\"path\": \"tools/claude-plugin\""
+                - generic [ref=e1188]: "}"
+                - generic [ref=e1189]: "}"
+            - generic [ref=e1190]: 你可以固定到特定的分支、标签或提交：
+            - generic [ref=e1191]:
+              - generic [ref=e1192]:
+                - button "报告错误代码" [ref=e1194] [cursor=pointer]:
+                  - img [ref=e1195]
+                - button "复制代码块内容" [ref=e1198] [cursor=pointer]:
+                  - img [ref=e1199]
+                - button "询问AI" [ref=e1203] [cursor=pointer]:
+                  - img [ref=e1204]
+              - code [ref=e1210]:
+                - generic [ref=e1211]: "{"
+                - generic [ref=e1212]: "\"name\": \"my-plugin\","
+                - generic [ref=e1213]: "\"source\": {"
+                - generic [ref=e1214]: "\"source\": \"git-subdir\","
+                - generic [ref=e1215]: "\"url\": \"https://github.com/acme-corp/monorepo.git\","
+                - generic [ref=e1216]: "\"path\": \"tools/claude-plugin\","
+                - generic [ref=e1217]: "\"ref\": \"v2.0.0\","
+                - generic [ref=e1218]: "\"sha\": \"a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0\""
+                - generic [ref=e1219]: "}"
+                - generic [ref=e1220]: "}"
+            - generic [ref=e1221]:
+              - code [ref=e1222]: url
+              - text: 字段也接受 GitHub 简写（
+              - code [ref=e1223]: owner/repo
+              - text: ）或 SSH URL（
+              - code [ref=e1224]: git@github.com:owner/repo.git
+              - text: ）。
+            - table [ref=e1227]:
+              - rowgroup [ref=e1228]:
+                - row "字段 类型 描述" [ref=e1229]:
+                  - columnheader "字段" [ref=e1230]
+                  - columnheader "类型" [ref=e1231]
+                  - columnheader "描述" [ref=e1232]
+              - rowgroup [ref=e1233]:
+                - row "url string 必需。Git 存储库 URL、GitHub owner/repo 简写或 SSH URL" [ref=e1234]:
+                  - cell "url" [ref=e1235]:
+                    - code [ref=e1236]: url
+                  - cell "string" [ref=e1237]
+                  - cell "必需。Git 存储库 URL、GitHub owner/repo 简写或 SSH URL" [ref=e1238]:
+                    - text: 必需。Git 存储库 URL、GitHub
+                    - code [ref=e1239]: owner/repo
+                    - text: 简写或 SSH URL
+                - row "path string 必需。repo 中包含 plugin 的子目录路径（例如，\"tools/claude-plugin\"）" [ref=e1240]:
+                  - cell "path" [ref=e1241]:
+                    - code [ref=e1242]: path
+                  - cell "string" [ref=e1243]
+                  - cell "必需。repo 中包含 plugin 的子目录路径（例如，\"tools/claude-plugin\"）" [ref=e1244]:
+                    - text: 必需。repo 中包含 plugin 的子目录路径（例如，
+                    - code [ref=e1245]: "\"tools/claude-plugin\""
+                    - text: ）
+                - row "ref string 可选。Git 分支或标签（默认为存储库默认分支）" [ref=e1246]:
+                  - cell "ref" [ref=e1247]:
+                    - code [ref=e1248]: ref
+                  - cell "string" [ref=e1249]
+                  - cell "可选。Git 分支或标签（默认为存储库默认分支）" [ref=e1250]
+                - row "sha string 可选。完整的 40 字符 git 提交 SHA 以固定到精确版本" [ref=e1251]:
+                  - cell "sha" [ref=e1252]:
+                    - code [ref=e1253]: sha
+                  - cell "string" [ref=e1254]
+                  - cell "可选。完整的 40 字符 git 提交 SHA 以固定到精确版本" [ref=e1255]
+            - heading "导航到标题 npm 包" [level=3] [ref=e1256]:
+              - link "导航到标题" [ref=e1257] [cursor=pointer]:
+                - /url: "#npm-包"
+                - img [ref=e1259]
+              - generic [ref=e1261] [cursor=pointer]: npm 包
+            - generic [ref=e1262]:
+              - text: 作为 npm 包分发的 Plugins 使用
+              - code [ref=e1263]: npm install
+              - text: 安装。这适用于公共 npm registry 上的任何包或你的团队托管的私有 registry。
+            - generic [ref=e1264]:
+              - generic [ref=e1265]:
+                - button "报告错误代码" [ref=e1267] [cursor=pointer]:
+                  - img [ref=e1268]
+                - button "复制代码块内容" [ref=e1271] [cursor=pointer]:
+                  - img [ref=e1272]
+                - button "询问AI" [ref=e1276] [cursor=pointer]:
+                  - img [ref=e1277]
+              - code [ref=e1283]:
+                - generic [ref=e1284]: "{"
+                - generic [ref=e1285]: "\"name\": \"my-npm-plugin\","
+                - generic [ref=e1286]: "\"source\": {"
+                - generic [ref=e1287]: "\"source\": \"npm\","
+                - generic [ref=e1288]: "\"package\": \"@acme/claude-plugin\""
+                - generic [ref=e1289]: "}"
+                - generic [ref=e1290]: "}"
+            - generic [ref=e1291]:
+              - text: 要固定到特定版本，请添加
+              - code [ref=e1292]: version
+              - text: 字段：
+            - generic [ref=e1293]:
+              - generic [ref=e1294]:
+                - button "报告错误代码" [ref=e1296] [cursor=pointer]:
+                  - img [ref=e1297]
+                - button "复制代码块内容" [ref=e1300] [cursor=pointer]:
+                  - img [ref=e1301]
+                - button "询问AI" [ref=e1305] [cursor=pointer]:
+                  - img [ref=e1306]
+              - code [ref=e1312]:
+                - generic [ref=e1313]: "{"
+                - generic [ref=e1314]: "\"name\": \"my-npm-plugin\","
+                - generic [ref=e1315]: "\"source\": {"
+                - generic [ref=e1316]: "\"source\": \"npm\","
+                - generic [ref=e1317]: "\"package\": \"@acme/claude-plugin\","
+                - generic [ref=e1318]: "\"version\": \"2.1.0\""
+                - generic [ref=e1319]: "}"
+                - generic [ref=e1320]: "}"
+            - generic [ref=e1321]:
+              - text: 要从私有或内部 registry 安装，请添加
+              - code [ref=e1322]: registry
+              - text: 字段：
+            - generic [ref=e1323]:
+              - generic [ref=e1324]:
+                - button "报告错误代码" [ref=e1326] [cursor=pointer]:
+                  - img [ref=e1327]
+                - button "复制代码块内容" [ref=e1330] [cursor=pointer]:
+                  - img [ref=e1331]
+                - button "询问AI" [ref=e1335] [cursor=pointer]:
+                  - img [ref=e1336]
+              - code [ref=e1342]:
+                - generic [ref=e1343]: "{"
+                - generic [ref=e1344]: "\"name\": \"my-npm-plugin\","
+                - generic [ref=e1345]: "\"source\": {"
+                - generic [ref=e1346]: "\"source\": \"npm\","
+                - generic [ref=e1347]: "\"package\": \"@acme/claude-plugin\","
+                - generic [ref=e1348]: "\"version\": \"^2.0.0\","
+                - generic [ref=e1349]: "\"registry\": \"https://npm.example.com\""
+                - generic [ref=e1350]: "}"
+                - generic [ref=e1351]: "}"
+            - table [ref=e1354]:
+              - rowgroup [ref=e1355]:
+                - row "字段 类型 描述" [ref=e1356]:
+                  - columnheader "字段" [ref=e1357]
+                  - columnheader "类型" [ref=e1358]
+                  - columnheader "描述" [ref=e1359]
+              - rowgroup [ref=e1360]:
+                - row "package string 必需。包名称或作用域包（例如，@org/plugin）" [ref=e1361]:
+                  - cell "package" [ref=e1362]:
+                    - code [ref=e1363]: package
+                  - cell "string" [ref=e1364]
+                  - cell "必需。包名称或作用域包（例如，@org/plugin）" [ref=e1365]:
+                    - text: 必需。包名称或作用域包（例如，
+                    - code [ref=e1366]: "@org/plugin"
+                    - text: ）
+                - row "version string 可选。版本或版本范围（例如，2.1.0、^2.0.0、~1.5.0）" [ref=e1367]:
+                  - cell "version" [ref=e1368]:
+                    - code [ref=e1369]: version
+                  - cell "string" [ref=e1370]
+                  - cell "可选。版本或版本范围（例如，2.1.0、^2.0.0、~1.5.0）" [ref=e1371]:
+                    - text: 可选。版本或版本范围（例如，
+                    - code [ref=e1372]: 2.1.0
+                    - text: 、
+                    - code [ref=e1373]: ^2.0.0
+                    - text: 、
+                    - code [ref=e1374]: ~1.5.0
+                    - text: ）
+                - row "registry string 可选。自定义 npm registry URL。默认为系统 npm registry（通常为 npmjs.org）" [ref=e1375]:
+                  - cell "registry" [ref=e1376]:
+                    - code [ref=e1377]: registry
+                  - cell "string" [ref=e1378]
+                  - cell "可选。自定义 npm registry URL。默认为系统 npm registry（通常为 npmjs.org）" [ref=e1379]
+            - heading "导航到标题 高级 plugin 条目" [level=3] [ref=e1380]:
+              - link "导航到标题" [ref=e1381] [cursor=pointer]:
+                - /url: "#高级-plugin-条目"
+                - img [ref=e1383]
+              - generic [ref=e1385] [cursor=pointer]: 高级 plugin 条目
+            - generic [ref=e1386]: 此示例显示了使用许多可选字段的 plugin 条目，包括命令、agents、hooks 和 MCP servers 的自定义路径：
+            - generic [ref=e1387]:
+              - generic [ref=e1388]:
+                - button "报告错误代码" [ref=e1390] [cursor=pointer]:
+                  - img [ref=e1391]
+                - button "复制代码块内容" [ref=e1394] [cursor=pointer]:
+                  - img [ref=e1395]
+                - button "询问AI" [ref=e1399] [cursor=pointer]:
+                  - img [ref=e1400]
+              - code [ref=e1406]:
+                - generic [ref=e1407]: "{"
+                - generic [ref=e1408]: "\"name\": \"enterprise-tools\","
+                - generic [ref=e1409]: "\"source\": {"
+                - generic [ref=e1410]: "\"source\": \"github\","
+                - generic [ref=e1411]: "\"repo\": \"company/enterprise-plugin\""
+                - generic [ref=e1412]: "},"
+                - generic [ref=e1413]: "\"description\": \"Enterprise workflow automation tools\","
+                - generic [ref=e1414]: "\"version\": \"2.1.0\","
+                - generic [ref=e1415]: "\"author\": {"
+                - generic [ref=e1416]: "\"name\": \"Enterprise Team\","
+                - generic [ref=e1417]: "\"email\": \"enterprise@example.com\""
+                - generic [ref=e1418]: "},"
+                - generic [ref=e1419]: "\"homepage\": \"https://docs.example.com/plugins/enterprise-tools\","
+                - generic [ref=e1420]: "\"repository\": \"https://github.com/company/enterprise-plugin\","
+                - generic [ref=e1421]: "\"license\": \"MIT\","
+                - generic [ref=e1422]: "\"keywords\": [\"enterprise\", \"workflow\", \"automation\"],"
+                - generic [ref=e1423]: "\"category\": \"productivity\","
+                - generic [ref=e1424]: "\"commands\": ["
+                - generic [ref=e1425]: "\"./commands/core/\","
+                - generic [ref=e1426]: "\"./commands/enterprise/\","
+                - generic [ref=e1427]: "\"./commands/experimental/preview.md\""
+                - generic [ref=e1428]: "],"
+                - generic [ref=e1429]: "\"agents\": [\"./agents/security-reviewer.md\", \"./agents/compliance-checker.md\"],"
+                - generic [ref=e1430]: "\"hooks\": {"
+                - generic [ref=e1431]: "\"PostToolUse\": ["
+                - generic [ref=e1432]: "{"
+                - generic [ref=e1433]: "\"matcher\": \"Write|Edit\","
+                - generic [ref=e1434]: "\"hooks\": ["
+                - generic [ref=e1435]: "{"
+                - generic [ref=e1436]: "\"type\": \"command\","
+                - generic [ref=e1437]: "\"command\": \"${CLAUDE_PLUGIN_ROOT}/scripts/validate.sh\""
+                - generic [ref=e1438]: "}"
+                - generic [ref=e1439]: "]"
+                - generic [ref=e1440]: "}"
+                - generic [ref=e1441]: "]"
+                - generic [ref=e1442]: "},"
+                - generic [ref=e1443]: "\"mcpServers\": {"
+                - generic [ref=e1444]: "\"enterprise-db\": {"
+                - generic [ref=e1445]: "\"command\": \"${CLAUDE_PLUGIN_ROOT}/servers/db-server\","
+                - generic [ref=e1446]: "\"args\": [\"--config\", \"${CLAUDE_PLUGIN_ROOT}/config.json\"]"
+                - generic [ref=e1447]: "}"
+                - generic [ref=e1448]: "},"
+                - generic [ref=e1449]: "\"strict\": false"
+                - generic [ref=e1450]: "}"
+            - generic [ref=e1451]: 需要注意的关键事项：
+            - list [ref=e1452]:
+              - listitem [ref=e1453]:
+                - strong [ref=e1454]:
+                  - code [ref=e1455]: commands
+                  - text: 和
+                  - code [ref=e1456]: agents
+                - text: ：你可以指定多个目录或单个文件。路径相对于 plugin 根目录。
+              - listitem [ref=e1457]:
+                - strong [ref=e1458]:
+                  - code [ref=e1459]: "${CLAUDE_PLUGIN_ROOT}"
+                - text: ：在 hooks 和 MCP server 配置中使用此变量来引用 plugin 安装目录中的文件。这是必要的，因为 plugins 在安装时被复制到缓存位置。对于应该在 plugin 更新后保留的依赖项或状态，请改用
+                - 'link "${CLAUDE_PLUGIN_DATA}" [ref=e1460] [cursor=pointer]':
+                  - /url: /docs/zh-CN/plugins-reference#persistent-data-directory
+                  - code [ref=e1461]: "${CLAUDE_PLUGIN_DATA}"
+                - text: 。
+              - listitem [ref=e1462]:
+                - strong [ref=e1463]:
+                  - code [ref=e1464]: "strict: false"
+                - text: ：由于这设置为 false，plugin 不需要自己的
+                - code [ref=e1465]: plugin.json
+                - text: 。marketplace 条目定义了一切。见下面的
+                - link "Strict 模式" [ref=e1466] [cursor=pointer]:
+                  - /url: "#strict-mode"
+                - text: 。
+            - heading "导航到标题 Strict 模式" [level=3] [ref=e1467]:
+              - link "导航到标题" [ref=e1468] [cursor=pointer]:
+                - /url: "#strict-模式"
+                - img [ref=e1470]
+              - generic [ref=e1472] [cursor=pointer]: Strict 模式
+            - generic [ref=e1473]:
+              - code [ref=e1474]: strict
+              - text: 字段控制
+              - code [ref=e1475]: plugin.json
+              - text: 是否是组件定义（skills、agents、hooks、MCP servers、输出样式）的权威。
+            - table [ref=e1478]:
+              - rowgroup [ref=e1479]:
+                - row "值 行为" [ref=e1480]:
+                  - columnheader "值" [ref=e1481]
+                  - columnheader "行为" [ref=e1482]
+              - rowgroup [ref=e1483]:
+                - row "true（默认） plugin.json 是权威。marketplace 条目可以用额外的组件补充它，两个源都被合并。" [ref=e1484]:
+                  - cell "true（默认）" [ref=e1485]:
+                    - code [ref=e1486]: "true"
+                    - text: （默认）
+                  - cell "plugin.json 是权威。marketplace 条目可以用额外的组件补充它，两个源都被合并。" [ref=e1487]:
+                    - code [ref=e1488]: plugin.json
+                    - text: 是权威。marketplace 条目可以用额外的组件补充它，两个源都被合并。
+                - row "false marketplace 条目是完整的定义。如果 plugin 也有声明组件的 plugin.json，那就是冲突，plugin 无法加载。" [ref=e1489]:
+                  - cell "false" [ref=e1490]:
+                    - code [ref=e1491]: "false"
+                  - cell "marketplace 条目是完整的定义。如果 plugin 也有声明组件的 plugin.json，那就是冲突，plugin 无法加载。" [ref=e1492]:
+                    - text: marketplace 条目是完整的定义。如果 plugin 也有声明组件的
+                    - code [ref=e1493]: plugin.json
+                    - text: ，那就是冲突，plugin 无法加载。
+            - strong [ref=e1495]: 何时使用每种模式：
+            - list [ref=e1496]:
+              - listitem [ref=e1497]:
+                - strong [ref=e1498]:
+                  - code [ref=e1499]: "strict: true"
+                - text: ：plugin 有自己的
+                - code [ref=e1500]: plugin.json
+                - text: 并管理自己的组件。marketplace 条目可以在顶部添加额外的 skills 或 hooks。这是默认值，适用于大多数 plugins。
+              - listitem [ref=e1501]:
+                - strong [ref=e1502]:
+                  - code [ref=e1503]: "strict: false"
+                - text: ：marketplace 操作员想要完全控制。plugin repo 提供原始文件，marketplace 条目定义这些文件中的哪些被公开为 skills、agents、hooks 等。当 marketplace 以不同于 plugin 作者意图的方式重组或策划 plugin 的组件时很有用。
+            - heading "导航到标题 托管和分发 marketplaces" [level=2] [ref=e1504]:
+              - link "导航到标题" [ref=e1505] [cursor=pointer]:
+                - /url: "#托管和分发-marketplaces"
+                - img [ref=e1507]
+              - generic [ref=e1509] [cursor=pointer]: 托管和分发 marketplaces
+            - heading "导航到标题 在 GitHub 上托管（推荐）" [level=3] [ref=e1510]:
+              - link "导航到标题" [ref=e1511] [cursor=pointer]:
+                - /url: "#在-github-上托管（推荐）"
+                - img [ref=e1513]
+              - generic [ref=e1515] [cursor=pointer]: 在 GitHub 上托管（推荐）
+            - generic [ref=e1516]: GitHub 提供最简单的分发方法：
+            - list [ref=e1517]:
+              - listitem [ref=e1518]:
+                - strong [ref=e1519]: 创建存储库
+                - text: ：为你的 marketplace 设置一个新存储库
+              - listitem [ref=e1520]:
+                - strong [ref=e1521]: 添加 marketplace 文件
+                - text: ：使用你的 plugin 定义创建
+                - code [ref=e1522]: .claude-plugin/marketplace.json
+              - listitem [ref=e1523]:
+                - strong [ref=e1524]: 与团队共享
+                - text: ：用户使用
+                - code [ref=e1525]: /plugin marketplace add owner/repo
+                - text: 添加你的 marketplace
+            - generic [ref=e1526]:
+              - strong [ref=e1527]: 优点
+              - text: ：内置版本控制、问题跟踪和团队协作功能。
+            - heading "导航到标题 在其他 git 服务上托管" [level=3] [ref=e1528]:
+              - link "导航到标题" [ref=e1529] [cursor=pointer]:
+                - /url: "#在其他-git-服务上托管"
+                - img [ref=e1531]
+              - generic [ref=e1533] [cursor=pointer]: 在其他 git 服务上托管
+            - generic [ref=e1534]: 任何 git 托管服务都可以工作，例如 GitLab、Bitbucket 和自托管服务器。用户使用完整的存储库 URL 添加：
+            - generic [ref=e1535]:
+              - generic [ref=e1536]:
+                - button "报告错误代码" [ref=e1538] [cursor=pointer]:
+                  - img [ref=e1539]
+                - button "复制代码块内容" [ref=e1542] [cursor=pointer]:
+                  - img [ref=e1543]
+                - button "询问AI" [ref=e1547] [cursor=pointer]:
+                  - img [ref=e1548]
+              - code [ref=e1554]:
+                - generic [ref=e1555]: /plugin marketplace add https://gitlab.com/company/plugins.git
+            - heading "导航到标题 私有存储库" [level=3] [ref=e1556]:
+              - link "导航到标题" [ref=e1557] [cursor=pointer]:
+                - /url: "#私有存储库"
+                - img [ref=e1559]
+              - generic [ref=e1561] [cursor=pointer]: 私有存储库
+            - generic [ref=e1562]:
+              - text: Claude Code 支持从私有存储库安装 plugins。对于手动安装和更新，Claude Code 使用你现有的 git 凭证助手，所以通过
+              - code [ref=e1563]: gh auth login
+              - text: 、macOS Keychain 或
+              - code [ref=e1564]: git-credential-store
+              - text: 的 HTTPS 访问工作方式与你的终端中相同。SSH 访问工作，只要主机已经在你的
+              - code [ref=e1565]: known_hosts
+              - text: 文件中，并且密钥已加载到
+              - code [ref=e1566]: ssh-agent
+              - text: 中，因为 Claude Code 会抑制主机指纹和密钥密码的交互式 SSH 提示。
+            - generic [ref=e1567]: 后台自动更新在启动时运行，不使用凭证助手，因为交互式提示会阻止 Claude Code 启动。要为私有 marketplaces 启用自动更新，请在你的环境中设置适当的身份验证令牌：
+            - table [ref=e1570]:
+              - rowgroup [ref=e1571]:
+                - row "提供商 环境变量 注释" [ref=e1572]:
+                  - columnheader "提供商" [ref=e1573]
+                  - columnheader "环境变量" [ref=e1574]
+                  - columnheader "注释" [ref=e1575]
+              - rowgroup [ref=e1576]:
+                - row "GitHub GITHUB_TOKEN 或 GH_TOKEN 个人访问令牌或 GitHub App 令牌" [ref=e1577]:
+                  - cell "GitHub" [ref=e1578]
+                  - cell "GITHUB_TOKEN 或 GH_TOKEN" [ref=e1579]:
+                    - code [ref=e1580]: GITHUB_TOKEN
+                    - text: 或
+                    - code [ref=e1581]: GH_TOKEN
+                  - cell "个人访问令牌或 GitHub App 令牌" [ref=e1582]
+                - row "GitLab GITLAB_TOKEN 或 GL_TOKEN 个人访问令牌或项目令牌" [ref=e1583]:
+                  - cell "GitLab" [ref=e1584]
+                  - cell "GITLAB_TOKEN 或 GL_TOKEN" [ref=e1585]:
+                    - code [ref=e1586]: GITLAB_TOKEN
+                    - text: 或
+                    - code [ref=e1587]: GL_TOKEN
+                  - cell "个人访问令牌或项目令牌" [ref=e1588]
+                - row "Bitbucket BITBUCKET_TOKEN 应用密码或存储库访问令牌" [ref=e1589]:
+                  - cell "Bitbucket" [ref=e1590]
+                  - cell "BITBUCKET_TOKEN" [ref=e1591]:
+                    - code [ref=e1592]: BITBUCKET_TOKEN
+                  - cell "应用密码或存储库访问令牌" [ref=e1593]
+            - generic [ref=e1594]:
+              - text: 在你的 shell 配置中设置令牌（例如，
+              - code [ref=e1595]: .bashrc
+              - text: 、
+              - code [ref=e1596]: .zshrc
+              - text: ）或在运行 Claude Code 时传递它：
+            - generic [ref=e1597]:
+              - generic [ref=e1598]:
+                - button "报告错误代码" [ref=e1600] [cursor=pointer]:
+                  - img [ref=e1601]
+                - button "复制代码块内容" [ref=e1604] [cursor=pointer]:
+                  - img [ref=e1605]
+                - button "询问AI" [ref=e1609] [cursor=pointer]:
+                  - img [ref=e1610]
+              - code [ref=e1616]:
+                - generic [ref=e1617]: export GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxx
+            - generic [ref=e1618]:
+              - img "注意" [ref=e1620]
+              - generic [ref=e1623]:
+                - text: 对于 CI/CD 环境，将令牌配置为秘密环境变量。GitHub Actions 自动为同一组织中的存储库提供
+                - code [ref=e1624]: GITHUB_TOKEN
+                - text: 。
+            - heading "导航到标题 在分发前本地测试" [level=3] [ref=e1625]:
+              - link "导航到标题" [ref=e1626] [cursor=pointer]:
+                - /url: "#在分发前本地测试"
+                - img [ref=e1628]
+              - generic [ref=e1630] [cursor=pointer]: 在分发前本地测试
+            - generic [ref=e1631]: 在共享前本地测试你的 marketplace：
+            - generic [ref=e1632]:
+              - generic [ref=e1633]:
+                - button "报告错误代码" [ref=e1635] [cursor=pointer]:
+                  - img [ref=e1636]
+                - button "复制代码块内容" [ref=e1639] [cursor=pointer]:
+                  - img [ref=e1640]
+                - button "询问AI" [ref=e1644] [cursor=pointer]:
+                  - img [ref=e1645]
+              - code [ref=e1651]:
+                - generic [ref=e1652]: /plugin marketplace add ./my-local-marketplace
+                - generic [ref=e1653]: /plugin install test-plugin@my-local-marketplace
+            - generic [ref=e1654]:
+              - text: 有关完整的添加命令范围（GitHub、Git URL、本地路径、远程 URL），请参阅
+              - link "添加 marketplaces" [ref=e1655] [cursor=pointer]:
+                - /url: /docs/zh-CN/discover-plugins#add-marketplaces
+              - text: 。
+            - heading "导航到标题 为你的团队要求 marketplaces" [level=3] [ref=e1656]:
+              - link "导航到标题" [ref=e1657] [cursor=pointer]:
+                - /url: "#为你的团队要求-marketplaces"
+                - img [ref=e1659]
+              - generic [ref=e1661] [cursor=pointer]: 为你的团队要求 marketplaces
+            - generic [ref=e1662]:
+              - text: 你可以配置你的存储库，以便当团队成员信任项目文件夹时，他们会自动被提示安装你的 marketplace。将你的 marketplace 添加到
+              - code [ref=e1663]: .claude/settings.json
+              - text: ：
+            - generic [ref=e1664]:
+              - generic [ref=e1665]:
+                - button "报告错误代码" [ref=e1667] [cursor=pointer]:
+                  - img [ref=e1668]
+                - button "复制代码块内容" [ref=e1671] [cursor=pointer]:
+                  - img [ref=e1672]
+                - button "询问AI" [ref=e1676] [cursor=pointer]:
+                  - img [ref=e1677]
+              - code [ref=e1683]:
+                - generic [ref=e1684]: "{"
+                - generic [ref=e1685]: "\"extraKnownMarketplaces\": {"
+                - generic [ref=e1686]: "\"company-tools\": {"
+                - generic [ref=e1687]: "\"source\": {"
+                - generic [ref=e1688]: "\"source\": \"github\","
+                - generic [ref=e1689]: "\"repo\": \"your-org/claude-plugins\""
+                - generic [ref=e1690]: "}"
+                - generic [ref=e1691]: "}"
+                - generic [ref=e1692]: "}"
+                - generic [ref=e1693]: "}"
+            - generic [ref=e1694]: 你也可以指定默认应启用哪些 plugins：
+            - generic [ref=e1695]:
+              - generic [ref=e1696]:
+                - button "报告错误代码" [ref=e1698] [cursor=pointer]:
+                  - img [ref=e1699]
+                - button "复制代码块内容" [ref=e1702] [cursor=pointer]:
+                  - img [ref=e1703]
+                - button "询问AI" [ref=e1707] [cursor=pointer]:
+                  - img [ref=e1708]
+              - code [ref=e1714]:
+                - generic [ref=e1715]: "{"
+                - generic [ref=e1716]: "\"enabledPlugins\": {"
+                - generic [ref=e1717]: "\"code-formatter@company-tools\": true,"
+                - generic [ref=e1718]: "\"deployment-tools@company-tools\": true"
+                - generic [ref=e1719]: "}"
+                - generic [ref=e1720]: "}"
+            - generic [ref=e1721]:
+              - text: 有关完整的配置选项，请参阅
+              - link "Plugin 设置" [ref=e1722] [cursor=pointer]:
+                - /url: /docs/zh-CN/settings#plugin-settings
+              - text: 。
+            - generic [ref=e1723]:
+              - img "注意" [ref=e1725]
+              - generic [ref=e1728]:
+                - text: 如果你使用带有相对路径的本地
+                - code [ref=e1729]: directory
+                - text: 或
+                - code [ref=e1730]: file
+                - text: 源，路径将相对于你的存储库的主检出解析。当你从 git worktree 运行 Claude Code 时，路径仍然指向主检出，所以所有 worktrees 共享相同的 marketplace 位置。Marketplace 状态存储一次每个用户在
+                - code [ref=e1731]: ~/.claude/plugins/known_marketplaces.json
+                - text: 中，而不是每个项目。
+            - heading "导航到标题 为容器预填充 plugins" [level=3] [ref=e1732]:
+              - link "导航到标题" [ref=e1733] [cursor=pointer]:
+                - /url: "#为容器预填充-plugins"
+                - img [ref=e1735]
+              - generic [ref=e1737] [cursor=pointer]: 为容器预填充 plugins
+            - generic [ref=e1738]:
+              - text: 对于容器镜像和 CI 环境，你可以在构建时预填充 plugins 目录，以便 Claude Code 启动时已经有 marketplaces 和 plugins 可用，无需在运行时克隆任何内容。设置
+              - code [ref=e1739]: CLAUDE_CODE_PLUGIN_SEED_DIR
+              - text: 环境变量以指向此目录。
+            - generic [ref=e1740]:
+              - text: 要分层多个种子目录，请在 Unix 上用
+              - code [ref=e1741]: ":"
+              - text: 分隔路径，或在 Windows 上用
+              - code [ref=e1742]: ;
+              - text: 分隔。Claude Code 按顺序搜索每个目录，第一个包含给定 marketplace 或 plugin 缓存的种子获胜。
+            - generic [ref=e1743]:
+              - text: 种子目录镜像
+              - code [ref=e1744]: ~/.claude/plugins
+              - text: 的结构：
+            - generic [ref=e1745]:
+              - generic [ref=e1746]:
+                - button "报告错误代码" [ref=e1748] [cursor=pointer]:
+                  - img [ref=e1749]
+                - button "复制代码块内容" [ref=e1752] [cursor=pointer]:
+                  - img [ref=e1753]
+                - button "询问AI" [ref=e1757] [cursor=pointer]:
+                  - img [ref=e1758]
+              - code [ref=e1764]:
+                - generic [ref=e1765]: $CLAUDE_CODE_PLUGIN_SEED_DIR/
+                - generic [ref=e1766]: known_marketplaces.json
+                - generic [ref=e1767]: marketplaces/<name>/...
+                - generic [ref=e1768]: cache/<marketplace>/<plugin>/<version>/...
+            - generic [ref=e1769]:
+              - text: 要构建种子目录，请在镜像构建期间运行 Claude Code 一次，安装你需要的 plugins，然后将生成的
+              - code [ref=e1770]: ~/.claude/plugins
+              - text: 目录复制到你的镜像中，并将
+              - code [ref=e1771]: CLAUDE_CODE_PLUGIN_SEED_DIR
+              - text: 指向它。
+            - generic [ref=e1772]:
+              - text: 要跳过复制步骤，请在构建期间将
+              - code [ref=e1773]: CLAUDE_CODE_PLUGIN_CACHE_DIR
+              - text: 设置为你的目标种子路径，以便 plugins 直接安装到那里：
+            - generic [ref=e1774]:
+              - generic [ref=e1775]:
+                - button "报告错误代码" [ref=e1777] [cursor=pointer]:
+                  - img [ref=e1778]
+                - button "复制代码块内容" [ref=e1781] [cursor=pointer]:
+                  - img [ref=e1782]
+                - button "询问AI" [ref=e1786] [cursor=pointer]:
+                  - img [ref=e1787]
+              - code [ref=e1793]:
+                - generic [ref=e1794]: CLAUDE_CODE_PLUGIN_CACHE_DIR=/opt/claude-seed claude plugin marketplace add your-org/plugins
+                - generic [ref=e1795]: CLAUDE_CODE_PLUGIN_CACHE_DIR=/opt/claude-seed claude plugin install my-tool@your-plugins
+            - generic [ref=e1796]:
+              - text: 然后在你的容器的运行时环境中设置
+              - code [ref=e1797]: CLAUDE_CODE_PLUGIN_SEED_DIR=/opt/claude-seed
+              - text: ，以便 Claude Code 在启动时从种子读取。
+            - generic [ref=e1798]:
+              - text: 在启动时，Claude Code 将种子的
+              - code [ref=e1799]: known_marketplaces.json
+              - text: 中找到的 marketplaces 注册到主配置中，并使用在
+              - code [ref=e1800]: cache/
+              - text: 下找到的 plugin 缓存，而无需重新克隆。这在交互模式和使用
+              - code [ref=e1801]: "-p"
+              - text: 标志的非交互模式中都有效。
+            - generic [ref=e1802]: 行为详情：
+            - list [ref=e1803]:
+              - listitem [ref=e1804]:
+                - strong [ref=e1805]: 只读
+                - text: ：种子目录永远不会被写入。由于 git pull 会在只读文件系统上失败，种子 marketplaces 的自动更新被禁用。
+              - listitem [ref=e1806]:
+                - strong [ref=e1807]: 种子条目优先
+                - text: ：在每次启动时，种子中声明的 marketplaces 会覆盖用户配置中的任何匹配条目。要选择退出种子 plugin，请使用
+                - code [ref=e1808]: /plugin disable
+                - text: 而不是删除 marketplace。
+              - listitem [ref=e1809]:
+                - strong [ref=e1810]: 路径解析
+                - text: ：Claude Code 通过在运行时探测
+                - code [ref=e1811]: $CLAUDE_CODE_PLUGIN_SEED_DIR/marketplaces/<name>/
+                - text: 来定位 marketplace 内容，而不是信任存储在种子 JSON 内的路径。这意味着即使在与构建时不同的路径上挂载，种子也能正确工作。
+              - listitem [ref=e1812]:
+                - strong [ref=e1813]: 变更被阻止
+                - text: ：针对种子管理的 marketplace 运行
+                - code [ref=e1814]: /plugin marketplace remove
+                - text: 或
+                - code [ref=e1815]: /plugin marketplace update
+                - text: 会失败，并提示你要求管理员更新种子镜像。
+              - listitem [ref=e1816]:
+                - strong [ref=e1817]: 与设置组合
+                - text: ：如果
+                - code [ref=e1818]: extraKnownMarketplaces
+                - text: 或
+                - code [ref=e1819]: enabledPlugins
+                - text: 声明的 marketplace 已经存在于种子中，Claude Code 使用种子副本而不是克隆。
+            - heading "导航到标题 托管 marketplace 限制" [level=3] [ref=e1820]:
+              - link "导航到标题" [ref=e1821] [cursor=pointer]:
+                - /url: "#托管-marketplace-限制"
+                - img [ref=e1823]
+              - generic [ref=e1825] [cursor=pointer]: 托管 marketplace 限制
+            - generic [ref=e1826]:
+              - text: 对于需要严格控制 plugin 源的组织，管理员可以使用托管设置中的
+              - link "strictKnownMarketplaces" [ref=e1827] [cursor=pointer]:
+                - /url: /docs/zh-CN/settings#strictknownmarketplaces
+                - code [ref=e1828]: strictKnownMarketplaces
+              - text: 设置限制用户允许添加哪些 plugin marketplaces。
+            - generic [ref=e1829]:
+              - text: 当在托管设置中配置
+              - code [ref=e1830]: strictKnownMarketplaces
+              - text: 时，限制行为取决于值：
+            - table [ref=e1833]:
+              - rowgroup [ref=e1834]:
+                - row "值 行为" [ref=e1835]:
+                  - columnheader "值" [ref=e1836]
+                  - columnheader "行为" [ref=e1837]
+              - rowgroup [ref=e1838]:
+                - row "未定义（默认） 无限制。用户可以添加任何 marketplace" [ref=e1839]:
+                  - cell "未定义（默认）" [ref=e1840]
+                  - cell "无限制。用户可以添加任何 marketplace" [ref=e1841]
+                - row "空数组 [] 完全锁定。用户无法添加任何新 marketplaces" [ref=e1842]:
+                  - cell "空数组 []" [ref=e1843]:
+                    - text: 空数组
+                    - code [ref=e1844]: "[]"
+                  - cell "完全锁定。用户无法添加任何新 marketplaces" [ref=e1845]
+                - row "源列表 用户只能添加与允许列表完全匹配的 marketplaces" [ref=e1846]:
+                  - cell "源列表" [ref=e1847]
+                  - cell "用户只能添加与允许列表完全匹配的 marketplaces" [ref=e1848]
+            - heading "导航到标题 常见配置" [level=4] [ref=e1849]:
+              - link "导航到标题" [ref=e1850] [cursor=pointer]:
+                - /url: "#常见配置"
+                - img [ref=e1852]
+              - generic [ref=e1854] [cursor=pointer]: 常见配置
+            - generic [ref=e1855]: 禁用所有 marketplace 添加：
+            - generic [ref=e1856]:
+              - generic [ref=e1857]:
+                - button "报告错误代码" [ref=e1859] [cursor=pointer]:
+                  - img [ref=e1860]
+                - button "复制代码块内容" [ref=e1863] [cursor=pointer]:
+                  - img [ref=e1864]
+                - button "询问AI" [ref=e1868] [cursor=pointer]:
+                  - img [ref=e1869]
+              - code [ref=e1875]:
+                - generic [ref=e1876]: "{"
+                - generic [ref=e1877]: "\"strictKnownMarketplaces\": []"
+                - generic [ref=e1878]: "}"
+            - generic [ref=e1879]: 仅允许特定 marketplaces：
+            - generic [ref=e1880]:
+              - generic [ref=e1881]:
+                - button "报告错误代码" [ref=e1883] [cursor=pointer]:
+                  - img [ref=e1884]
+                - button "复制代码块内容" [ref=e1887] [cursor=pointer]:
+                  - img [ref=e1888]
+                - button "询问AI" [ref=e1892] [cursor=pointer]:
+                  - img [ref=e1893]
+              - code [ref=e1899]:
+                - generic [ref=e1900]: "{"
+                - generic [ref=e1901]: "\"strictKnownMarketplaces\": ["
+                - generic [ref=e1902]: "{"
+                - generic [ref=e1903]: "\"source\": \"github\","
+                - generic [ref=e1904]: "\"repo\": \"acme-corp/approved-plugins\""
+                - generic [ref=e1905]: "},"
+                - generic [ref=e1906]: "{"
+                - generic [ref=e1907]: "\"source\": \"github\","
+                - generic [ref=e1908]: "\"repo\": \"acme-corp/security-tools\","
+                - generic [ref=e1909]: "\"ref\": \"v2.0\""
+                - generic [ref=e1910]: "},"
+                - generic [ref=e1911]: "{"
+                - generic [ref=e1912]: "\"source\": \"url\","
+                - generic [ref=e1913]: "\"url\": \"https://plugins.example.com/marketplace.json\""
+                - generic [ref=e1914]: "}"
+                - generic [ref=e1915]: "]"
+                - generic [ref=e1916]: "}"
+            - generic [ref=e1917]:
+              - text: 使用主机上的正则表达式模式匹配允许来自内部 git 服务器的所有 marketplaces。这是
+              - link "GitHub Enterprise Server" [ref=e1918] [cursor=pointer]:
+                - /url: /docs/zh-CN/github-enterprise-server#plugin-marketplaces-on-ghes
+              - text: 或自托管 GitLab 实例的推荐方法：
+            - generic [ref=e1919]:
+              - generic [ref=e1920]:
+                - button "报告错误代码" [ref=e1922] [cursor=pointer]:
+                  - img [ref=e1923]
+                - button "复制代码块内容" [ref=e1926] [cursor=pointer]:
+                  - img [ref=e1927]
+                - button "询问AI" [ref=e1931] [cursor=pointer]:
+                  - img [ref=e1932]
+              - code [ref=e1938]:
+                - generic [ref=e1939]: "{"
+                - generic [ref=e1940]: "\"strictKnownMarketplaces\": ["
+                - generic [ref=e1941]: "{"
+                - generic [ref=e1942]: "\"source\": \"hostPattern\","
+                - generic [ref=e1943]: "\"hostPattern\": \"^github\\\\.example\\\\.com$\""
+                - generic [ref=e1944]: "}"
+                - generic [ref=e1945]: "]"
+                - generic [ref=e1946]: "}"
+            - generic [ref=e1947]: 使用路径上的正则表达式模式匹配允许来自特定目录的基于文件系统的 marketplaces：
+            - generic [ref=e1948]:
+              - generic [ref=e1949]:
+                - button "报告错误代码" [ref=e1951] [cursor=pointer]:
+                  - img [ref=e1952]
+                - button "复制代码块内容" [ref=e1955] [cursor=pointer]:
+                  - img [ref=e1956]
+                - button "询问AI" [ref=e1960] [cursor=pointer]:
+                  - img [ref=e1961]
+              - code [ref=e1967]:
+                - generic [ref=e1968]: "{"
+                - generic [ref=e1969]: "\"strictKnownMarketplaces\": ["
+                - generic [ref=e1970]: "{"
+                - generic [ref=e1971]: "\"source\": \"pathPattern\","
+                - generic [ref=e1972]: "\"pathPattern\": \"^/opt/approved/\""
+                - generic [ref=e1973]: "}"
+                - generic [ref=e1974]: "]"
+                - generic [ref=e1975]: "}"
+            - generic [ref=e1976]:
+              - text: 使用
+              - code [ref=e1977]: "\".*\""
+              - text: 作为
+              - code [ref=e1978]: pathPattern
+              - text: 来允许任何文件系统路径，同时仍然使用
+              - code [ref=e1979]: hostPattern
+              - text: 控制网络源。
+            - generic [ref=e1980]:
+              - img "注意" [ref=e1982]
+              - generic [ref=e1985]:
+                - code [ref=e1986]: strictKnownMarketplaces
+                - text: 限制用户可以添加的内容，但不会自行注册 marketplaces。要使允许的 marketplaces 自动可用而无需用户运行
+                - code [ref=e1987]: /plugin marketplace add
+                - text: ，请在同一
+                - code [ref=e1988]: managed-settings.json
+                - text: 中将其与
+                - link "extraKnownMarketplaces" [ref=e1989] [cursor=pointer]:
+                  - /url: /docs/zh-CN/settings#extraknownmarketplaces
+                  - code [ref=e1990]: extraKnownMarketplaces
+                - text: 配对。见
+                - link "同时使用两者" [ref=e1991] [cursor=pointer]:
+                  - /url: /docs/zh-CN/settings#strictknownmarketplaces
+                - text: 。
+            - heading "导航到标题 限制如何工作" [level=4] [ref=e1992]:
+              - link "导航到标题" [ref=e1993] [cursor=pointer]:
+                - /url: "#限制如何工作"
+                - img [ref=e1995]
+              - generic [ref=e1997] [cursor=pointer]: 限制如何工作
+            - generic [ref=e1998]:
+              - text: 限制在任何网络或文件系统操作之前进行检查。检查在 marketplace 添加以及 plugin 安装、更新、刷新和自动更新时运行。如果 marketplace 在配置策略之前被添加，其源不再与允许列表匹配，Claude Code 会拒绝从中安装或更新 plugins。相同的强制执行也适用于
+              - code [ref=e1999]: blockedMarketplaces
+              - text: 。
+            - generic [ref=e2000]: 允许列表对大多数源类型使用精确匹配。要允许 marketplace，所有指定的字段必须完全匹配：
+            - list [ref=e2001]:
+              - listitem [ref=e2002]:
+                - text: 对于 GitHub 源：
+                - code [ref=e2003]: repo
+                - text: 是必需的，如果在允许列表中指定，
+                - code [ref=e2004]: ref
+                - text: 或
+                - code [ref=e2005]: path
+                - text: 也必须匹配
+              - listitem [ref=e2006]: 对于 URL 源：完整 URL 必须完全匹配
+              - listitem [ref=e2007]:
+                - text: 对于
+                - code [ref=e2008]: hostPattern
+                - text: 源：marketplace 主机与正则表达式模式匹配
+              - listitem [ref=e2009]:
+                - text: 对于
+                - code [ref=e2010]: pathPattern
+                - text: 源：marketplace 的文件系统路径与正则表达式模式匹配
+            - generic [ref=e2011]:
+              - text: 因为
+              - code [ref=e2012]: strictKnownMarketplaces
+              - text: 在
+              - link "托管设置" [ref=e2013] [cursor=pointer]:
+                - /url: /docs/zh-CN/settings#settings-files
+              - text: 中设置，个别用户和项目配置无法覆盖这些限制。
+            - generic [ref=e2014]:
+              - text: 有关完整的配置详细信息，包括所有支持的源类型和与
+              - code [ref=e2015]: extraKnownMarketplaces
+              - text: 的比较，请参阅
+              - link "strictKnownMarketplaces 参考" [ref=e2016] [cursor=pointer]:
+                - /url: /docs/zh-CN/settings#strictknownmarketplaces
+              - text: 。
+            - heading "导航到标题 版本解析和发布渠道" [level=3] [ref=e2017]:
+              - link "导航到标题" [ref=e2018] [cursor=pointer]:
+                - /url: "#版本解析和发布渠道"
+                - img [ref=e2020]
+              - generic [ref=e2022] [cursor=pointer]: 版本解析和发布渠道
+            - generic [ref=e2023]:
+              - text: Plugin 版本确定缓存路径和更新检测：如果解析的版本与用户已有的版本匹配，
+              - code [ref=e2024]: /plugin update
+              - text: 和自动更新会跳过该 plugin。
+            - generic [ref=e2025]: Claude Code 从以下第一个设置的内容解析 plugin 的版本：
+            - list [ref=e2026]:
+              - listitem [ref=e2027]:
+                - text: plugin 的
+                - code [ref=e2028]: plugin.json
+                - text: 中的
+                - code [ref=e2029]: version
+              - listitem [ref=e2030]:
+                - text: plugin 的 marketplace 条目中的
+                - code [ref=e2031]: version
+              - listitem [ref=e2032]: plugin 源的 git 提交 SHA
+            - generic [ref=e2033]:
+              - text: 对于 git 源类型
+              - code [ref=e2034]: github
+              - text: 、
+              - code [ref=e2035]: url
+              - text: 、
+              - code [ref=e2036]: git-subdir
+              - text: 和 git 托管 marketplace 内的相对路径，你可以完全省略
+              - code [ref=e2037]: version
+              - text: ，每个新提交都被视为新版本。这是内部或积极开发的 plugins 的最简单设置。
+            - generic [ref=e2038]:
+              - img "警告" [ref=e2040]
+              - generic [ref=e2042]:
+                - generic [ref=e2043]:
+                  - text: 设置
+                  - code [ref=e2044]: version
+                  - text: 会固定 plugin。如果
+                  - code [ref=e2045]: plugin.json
+                  - text: 声明
+                  - code [ref=e2046]: "\"version\": \"1.0.0\""
+                  - text: ，推送新提交而不改变该字符串对现有用户没有任何作用，因为 Claude Code 看到相同的版本并保留缓存副本。在每个发布时提升该字段，或省略它以使用提交 SHA。
+                - generic [ref=e2047]:
+                  - text: 避免在
+                  - code [ref=e2048]: plugin.json
+                  - text: 和 marketplace 条目中都设置
+                  - code [ref=e2049]: version
+                  - text: 。
+                  - code [ref=e2050]: plugin.json
+                  - text: 值总是无声地获胜，所以陈旧的 manifest 版本可能会掩盖你在
+                  - code [ref=e2051]: marketplace.json
+                  - text: 中设置的版本。
+            - heading "导航到标题 设置发布渠道" [level=4] [ref=e2052]:
+              - link "导航到标题" [ref=e2053] [cursor=pointer]:
+                - /url: "#设置发布渠道"
+                - img [ref=e2055]
+              - generic [ref=e2057] [cursor=pointer]: 设置发布渠道
+            - generic [ref=e2058]:
+              - text: 要为你的 plugins 支持”稳定”和”最新”发布渠道，你可以设置两个指向同一 repo 的不同 refs 或 SHAs 的 marketplaces。然后，你可以通过
+              - link "托管设置" [ref=e2059] [cursor=pointer]:
+                - /url: /docs/zh-CN/settings#settings-files
+              - text: 将两个 marketplaces 分配给不同的用户组。
+            - generic [ref=e2060]:
+              - img "警告" [ref=e2062]
+              - generic [ref=e2065]:
+                - text: 每个渠道必须解析为不同的版本。如果你使用显式版本，
+                - code [ref=e2066]: plugin.json
+                - text: 必须在每个固定的 ref 处声明不同的
+                - code [ref=e2067]: version
+                - text: 。如果你省略
+                - code [ref=e2068]: version
+                - text: ，不同的提交 SHA 已经区分了渠道。如果两个 refs 解析为相同的版本字符串，Claude Code 会将它们视为相同并跳过更新。
+            - heading "示例" [level=5] [ref=e2069]
+            - generic [ref=e2070]:
+              - generic [ref=e2071]:
+                - button "报告错误代码" [ref=e2073] [cursor=pointer]:
+                  - img [ref=e2074]
+                - button "复制代码块内容" [ref=e2077] [cursor=pointer]:
+                  - img [ref=e2078]
+                - button "询问AI" [ref=e2082] [cursor=pointer]:
+                  - img [ref=e2083]
+              - code [ref=e2089]:
+                - generic [ref=e2090]: "{"
+                - generic [ref=e2091]: "\"name\": \"stable-tools\","
+                - generic [ref=e2092]: "\"plugins\": ["
+                - generic [ref=e2093]: "{"
+                - generic [ref=e2094]: "\"name\": \"code-formatter\","
+                - generic [ref=e2095]: "\"source\": {"
+                - generic [ref=e2096]: "\"source\": \"github\","
+                - generic [ref=e2097]: "\"repo\": \"acme-corp/code-formatter\","
+                - generic [ref=e2098]: "\"ref\": \"stable\""
+                - generic [ref=e2099]: "}"
+                - generic [ref=e2100]: "}"
+                - generic [ref=e2101]: "]"
+                - generic [ref=e2102]: "}"
+            - generic [ref=e2103]:
+              - generic [ref=e2104]:
+                - button "报告错误代码" [ref=e2106] [cursor=pointer]:
+                  - img [ref=e2107]
+                - button "复制代码块内容" [ref=e2110] [cursor=pointer]:
+                  - img [ref=e2111]
+                - button "询问AI" [ref=e2115] [cursor=pointer]:
+                  - img [ref=e2116]
+              - code [ref=e2122]:
+                - generic [ref=e2123]: "{"
+                - generic [ref=e2124]: "\"name\": \"latest-tools\","
+                - generic [ref=e2125]: "\"plugins\": ["
+                - generic [ref=e2126]: "{"
+                - generic [ref=e2127]: "\"name\": \"code-formatter\","
+                - generic [ref=e2128]: "\"source\": {"
+                - generic [ref=e2129]: "\"source\": \"github\","
+                - generic [ref=e2130]: "\"repo\": \"acme-corp/code-formatter\","
+                - generic [ref=e2131]: "\"ref\": \"latest\""
+                - generic [ref=e2132]: "}"
+                - generic [ref=e2133]: "}"
+                - generic [ref=e2134]: "]"
+                - generic [ref=e2135]: "}"
+            - heading "将渠道分配给用户组" [level=5] [ref=e2136]
+            - generic [ref=e2137]: 通过托管设置将每个 marketplace 分配给适当的用户组。例如，稳定组接收：
+            - generic [ref=e2138]:
+              - generic [ref=e2139]:
+                - button "报告错误代码" [ref=e2141] [cursor=pointer]:
+                  - img [ref=e2142]
+                - button "复制代码块内容" [ref=e2145] [cursor=pointer]:
+                  - img [ref=e2146]
+                - button "询问AI" [ref=e2150] [cursor=pointer]:
+                  - img [ref=e2151]
+              - code [ref=e2157]:
+                - generic [ref=e2158]: "{"
+                - generic [ref=e2159]: "\"extraKnownMarketplaces\": {"
+                - generic [ref=e2160]: "\"stable-tools\": {"
+                - generic [ref=e2161]: "\"source\": {"
+                - generic [ref=e2162]: "\"source\": \"github\","
+                - generic [ref=e2163]: "\"repo\": \"acme-corp/stable-tools\""
+                - generic [ref=e2164]: "}"
+                - generic [ref=e2165]: "}"
+                - generic [ref=e2166]: "}"
+                - generic [ref=e2167]: "}"
+            - generic [ref=e2168]:
+              - text: 早期访问组改为接收
+              - code [ref=e2169]: latest-tools
+              - text: ：
+            - generic [ref=e2170]:
+              - generic [ref=e2171]:
+                - button "报告错误代码" [ref=e2173] [cursor=pointer]:
+                  - img [ref=e2174]
+                - button "复制代码块内容" [ref=e2177] [cursor=pointer]:
+                  - img [ref=e2178]
+                - button "询问AI" [ref=e2182] [cursor=pointer]:
+                  - img [ref=e2183]
+              - code [ref=e2189]:
+                - generic [ref=e2190]: "{"
+                - generic [ref=e2191]: "\"extraKnownMarketplaces\": {"
+                - generic [ref=e2192]: "\"latest-tools\": {"
+                - generic [ref=e2193]: "\"source\": {"
+                - generic [ref=e2194]: "\"source\": \"github\","
+                - generic [ref=e2195]: "\"repo\": \"acme-corp/latest-tools\""
+                - generic [ref=e2196]: "}"
+                - generic [ref=e2197]: "}"
+                - generic [ref=e2198]: "}"
+                - generic [ref=e2199]: "}"
+            - heading "导航到标题 固定依赖版本" [level=4] [ref=e2200]:
+              - link "导航到标题" [ref=e2201] [cursor=pointer]:
+                - /url: "#固定依赖版本"
+                - img [ref=e2203]
+              - generic [ref=e2205] [cursor=pointer]: 固定依赖版本
+            - generic [ref=e2206]:
+              - text: Plugin 可以将其依赖约束到 semver 范围，以便对依赖的更新不会破坏依赖的 plugin。有关
+              - code [ref=e2207]: "{plugin-name}--v{version}"
+              - text: git 标签约定、范围语法以及如何组合对同一依赖的多个约束，请参阅
+              - link "约束 plugin 依赖版本" [ref=e2208] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugin-dependencies
+              - text: 。
+            - heading "导航到标题 验证和测试" [level=2] [ref=e2209]:
+              - link "导航到标题" [ref=e2210] [cursor=pointer]:
+                - /url: "#验证和测试"
+                - img [ref=e2212]
+              - generic [ref=e2214] [cursor=pointer]: 验证和测试
+            - generic [ref=e2215]: 在共享前测试你的 marketplace。
+            - generic [ref=e2216]: 验证你的 marketplace JSON 语法：
+            - generic [ref=e2217]:
+              - generic [ref=e2218]:
+                - button "报告错误代码" [ref=e2220] [cursor=pointer]:
+                  - img [ref=e2221]
+                - button "复制代码块内容" [ref=e2224] [cursor=pointer]:
+                  - img [ref=e2225]
+                - button "询问AI" [ref=e2229] [cursor=pointer]:
+                  - img [ref=e2230]
+              - code [ref=e2236]:
+                - generic [ref=e2237]: claude plugin validate .
+            - generic [ref=e2238]: 或从 Claude Code 内：
+            - generic [ref=e2239]:
+              - generic [ref=e2240]:
+                - button "报告错误代码" [ref=e2242] [cursor=pointer]:
+                  - img [ref=e2243]
+                - button "复制代码块内容" [ref=e2246] [cursor=pointer]:
+                  - img [ref=e2247]
+                - button "询问AI" [ref=e2251] [cursor=pointer]:
+                  - img [ref=e2252]
+              - code [ref=e2258]:
+                - generic [ref=e2259]: /plugin validate .
+            - generic [ref=e2260]: 添加 marketplace 进行测试：
+            - generic [ref=e2261]:
+              - generic [ref=e2262]:
+                - button "报告错误代码" [ref=e2264] [cursor=pointer]:
+                  - img [ref=e2265]
+                - button "复制代码块内容" [ref=e2268] [cursor=pointer]:
+                  - img [ref=e2269]
+                - button "询问AI" [ref=e2273] [cursor=pointer]:
+                  - img [ref=e2274]
+              - code [ref=e2280]:
+                - generic [ref=e2281]: /plugin marketplace add ./path/to/marketplace
+            - generic [ref=e2282]: 安装测试 plugin 以验证一切正常：
+            - generic [ref=e2283]:
+              - generic [ref=e2284]:
+                - button "报告错误代码" [ref=e2286] [cursor=pointer]:
+                  - img [ref=e2287]
+                - button "复制代码块内容" [ref=e2290] [cursor=pointer]:
+                  - img [ref=e2291]
+                - button "询问AI" [ref=e2295] [cursor=pointer]:
+                  - img [ref=e2296]
+              - code [ref=e2302]:
+                - generic [ref=e2303]: /plugin install test-plugin@marketplace-name
+            - generic [ref=e2304]:
+              - text: 有关完整的 plugin 测试工作流，请参阅
+              - link "本地测试你的 plugins" [ref=e2305] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugins#test-your-plugins-locally
+              - text: 。有关技术故障排除，请参阅
+              - link "Plugins 参考" [ref=e2306] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugins-reference
+              - text: 。
+            - heading "导航到标题 从 CLI 管理 marketplaces" [level=2] [ref=e2307]:
+              - link "导航到标题" [ref=e2308] [cursor=pointer]:
+                - /url: "#从-cli-管理-marketplaces"
+                - img [ref=e2310]
+              - generic [ref=e2312] [cursor=pointer]: 从 CLI 管理 marketplaces
+            - generic [ref=e2313]:
+              - text: Claude Code 提供非交互式
+              - code [ref=e2314]: claude plugin marketplace
+              - text: 子命令用于脚本编写和自动化。这些等同于交互式会话中可用的
+              - code [ref=e2315]: /plugin marketplace
+              - text: 命令。
+            - heading "导航到标题 Plugin marketplace add" [level=3] [ref=e2316]:
+              - link "导航到标题" [ref=e2317] [cursor=pointer]:
+                - /url: "#plugin-marketplace-add"
+                - img [ref=e2319]
+              - generic [ref=e2321] [cursor=pointer]: Plugin marketplace add
+            - generic [ref=e2322]: 从 GitHub 存储库、git URL、远程 URL 或本地路径添加 marketplace。
+            - generic [ref=e2323]:
+              - generic [ref=e2324]:
+                - button "报告错误代码" [ref=e2326] [cursor=pointer]:
+                  - img [ref=e2327]
+                - button "复制代码块内容" [ref=e2330] [cursor=pointer]:
+                  - img [ref=e2331]
+                - button "询问AI" [ref=e2335] [cursor=pointer]:
+                  - img [ref=e2336]
+              - code [ref=e2342]:
+                - generic [ref=e2343]: claude plugin marketplace add <source> [options]
+            - strong [ref=e2345]: 参数：
+            - list [ref=e2346]:
+              - listitem [ref=e2347]:
+                - code [ref=e2348]: <source>
+                - text: ：GitHub
+                - code [ref=e2349]: owner/repo
+                - text: 简写、git URL、指向
+                - code [ref=e2350]: marketplace.json
+                - text: 文件的远程 URL 或本地目录路径。要固定到分支或标签，请将
+                - code [ref=e2351]: "@ref"
+                - text: 附加到 GitHub 简写或
+                - code [ref=e2352]: "#ref"
+                - text: 附加到 git URL
+            - strong [ref=e2354]: 选项：
+            - table [ref=e2357]:
+              - rowgroup [ref=e2358]:
+                - row "选项 描述 默认值" [ref=e2359]:
+                  - columnheader "选项" [ref=e2360]
+                  - columnheader "描述" [ref=e2361]
+                  - columnheader "默认值" [ref=e2362]
+              - rowgroup [ref=e2363]:
+                - row "--scope <scope> 声明 marketplace 的位置：user、project 或 local。见 Plugin 安装范围 user" [ref=e2364]:
+                  - cell "--scope <scope>" [ref=e2365]:
+                    - code [ref=e2366]: "--scope <scope>"
+                  - cell "声明 marketplace 的位置：user、project 或 local。见 Plugin 安装范围" [ref=e2367]:
+                    - text: 声明 marketplace 的位置：
+                    - code [ref=e2368]: user
+                    - text: 、
+                    - code [ref=e2369]: project
+                    - text: 或
+                    - code [ref=e2370]: local
+                    - text: 。见
+                    - link "Plugin 安装范围" [ref=e2371] [cursor=pointer]:
+                      - /url: /docs/zh-CN/plugins-reference#plugin-installation-scopes
+                  - cell "user" [ref=e2372]:
+                    - code [ref=e2373]: user
+                - row "--sparse <paths...> 通过 git sparse-checkout 限制检出到特定目录。对 monorepos 有用" [ref=e2374]:
+                  - cell "--sparse <paths...>" [ref=e2375]:
+                    - code [ref=e2376]: "--sparse <paths...>"
+                  - cell "通过 git sparse-checkout 限制检出到特定目录。对 monorepos 有用" [ref=e2377]
+                  - cell [ref=e2378]
+            - generic [ref=e2379]:
+              - text: 从 GitHub 使用
+              - code [ref=e2380]: owner/repo
+              - text: 简写添加 marketplace：
+            - generic [ref=e2381]:
+              - generic [ref=e2382]:
+                - button "报告错误代码" [ref=e2384] [cursor=pointer]:
+                  - img [ref=e2385]
+                - button "复制代码块内容" [ref=e2388] [cursor=pointer]:
+                  - img [ref=e2389]
+                - button "询问AI" [ref=e2393] [cursor=pointer]:
+                  - img [ref=e2394]
+              - code [ref=e2400]:
+                - generic [ref=e2401]: claude plugin marketplace add acme-corp/claude-plugins
+            - generic [ref=e2402]:
+              - text: 使用
+              - code [ref=e2403]: "@ref"
+              - text: 固定到特定分支或标签：
+            - generic [ref=e2404]:
+              - generic [ref=e2405]:
+                - button "报告错误代码" [ref=e2407] [cursor=pointer]:
+                  - img [ref=e2408]
+                - button "复制代码块内容" [ref=e2411] [cursor=pointer]:
+                  - img [ref=e2412]
+                - button "询问AI" [ref=e2416] [cursor=pointer]:
+                  - img [ref=e2417]
+              - code [ref=e2423]:
+                - generic [ref=e2424]: claude plugin marketplace add acme-corp/claude-plugins@v2.0
+            - generic [ref=e2425]: 从非 GitHub 主机上的 git URL 添加：
+            - generic [ref=e2426]:
+              - generic [ref=e2427]:
+                - button "报告错误代码" [ref=e2429] [cursor=pointer]:
+                  - img [ref=e2430]
+                - button "复制代码块内容" [ref=e2433] [cursor=pointer]:
+                  - img [ref=e2434]
+                - button "询问AI" [ref=e2438] [cursor=pointer]:
+                  - img [ref=e2439]
+              - code [ref=e2445]:
+                - generic [ref=e2446]: claude plugin marketplace add https://gitlab.example.com/team/plugins.git
+            - generic [ref=e2447]:
+              - text: 从直接提供
+              - code [ref=e2448]: marketplace.json
+              - text: 文件的远程 URL 添加：
+            - generic [ref=e2449]:
+              - generic [ref=e2450]:
+                - button "报告错误代码" [ref=e2452] [cursor=pointer]:
+                  - img [ref=e2453]
+                - button "复制代码块内容" [ref=e2456] [cursor=pointer]:
+                  - img [ref=e2457]
+                - button "询问AI" [ref=e2461] [cursor=pointer]:
+                  - img [ref=e2462]
+              - code [ref=e2468]:
+                - generic [ref=e2469]: claude plugin marketplace add https://example.com/marketplace.json
+            - generic [ref=e2470]: 从本地目录添加以进行测试：
+            - generic [ref=e2471]:
+              - generic [ref=e2472]:
+                - button "报告错误代码" [ref=e2474] [cursor=pointer]:
+                  - img [ref=e2475]
+                - button "复制代码块内容" [ref=e2478] [cursor=pointer]:
+                  - img [ref=e2479]
+                - button "询问AI" [ref=e2483] [cursor=pointer]:
+                  - img [ref=e2484]
+              - code [ref=e2490]:
+                - generic [ref=e2491]: claude plugin marketplace add ./my-marketplace
+            - generic [ref=e2492]:
+              - text: 在项目范围声明 marketplace，以便通过
+              - code [ref=e2493]: .claude/settings.json
+              - text: 与你的团队共享：
+            - generic [ref=e2494]:
+              - generic [ref=e2495]:
+                - button "报告错误代码" [ref=e2497] [cursor=pointer]:
+                  - img [ref=e2498]
+                - button "复制代码块内容" [ref=e2501] [cursor=pointer]:
+                  - img [ref=e2502]
+                - button "询问AI" [ref=e2506] [cursor=pointer]:
+                  - img [ref=e2507]
+              - code [ref=e2513]:
+                - generic [ref=e2514]: claude plugin marketplace add acme-corp/claude-plugins --scope project
+            - generic [ref=e2515]: 对于 monorepo，限制检出到包含 plugin 内容的目录：
+            - generic [ref=e2516]:
+              - generic [ref=e2517]:
+                - button "报告错误代码" [ref=e2519] [cursor=pointer]:
+                  - img [ref=e2520]
+                - button "复制代码块内容" [ref=e2523] [cursor=pointer]:
+                  - img [ref=e2524]
+                - button "询问AI" [ref=e2528] [cursor=pointer]:
+                  - img [ref=e2529]
+              - code [ref=e2535]:
+                - generic [ref=e2536]: claude plugin marketplace add acme-corp/monorepo --sparse .claude-plugin plugins
+            - heading "导航到标题 Plugin marketplace list" [level=3] [ref=e2537]:
+              - link "导航到标题" [ref=e2538] [cursor=pointer]:
+                - /url: "#plugin-marketplace-list"
+                - img [ref=e2540]
+              - generic [ref=e2542] [cursor=pointer]: Plugin marketplace list
+            - generic [ref=e2543]: 列出所有配置的 marketplaces。
+            - generic [ref=e2544]:
+              - generic [ref=e2545]:
+                - button "报告错误代码" [ref=e2547] [cursor=pointer]:
+                  - img [ref=e2548]
+                - button "复制代码块内容" [ref=e2551] [cursor=pointer]:
+                  - img [ref=e2552]
+                - button "询问AI" [ref=e2556] [cursor=pointer]:
+                  - img [ref=e2557]
+              - code [ref=e2563]:
+                - generic [ref=e2564]: claude plugin marketplace list [options]
+            - strong [ref=e2566]: 选项：
+            - table [ref=e2569]:
+              - rowgroup [ref=e2570]:
+                - row "选项 描述" [ref=e2571]:
+                  - columnheader "选项" [ref=e2572]
+                  - columnheader "描述" [ref=e2573]
+              - rowgroup [ref=e2574]:
+                - row "--json 输出为 JSON" [ref=e2575]:
+                  - cell "--json" [ref=e2576]:
+                    - code [ref=e2577]: "--json"
+                  - cell "输出为 JSON" [ref=e2578]
+            - heading "导航到标题 Plugin marketplace remove" [level=3] [ref=e2579]:
+              - link "导航到标题" [ref=e2580] [cursor=pointer]:
+                - /url: "#plugin-marketplace-remove"
+                - img [ref=e2582]
+              - generic [ref=e2584] [cursor=pointer]: Plugin marketplace remove
+            - generic [ref=e2585]:
+              - text: 删除配置的 marketplace。别名
+              - code [ref=e2586]: rm
+              - text: 也被接受。
+            - generic [ref=e2587]:
+              - generic [ref=e2588]:
+                - button "报告错误代码" [ref=e2590] [cursor=pointer]:
+                  - img [ref=e2591]
+                - button "复制代码块内容" [ref=e2594] [cursor=pointer]:
+                  - img [ref=e2595]
+                - button "询问AI" [ref=e2599] [cursor=pointer]:
+                  - img [ref=e2600]
+              - code [ref=e2606]:
+                - generic [ref=e2607]: claude plugin marketplace remove <name>
+            - strong [ref=e2609]: 参数：
+            - list [ref=e2610]:
+              - listitem [ref=e2611]:
+                - code [ref=e2612]: <name>
+                - text: ：marketplace 名称要删除，如
+                - code [ref=e2613]: claude plugin marketplace list
+                - text: 所示。这是来自
+                - code [ref=e2614]: marketplace.json
+                - text: 的
+                - code [ref=e2615]: name
+                - text: ，而不是你传递给
+                - code [ref=e2616]: add
+                - text: 的源
+            - generic [ref=e2617]:
+              - img "警告" [ref=e2619]
+              - generic [ref=e2622]:
+                - text: 删除 marketplace 也会卸载你从它安装的任何 plugins。要刷新 marketplace 而不丢失已安装的 plugins，请改用
+                - code [ref=e2623]: claude plugin marketplace update
+                - text: 。
+            - heading "导航到标题 Plugin marketplace update" [level=3] [ref=e2624]:
+              - link "导航到标题" [ref=e2625] [cursor=pointer]:
+                - /url: "#plugin-marketplace-update"
+                - img [ref=e2627]
+              - generic [ref=e2629] [cursor=pointer]: Plugin marketplace update
+            - generic [ref=e2630]: 从其源刷新 marketplaces 以检索新 plugins 和版本更改。
+            - generic [ref=e2631]:
+              - generic [ref=e2632]:
+                - button "报告错误代码" [ref=e2634] [cursor=pointer]:
+                  - img [ref=e2635]
+                - button "复制代码块内容" [ref=e2638] [cursor=pointer]:
+                  - img [ref=e2639]
+                - button "询问AI" [ref=e2643] [cursor=pointer]:
+                  - img [ref=e2644]
+              - code [ref=e2650]:
+                - generic [ref=e2651]: claude plugin marketplace update [name]
+            - strong [ref=e2653]: 参数：
+            - list [ref=e2654]:
+              - listitem [ref=e2655]:
+                - code [ref=e2656]: "[name]"
+                - text: ：marketplace 名称要更新，如
+                - code [ref=e2657]: claude plugin marketplace list
+                - text: 所示。如果省略，更新所有 marketplaces
+            - generic [ref=e2658]:
+              - code [ref=e2659]: remove
+              - text: 和
+              - code [ref=e2660]: update
+              - text: 在针对种子管理的 marketplace 运行时都会失败，这是只读的。更新所有 marketplaces 时，种子管理的条目被跳过，其他 marketplaces 仍然更新。要更改种子提供的 plugins，请要求你的管理员更新种子镜像。见
+              - link "为容器预填充 plugins" [ref=e2661] [cursor=pointer]:
+                - /url: "#pre-populate-plugins-for-containers"
+              - text: 。
+            - heading "导航到标题 故障排除" [level=2] [ref=e2662]:
+              - link "导航到标题" [ref=e2663] [cursor=pointer]:
+                - /url: "#故障排除"
+                - img [ref=e2665]
+              - generic [ref=e2667] [cursor=pointer]: 故障排除
+            - heading "导航到标题 Marketplace 未加载" [level=3] [ref=e2668]:
+              - link "导航到标题" [ref=e2669] [cursor=pointer]:
+                - /url: "#marketplace-未加载"
+                - img [ref=e2671]
+              - generic [ref=e2673] [cursor=pointer]: Marketplace 未加载
+            - generic [ref=e2674]:
+              - strong [ref=e2675]: 症状
+              - text: ：无法添加 marketplace 或从中看到 plugins
+            - generic [ref=e2676]:
+              - strong [ref=e2677]: 解决方案
+              - text: ：
+            - list [ref=e2678]:
+              - listitem [ref=e2679]: 验证 marketplace URL 是否可访问
+              - listitem [ref=e2680]:
+                - text: 检查
+                - code [ref=e2681]: .claude-plugin/marketplace.json
+                - text: 是否存在于指定路径
+              - listitem [ref=e2682]:
+                - text: 使用
+                - code [ref=e2683]: claude plugin validate
+                - text: 或
+                - code [ref=e2684]: /plugin validate
+                - text: 确保 JSON 语法有效且 frontmatter 格式正确
+              - listitem [ref=e2685]: 对于私有存储库，确认你有访问权限
+            - heading "导航到标题 Marketplace 验证错误" [level=3] [ref=e2686]:
+              - link "导航到标题" [ref=e2687] [cursor=pointer]:
+                - /url: "#marketplace-验证错误"
+                - img [ref=e2689]
+              - generic [ref=e2691] [cursor=pointer]: Marketplace 验证错误
+            - generic [ref=e2692]:
+              - text: 从你的 marketplace 目录运行
+              - code [ref=e2693]: claude plugin validate .
+              - text: 或
+              - code [ref=e2694]: /plugin validate .
+              - text: 来检查问题。验证器检查
+              - code [ref=e2695]: plugin.json
+              - text: 、skill/agent/command frontmatter 和
+              - code [ref=e2696]: hooks/hooks.json
+              - text: 的语法和架构错误。常见错误：
+            - table [ref=e2699]:
+              - rowgroup [ref=e2700]:
+                - row "错误 原因 解决方案" [ref=e2701]:
+                  - columnheader "错误" [ref=e2702]
+                  - columnheader "原因" [ref=e2703]
+                  - columnheader "解决方案" [ref=e2704]
+              - rowgroup [ref=e2705]:
+                - 'row "File not found: .claude-plugin/marketplace.json 缺少 manifest 使用必需字段创建 .claude-plugin/marketplace.json" [ref=e2706]':
+                  - 'cell "File not found: .claude-plugin/marketplace.json" [ref=e2707]':
+                    - code [ref=e2708]: "File not found: .claude-plugin/marketplace.json"
+                  - cell "缺少 manifest" [ref=e2709]
+                  - cell "使用必需字段创建 .claude-plugin/marketplace.json" [ref=e2710]:
+                    - text: 使用必需字段创建
+                    - code [ref=e2711]: .claude-plugin/marketplace.json
+                - 'row "Invalid JSON syntax: Unexpected token... JSON 语法错误 检查缺少的逗号、多余的逗号或未引用的字符串" [ref=e2712]':
+                  - 'cell "Invalid JSON syntax: Unexpected token..." [ref=e2713]':
+                    - code [ref=e2714]: "Invalid JSON syntax: Unexpected token..."
+                  - cell "JSON 语法错误" [ref=e2715]
+                  - cell "检查缺少的逗号、多余的逗号或未引用的字符串" [ref=e2716]
+                - row "Duplicate plugin name \"x\" found in marketplace 两个 plugins 共享相同的名称 给每个 plugin 一个唯一的 name 值" [ref=e2717]:
+                  - cell "Duplicate plugin name \"x\" found in marketplace" [ref=e2718]:
+                    - code [ref=e2719]: Duplicate plugin name "x" found in marketplace
+                  - cell "两个 plugins 共享相同的名称" [ref=e2720]
+                  - cell "给每个 plugin 一个唯一的 name 值" [ref=e2721]:
+                    - text: 给每个 plugin 一个唯一的
+                    - code [ref=e2722]: name
+                    - text: 值
+                - 'row "plugins[0].source: Path contains \"..\" 源路径包含 .. 使用相对于 marketplace 根目录的路径，不包含 ..。见相对路径" [ref=e2723]':
+                  - 'cell "plugins[0].source: Path contains \"..\"" [ref=e2724]':
+                    - code [ref=e2725]: "plugins[0].source: Path contains \"..\""
+                  - cell "源路径包含 .." [ref=e2726]:
+                    - text: 源路径包含
+                    - code [ref=e2727]: ..
+                  - cell "使用相对于 marketplace 根目录的路径，不包含 ..。见相对路径" [ref=e2728]:
+                    - text: 使用相对于 marketplace 根目录的路径，不包含
+                    - code [ref=e2729]: ..
+                    - text: 。见
+                    - link "相对路径" [ref=e2730] [cursor=pointer]:
+                      - /url: "#relative-paths"
+                - 'row "YAML frontmatter failed to parse: ... skill、agent 或 command 文件中的 YAML 无效 修复 frontmatter 块中的 YAML 语法。在运行时，此文件加载时不带元数据。" [ref=e2731]':
+                  - 'cell "YAML frontmatter failed to parse: ..." [ref=e2732]':
+                    - code [ref=e2733]: "YAML frontmatter failed to parse: ..."
+                  - cell "skill、agent 或 command 文件中的 YAML 无效" [ref=e2734]
+                  - cell "修复 frontmatter 块中的 YAML 语法。在运行时，此文件加载时不带元数据。" [ref=e2735]
+                - 'row "Invalid JSON syntax: ...（hooks.json） 格式错误的 hooks/hooks.json 修复 JSON 语法。格式错误的 hooks/hooks.json 会阻止整个 plugin 加载。" [ref=e2736]':
+                  - 'cell "Invalid JSON syntax: ...（hooks.json）" [ref=e2737]':
+                    - code [ref=e2738]: "Invalid JSON syntax: ..."
+                    - text: （hooks.json）
+                  - cell "格式错误的 hooks/hooks.json" [ref=e2739]:
+                    - text: 格式错误的
+                    - code [ref=e2740]: hooks/hooks.json
+                  - cell "修复 JSON 语法。格式错误的 hooks/hooks.json 会阻止整个 plugin 加载。" [ref=e2741]:
+                    - text: 修复 JSON 语法。格式错误的
+                    - code [ref=e2742]: hooks/hooks.json
+                    - text: 会阻止整个 plugin 加载。
+            - generic [ref=e2743]:
+              - strong [ref=e2744]: 警告
+              - text: （非阻止）：
+            - list [ref=e2745]:
+              - listitem [ref=e2746]:
+                - code [ref=e2747]: Marketplace has no plugins defined
+                - text: ：将至少一个 plugin 添加到
+                - code [ref=e2748]: plugins
+                - text: 数组
+              - listitem [ref=e2749]:
+                - code [ref=e2750]: No marketplace description provided
+                - text: ：添加
+                - code [ref=e2751]: metadata.description
+                - text: 以帮助用户理解你的 marketplace
+              - listitem [ref=e2752]:
+                - code [ref=e2753]: Plugin name "x" is not kebab-case
+                - text: ：plugin 名称包含大写字母、空格或特殊字符。重命名为仅包含小写字母、数字和连字符（例如，
+                - code [ref=e2754]: my-plugin
+                - text: ）。Claude Code 接受其他形式，但 Claude.ai marketplace 同步会拒绝它们。
+            - heading "导航到标题 Plugin 安装失败" [level=3] [ref=e2755]:
+              - link "导航到标题" [ref=e2756] [cursor=pointer]:
+                - /url: "#plugin-安装失败"
+                - img [ref=e2758]
+              - generic [ref=e2760] [cursor=pointer]: Plugin 安装失败
+            - generic [ref=e2761]:
+              - strong [ref=e2762]: 症状
+              - text: ：Marketplace 出现但 plugin 安装失败
+            - generic [ref=e2763]:
+              - strong [ref=e2764]: 解决方案
+              - text: ：
+            - list [ref=e2765]:
+              - listitem [ref=e2766]: 验证 plugin 源 URL 是否可访问
+              - listitem [ref=e2767]: 检查 plugin 目录是否包含必需的文件
+              - listitem [ref=e2768]: 对于 GitHub 源，确保存储库是公开的或你有访问权限
+              - listitem [ref=e2769]: 通过手动克隆/下载来测试 plugin 源
+            - heading "导航到标题 私有存储库身份验证失败" [level=3] [ref=e2770]:
+              - link "导航到标题" [ref=e2771] [cursor=pointer]:
+                - /url: "#私有存储库身份验证失败"
+                - img [ref=e2773]
+              - generic [ref=e2775] [cursor=pointer]: 私有存储库身份验证失败
+            - generic [ref=e2776]:
+              - strong [ref=e2777]: 症状
+              - text: ：从私有存储库安装 plugins 时出现身份验证错误
+            - generic [ref=e2778]:
+              - strong [ref=e2779]: 解决方案
+              - text: ：
+            - generic [ref=e2780]: 对于手动安装和更新：
+            - list [ref=e2781]:
+              - listitem [ref=e2782]:
+                - text: 验证你已使用你的 git 提供商进行身份验证（例如，对于 GitHub 运行
+                - code [ref=e2783]: gh auth status
+                - text: ）
+              - listitem [ref=e2784]:
+                - text: 检查你的凭证助手是否配置正确：
+                - code [ref=e2785]: git config --global credential.helper
+              - listitem [ref=e2786]: 尝试手动克隆存储库以验证你的凭证有效
+            - generic [ref=e2787]: 对于后台自动更新：
+            - list [ref=e2788]:
+              - listitem [ref=e2789]:
+                - text: 在你的环境中设置适当的令牌：
+                - code [ref=e2790]: echo $GITHUB_TOKEN
+              - listitem [ref=e2791]: 检查令牌是否具有所需的权限（对存储库的读取访问权限）
+              - listitem [ref=e2792]:
+                - text: 对于 GitHub，确保令牌对私有存储库具有
+                - code [ref=e2793]: repo
+                - text: 范围
+              - listitem [ref=e2794]:
+                - text: 对于 GitLab，确保令牌至少具有
+                - code [ref=e2795]: read_repository
+                - text: 范围
+              - listitem [ref=e2796]: 验证令牌未过期
+            - heading "导航到标题 Marketplace 更新在离线环境中失败" [level=3] [ref=e2797]:
+              - link "导航到标题" [ref=e2798] [cursor=pointer]:
+                - /url: "#marketplace-更新在离线环境中失败"
+                - img [ref=e2800]
+              - generic [ref=e2802] [cursor=pointer]: Marketplace 更新在离线环境中失败
+            - generic [ref=e2803]:
+              - strong [ref=e2804]: 症状
+              - text: ：Marketplace
+              - code [ref=e2805]: git pull
+              - text: 失败，Claude Code 清除现有缓存，导致 plugins 变得不可用。
+            - generic [ref=e2806]:
+              - strong [ref=e2807]: 原因
+              - text: ：默认情况下，当
+              - code [ref=e2808]: git pull
+              - text: 失败时，Claude Code 会删除陈旧的克隆并尝试重新克隆。在离线或隔离的环境中，重新克隆以相同的方式失败，导致 marketplace 目录为空。
+            - generic [ref=e2809]:
+              - strong [ref=e2810]: 解决方案
+              - text: ：设置
+              - code [ref=e2811]: CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE=1
+              - text: 以在拉取失败时保留现有缓存，而不是清除它：
+            - generic [ref=e2812]:
+              - generic [ref=e2813]:
+                - button "报告错误代码" [ref=e2815] [cursor=pointer]:
+                  - img [ref=e2816]
+                - button "复制代码块内容" [ref=e2819] [cursor=pointer]:
+                  - img [ref=e2820]
+                - button "询问AI" [ref=e2824] [cursor=pointer]:
+                  - img [ref=e2825]
+              - code [ref=e2831]:
+                - generic [ref=e2832]: export CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE=1
+            - generic [ref=e2833]:
+              - text: 设置此变量后，Claude Code 在
+              - code [ref=e2834]: git pull
+              - text: 失败时保留陈旧的 marketplace 克隆，并继续使用最后已知的良好状态。对于存储库永远无法访问的完全离线部署，请改用
+              - link "CLAUDE_CODE_PLUGIN_SEED_DIR" [ref=e2835] [cursor=pointer]:
+                - /url: "#pre-populate-plugins-for-containers"
+                - code [ref=e2836]: CLAUDE_CODE_PLUGIN_SEED_DIR
+              - text: 在构建时预填充 plugins 目录。
+            - heading "导航到标题 Git 操作超时" [level=3] [ref=e2837]:
+              - link "导航到标题" [ref=e2838] [cursor=pointer]:
+                - /url: "#git-操作超时"
+                - img [ref=e2840]
+              - generic [ref=e2842] [cursor=pointer]: Git 操作超时
+            - generic [ref=e2843]:
+              - strong [ref=e2844]: 症状
+              - text: ：Plugin 安装或 marketplace 更新失败，出现超时错误，如”Git clone timed out after 120s”或”Git pull timed out after 120s”。
+            - generic [ref=e2845]:
+              - strong [ref=e2846]: 原因
+              - text: ：Claude Code 对所有 git 操作使用 120 秒超时，包括克隆 plugin 存储库和拉取 marketplace 更新。大型存储库或缓慢的网络连接可能超过此限制。
+            - generic [ref=e2847]:
+              - strong [ref=e2848]: 解决方案
+              - text: ：使用
+              - code [ref=e2849]: CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS
+              - text: 环境变量增加超时。该值以毫秒为单位：
+            - generic [ref=e2850]:
+              - generic [ref=e2851]:
+                - button "报告错误代码" [ref=e2853] [cursor=pointer]:
+                  - img [ref=e2854]
+                - button "复制代码块内容" [ref=e2857] [cursor=pointer]:
+                  - img [ref=e2858]
+                - button "询问AI" [ref=e2862] [cursor=pointer]:
+                  - img [ref=e2863]
+              - code [ref=e2869]:
+                - generic [ref=e2870]: "export CLAUDE_CODE_PLUGIN_GIT_TIMEOUT_MS=300000 # 5 minutes"
+            - heading "导航到标题 相对路径 Plugins 在基于 URL 的 marketplaces 中失败" [level=3] [ref=e2871]:
+              - link "导航到标题" [ref=e2872] [cursor=pointer]:
+                - /url: "#相对路径-plugins-在基于-url-的-marketplaces-中失败"
+                - img [ref=e2874]
+              - generic [ref=e2876] [cursor=pointer]: 相对路径 Plugins 在基于 URL 的 marketplaces 中失败
+            - generic [ref=e2877]:
+              - strong [ref=e2878]: 症状
+              - text: ：通过 URL（如
+              - code [ref=e2879]: https://example.com/marketplace.json
+              - text: ）添加了 marketplace，但具有相对路径源（如
+              - code [ref=e2880]: "\"./plugins/my-plugin\""
+              - text: ）的 plugins 无法安装，出现”path not found”错误。
+            - generic [ref=e2881]:
+              - strong [ref=e2882]: 原因
+              - text: ：基于 URL 的 marketplaces 仅下载
+              - code [ref=e2883]: marketplace.json
+              - text: 文件本身。它们不从服务器下载 plugin 文件。marketplace 条目中的相对路径引用远程服务器上未下载的文件。
+            - generic [ref=e2884]:
+              - strong [ref=e2885]: 解决方案
+              - text: ：
+            - list [ref=e2886]:
+              - listitem [ref=e2887]:
+                - strong [ref=e2888]: 使用外部源
+                - text: ：将 plugin 条目更改为使用 GitHub、npm 或 git URL 源而不是相对路径：
+                - generic [ref=e2889]:
+                  - generic [ref=e2890]:
+                    - button "报告错误代码" [ref=e2892] [cursor=pointer]:
+                      - img [ref=e2893]
+                    - button "复制代码块内容" [ref=e2896] [cursor=pointer]:
+                      - img [ref=e2897]
+                    - button "询问AI" [ref=e2901] [cursor=pointer]:
+                      - img [ref=e2902]
+                  - code [ref=e2908]:
+                    - generic [ref=e2909]: "{ \"name\": \"my-plugin\", \"source\": { \"source\": \"github\", \"repo\": \"owner/repo\" } }"
+              - listitem [ref=e2910]:
+                - strong [ref=e2911]: 使用基于 Git 的 marketplace
+                - text: ：在 Git 存储库中托管你的 marketplace 并使用 git URL 添加它。基于 Git 的 marketplaces 克隆整个存储库，使相对路径有效。
+            - heading "导航到标题 安装后文件未找到" [level=3] [ref=e2912]:
+              - link "导航到标题" [ref=e2913] [cursor=pointer]:
+                - /url: "#安装后文件未找到"
+                - img [ref=e2915]
+              - generic [ref=e2917] [cursor=pointer]: 安装后文件未找到
+            - generic [ref=e2918]:
+              - strong [ref=e2919]: 症状
+              - text: ：Plugin 安装但对文件的引用失败，特别是 plugin 目录外的文件
+            - generic [ref=e2920]:
+              - strong [ref=e2921]: 原因
+              - text: ：Plugins 被复制到缓存目录而不是就地使用。引用 plugin 目录外文件的路径（如
+              - code [ref=e2922]: ../shared-utils
+              - text: ）不会工作，因为这些文件不会被复制。
+            - generic [ref=e2923]:
+              - strong [ref=e2924]: 解决方案
+              - text: ：见
+              - link "Plugin 缓存和文件解析" [ref=e2925] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugins-reference#plugin-caching-and-file-resolution
+              - text: 了解解决方法，包括符号链接和目录重组。
+            - generic [ref=e2926]:
+              - text: 有关其他调试工具和常见问题，请参阅
+              - link "调试和开发工具" [ref=e2927] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugins-reference#debugging-and-development-tools
+              - text: 。
+            - heading "导航到标题 另见" [level=2] [ref=e2928]:
+              - link "导航到标题" [ref=e2929] [cursor=pointer]:
+                - /url: "#另见"
+                - img [ref=e2931]
+              - generic [ref=e2933] [cursor=pointer]: 另见
+            - list [ref=e2934]:
+              - listitem [ref=e2935]:
+                - link "发现和安装预构建的 plugins" [ref=e2936] [cursor=pointer]:
+                  - /url: /docs/zh-CN/discover-plugins
+                - text: "- 从现有 marketplaces 安装 plugins"
+              - listitem [ref=e2937]:
+                - link "Plugins" [ref=e2938] [cursor=pointer]:
+                  - /url: /docs/zh-CN/plugins
+                - text: "- 创建你自己的 plugins"
+              - listitem [ref=e2939]:
+                - link "Plugins 参考" [ref=e2940] [cursor=pointer]:
+                  - /url: /docs/zh-CN/plugins-reference
+                - text: "- 完整的技术规范和架构"
+              - listitem [ref=e2941]:
+                - link "Plugin 设置" [ref=e2942] [cursor=pointer]:
+                  - /url: /docs/zh-CN/settings#plugin-settings
+                - text: "- Plugin 配置选项"
+              - listitem [ref=e2943]:
+                - link "strictKnownMarketplaces 参考" [ref=e2944] [cursor=pointer]:
+                  - /url: /docs/zh-CN/settings#strictknownmarketplaces
+                - text: "- 托管 marketplace 限制"
+          - generic [ref=e2946]:
+            - paragraph [ref=e2947]: 此页面对您有帮助吗？
+            - generic [ref=e2949]:
+              - button "是" [ref=e2950] [cursor=pointer]:
+                - img [ref=e2951]
+                - generic [ref=e2953]: 是
+              - button "否" [ref=e2954] [cursor=pointer]:
+                - img [ref=e2955]
+                - generic [ref=e2957]: 否
+          - generic [ref=e2958]:
+            - link "使用分析跟踪团队使用情况" [ref=e2959] [cursor=pointer]:
+              - /url: /docs/zh-CN/analytics
+              - img [ref=e2960]
+              - generic [ref=e2962]: 使用分析跟踪团队使用情况
+            - link "插件依赖版本" [ref=e2963] [cursor=pointer]:
+              - /url: /docs/zh-CN/plugin-dependencies
+              - generic [ref=e2964]: 插件依赖版本
+              - img [ref=e2965]
+          - generic [ref=e2968]:
+            - textbox "提出问题..." [ref=e2969]
+            - generic: Ctrl+I
+            - button "发送消息" [disabled] [ref=e2970]:
+              - img [ref=e2971]
+      - contentinfo [ref=e2973]:
+        - generic [ref=e2975]:
+          - generic [ref=e2976]:
+            - link "Claude Code Docs home page light logo" [ref=e2977] [cursor=pointer]:
+              - /url: /docs/zh-CN/overview
+              - generic [ref=e2978]: Claude Code Docs home page
+              - img "light logo" [ref=e2979]
+            - generic [ref=e2980]:
+              - link "x" [ref=e2981] [cursor=pointer]:
+                - /url: https://x.com/AnthropicAI
+                - generic [ref=e2982]: x
+                - img [ref=e2983]
+              - link "linkedin" [ref=e2984] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/anthropicresearch
+                - generic [ref=e2985]: linkedin
+                - img [ref=e2986]
+          - generic [ref=e2987]:
+            - generic [ref=e2989]:
+              - paragraph [ref=e2990]: Company
+              - link "Anthropic" [ref=e2991] [cursor=pointer]:
+                - /url: https://www.anthropic.com/company
+              - link "Careers" [ref=e2992] [cursor=pointer]:
+                - /url: https://www.anthropic.com/careers
+              - link "Economic Futures" [ref=e2993] [cursor=pointer]:
+                - /url: https://www.anthropic.com/economic-futures
+              - link "Research" [ref=e2994] [cursor=pointer]:
+                - /url: https://www.anthropic.com/research
+              - link "News" [ref=e2995] [cursor=pointer]:
+                - /url: https://www.anthropic.com/news
+              - link "Trust center" [ref=e2996] [cursor=pointer]:
+                - /url: https://trust.anthropic.com/
+              - link "Transparency" [ref=e2997] [cursor=pointer]:
+                - /url: https://www.anthropic.com/transparency
+            - generic [ref=e2999]:
+              - paragraph [ref=e3000]: Help and security
+              - link "Availability" [ref=e3001] [cursor=pointer]:
+                - /url: https://www.anthropic.com/supported-countries
+              - link "Status" [ref=e3002] [cursor=pointer]:
+                - /url: https://status.anthropic.com/
+              - link "Support center" [ref=e3003] [cursor=pointer]:
+                - /url: https://support.claude.com/
+            - generic [ref=e3005]:
+              - paragraph [ref=e3006]: Learn
+              - link "Courses" [ref=e3007] [cursor=pointer]:
+                - /url: https://www.anthropic.com/learn
+              - link "MCP connectors" [ref=e3008] [cursor=pointer]:
+                - /url: https://claude.com/partners/mcp
+              - link "Customer stories" [ref=e3009] [cursor=pointer]:
+                - /url: https://www.claude.com/customers
+              - link "Engineering blog" [ref=e3010] [cursor=pointer]:
+                - /url: https://www.anthropic.com/engineering
+              - link "Events" [ref=e3011] [cursor=pointer]:
+                - /url: https://www.anthropic.com/events
+              - link "Powered by Claude" [ref=e3012] [cursor=pointer]:
+                - /url: https://claude.com/partners/powered-by-claude
+              - link "Service partners" [ref=e3013] [cursor=pointer]:
+                - /url: https://claude.com/partners/services
+              - link "Startups program" [ref=e3014] [cursor=pointer]:
+                - /url: https://claude.com/programs/startups
+            - generic [ref=e3016]:
+              - paragraph [ref=e3017]: Terms and policies
+              - link "Privacy choices" [ref=e3018] [cursor=pointer]:
+                - /url: "#"
+              - link "Privacy policy" [ref=e3019] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/privacy
+              - link "Disclosure policy" [ref=e3020] [cursor=pointer]:
+                - /url: https://www.anthropic.com/responsible-disclosure-policy
+              - link "Usage policy" [ref=e3021] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/aup
+              - link "Commercial terms" [ref=e3022] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/commercial-terms
+              - link "Consumer terms" [ref=e3023] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/consumer-terms
+  - alert [ref=e3024]

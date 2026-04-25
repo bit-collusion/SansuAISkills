@@ -1,0 +1,14 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "跳转到主要内容" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e9]
+      - generic [ref=e76]
+      - contentinfo [ref=e2973]
+  - alert [ref=e3024]
+  - dialog "Cookie settings" [ref=e3025]:
+    - generic [ref=e3026]:
+      - heading "Cookie settings" [level=3] [ref=e3027]
+      - paragraph [ref=e3028]
+      - generic [ref=e3030]

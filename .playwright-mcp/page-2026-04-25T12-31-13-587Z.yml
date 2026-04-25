@@ -1,0 +1,2817 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "跳转到主要内容" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - link "Claude Code Docs home page light logo" [ref=e14] [cursor=pointer]:
+              - /url: /docs/zh-CN/overview
+              - generic [ref=e15]: Claude Code Docs home page
+              - img "light logo" [ref=e16]
+            - button "简体中文" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 简体中文
+              - img [ref=e20]
+          - generic [ref=e22]:
+            - button "打开搜索" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]:
+                - img [ref=e25]
+                - generic [ref=e28]: 搜索...
+              - generic [ref=e29]: Ctrl K
+            - button "切换助手面板" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - generic [ref=e34]: 询问AI
+          - generic [ref=e35]:
+            - navigation [ref=e36]:
+              - list [ref=e37]:
+                - listitem [ref=e38]:
+                  - link "Claude Developer Platform" [ref=e39] [cursor=pointer]:
+                    - /url: https://platform.claude.com/
+                - listitem [ref=e40]:
+                  - link "Claude Code on the Web" [ref=e41] [cursor=pointer]:
+                    - /url: https://claude.ai/code
+                    - generic [ref=e43]:
+                      - generic [ref=e44]: Claude Code on the Web
+                      - img [ref=e45]
+            - button "切换深色模式" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+        - generic [ref=e57]:
+          - link "快速开始" [ref=e58] [cursor=pointer]:
+            - /url: /docs/zh-CN/overview
+            - text: 快速开始
+          - link "使用 Claude Code 构建" [ref=e60] [cursor=pointer]:
+            - /url: /docs/zh-CN/sub-agents
+            - text: 使用 Claude Code 构建
+          - link "部署" [ref=e62] [cursor=pointer]:
+            - /url: /docs/zh-CN/third-party-integrations
+            - text: 部署
+          - link "管理" [ref=e64] [cursor=pointer]:
+            - /url: /docs/zh-CN/admin-setup
+            - text: 管理
+          - link "配置" [ref=e66] [cursor=pointer]:
+            - /url: /docs/zh-CN/settings
+            - text: 配置
+          - link "参考" [ref=e68] [cursor=pointer]:
+            - /url: /docs/zh-CN/cli-reference
+            - text: 参考
+          - link "Agent SDK" [ref=e70] [cursor=pointer]:
+            - /url: /docs/zh-CN/agent-sdk/overview
+            - text: Agent SDK
+          - link "最新动态" [ref=e72] [cursor=pointer]:
+            - /url: /docs/zh-CN/whats-new
+            - text: 最新动态
+          - link "资源" [ref=e74] [cursor=pointer]:
+            - /url: /docs/zh-CN/legal-and-compliance
+            - text: 资源
+      - generic [ref=e76]:
+        - generic [ref=e81]:
+          - heading "参考" [level=5] [ref=e83]
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "CLI 参考" [ref=e86] [cursor=pointer]:
+                - /url: /docs/zh-CN/cli-reference
+                - generic [ref=e89]: CLI 参考
+            - listitem [ref=e90]:
+              - link "命令" [ref=e91] [cursor=pointer]:
+                - /url: /docs/zh-CN/commands
+                - generic [ref=e94]: 命令
+            - listitem [ref=e95]:
+              - link "环境变量" [ref=e96] [cursor=pointer]:
+                - /url: /docs/zh-CN/env-vars
+                - generic [ref=e99]: 环境变量
+            - listitem [ref=e100]:
+              - link "工具参考" [ref=e101] [cursor=pointer]:
+                - /url: /docs/zh-CN/tools-reference
+                - generic [ref=e104]: 工具参考
+            - listitem [ref=e105]:
+              - link "交互模式" [ref=e106] [cursor=pointer]:
+                - /url: /docs/zh-CN/interactive-mode
+                - generic [ref=e109]: 交互模式
+            - listitem [ref=e110]:
+              - link "checkpointing" [ref=e111] [cursor=pointer]:
+                - /url: /docs/zh-CN/checkpointing
+                - generic [ref=e114]: checkpointing
+            - listitem [ref=e115]:
+              - link "Hooks 参考" [ref=e116] [cursor=pointer]:
+                - /url: /docs/zh-CN/hooks
+                - generic [ref=e119]: Hooks 参考
+            - listitem [ref=e120]:
+              - link "Plugins 参考" [ref=e121] [cursor=pointer]:
+                - /url: /docs/zh-CN/plugins-reference
+                - generic [ref=e124]: Plugins 参考
+            - listitem [ref=e125]:
+              - link "Channels 参考" [ref=e126] [cursor=pointer]:
+                - /url: /docs/zh-CN/channels-reference
+                - generic [ref=e129]: Channels 参考
+        - generic [ref=e131]:
+          - generic [ref=e134]:
+            - button "在此页面" [ref=e135] [cursor=pointer]:
+              - img [ref=e136]
+              - generic [ref=e137]: 在此页面
+            - list [ref=e139]:
+              - listitem [ref=e140]:
+                - link "Plugin 组件参考" [ref=e141] [cursor=pointer]:
+                  - /url: "#plugin-%E7%BB%84%E4%BB%B6%E5%8F%82%E8%80%83"
+              - listitem [ref=e142]:
+                - link "Skills" [ref=e143] [cursor=pointer]:
+                  - /url: "#skills"
+              - listitem [ref=e144]:
+                - link "Agents" [ref=e145] [cursor=pointer]:
+                  - /url: "#agents"
+              - listitem [ref=e146]:
+                - link "Hooks" [ref=e147] [cursor=pointer]:
+                  - /url: "#hooks"
+              - listitem [ref=e148]:
+                - link "MCP servers" [ref=e149] [cursor=pointer]:
+                  - /url: "#mcp-servers"
+              - listitem [ref=e150]:
+                - link "LSP servers" [ref=e151] [cursor=pointer]:
+                  - /url: "#lsp-servers"
+              - listitem [ref=e152]:
+                - link "Monitors" [ref=e153] [cursor=pointer]:
+                  - /url: "#monitors"
+              - listitem [ref=e154]:
+                - link "Themes" [ref=e155] [cursor=pointer]:
+                  - /url: "#themes"
+              - listitem [ref=e156]:
+                - link "Plugin 安装范围" [ref=e157] [cursor=pointer]:
+                  - /url: "#plugin-%E5%AE%89%E8%A3%85%E8%8C%83%E5%9B%B4"
+              - listitem [ref=e158]:
+                - link "Plugin 清单架构" [ref=e159] [cursor=pointer]:
+                  - /url: "#plugin-%E6%B8%85%E5%8D%95%E6%9E%B6%E6%9E%84"
+              - listitem [ref=e160]:
+                - link "完整架构" [ref=e161] [cursor=pointer]:
+                  - /url: "#%E5%AE%8C%E6%95%B4%E6%9E%B6%E6%9E%84"
+              - listitem [ref=e162]:
+                - link "必需字段" [ref=e163] [cursor=pointer]:
+                  - /url: "#%E5%BF%85%E9%9C%80%E5%AD%97%E6%AE%B5"
+              - listitem [ref=e164]:
+                - link "元数据字段" [ref=e165] [cursor=pointer]:
+                  - /url: "#%E5%85%83%E6%95%B0%E6%8D%AE%E5%AD%97%E6%AE%B5"
+              - listitem [ref=e166]:
+                - link "组件路径字段" [ref=e167] [cursor=pointer]:
+                  - /url: "#%E7%BB%84%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%AD%97%E6%AE%B5"
+              - listitem [ref=e168]:
+                - link "用户配置" [ref=e169] [cursor=pointer]:
+                  - /url: "#%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE"
+              - listitem [ref=e170]:
+                - link "Channels" [ref=e171] [cursor=pointer]:
+                  - /url: "#channels"
+              - listitem [ref=e172]:
+                - link "路径行为规则" [ref=e173] [cursor=pointer]:
+                  - /url: "#%E8%B7%AF%E5%BE%84%E8%A1%8C%E4%B8%BA%E8%A7%84%E5%88%99"
+              - listitem [ref=e174]:
+                - link "环境变量" [ref=e175] [cursor=pointer]:
+                  - /url: "#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"
+              - listitem [ref=e176]:
+                - link "持久数据目录" [ref=e177] [cursor=pointer]:
+                  - /url: "#%E6%8C%81%E4%B9%85%E6%95%B0%E6%8D%AE%E7%9B%AE%E5%BD%95"
+              - listitem [ref=e178]:
+                - link "Plugin 缓存和文件解析" [ref=e179] [cursor=pointer]:
+                  - /url: "#plugin-%E7%BC%93%E5%AD%98%E5%92%8C%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90"
+              - listitem [ref=e180]:
+                - link "路径遍历限制" [ref=e181] [cursor=pointer]:
+                  - /url: "#%E8%B7%AF%E5%BE%84%E9%81%8D%E5%8E%86%E9%99%90%E5%88%B6"
+              - listitem [ref=e182]:
+                - link "使用外部依赖" [ref=e183] [cursor=pointer]:
+                  - /url: "#%E4%BD%BF%E7%94%A8%E5%A4%96%E9%83%A8%E4%BE%9D%E8%B5%96"
+              - listitem [ref=e184]:
+                - link "Plugin 目录结构" [ref=e185] [cursor=pointer]:
+                  - /url: "#plugin-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"
+              - listitem [ref=e186]:
+                - link "标准 plugin 布局" [ref=e187] [cursor=pointer]:
+                  - /url: "#%E6%A0%87%E5%87%86-plugin-%E5%B8%83%E5%B1%80"
+              - listitem [ref=e188]:
+                - link "文件位置参考" [ref=e189] [cursor=pointer]:
+                  - /url: "#%E6%96%87%E4%BB%B6%E4%BD%8D%E7%BD%AE%E5%8F%82%E8%80%83"
+              - listitem [ref=e190]:
+                - link "CLI 命令参考" [ref=e191] [cursor=pointer]:
+                  - /url: "#cli-%E5%91%BD%E4%BB%A4%E5%8F%82%E8%80%83"
+              - listitem [ref=e192]:
+                - link "plugin install" [ref=e193] [cursor=pointer]:
+                  - /url: "#plugin-install"
+              - listitem [ref=e194]:
+                - link "plugin uninstall" [ref=e195] [cursor=pointer]:
+                  - /url: "#plugin-uninstall"
+              - listitem [ref=e196]:
+                - link "plugin enable" [ref=e197] [cursor=pointer]:
+                  - /url: "#plugin-enable"
+              - listitem [ref=e198]:
+                - link "plugin disable" [ref=e199] [cursor=pointer]:
+                  - /url: "#plugin-disable"
+              - listitem [ref=e200]:
+                - link "plugin update" [ref=e201] [cursor=pointer]:
+                  - /url: "#plugin-update"
+              - listitem [ref=e202]:
+                - link "plugin list" [ref=e203] [cursor=pointer]:
+                  - /url: "#plugin-list"
+              - listitem [ref=e204]:
+                - link "plugin tag" [ref=e205] [cursor=pointer]:
+                  - /url: "#plugin-tag"
+              - listitem [ref=e206]:
+                - link "调试和开发工具" [ref=e207] [cursor=pointer]:
+                  - /url: "#%E8%B0%83%E8%AF%95%E5%92%8C%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"
+              - listitem [ref=e208]:
+                - link "调试命令" [ref=e209] [cursor=pointer]:
+                  - /url: "#%E8%B0%83%E8%AF%95%E5%91%BD%E4%BB%A4"
+              - listitem [ref=e210]:
+                - link "常见问题" [ref=e211] [cursor=pointer]:
+                  - /url: "#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"
+              - listitem [ref=e212]:
+                - link "示例错误消息" [ref=e213] [cursor=pointer]:
+                  - /url: "#%E7%A4%BA%E4%BE%8B%E9%94%99%E8%AF%AF%E6%B6%88%E6%81%AF"
+              - listitem [ref=e214]:
+                - link "Hook 故障排除" [ref=e215] [cursor=pointer]:
+                  - /url: "#hook-%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4"
+              - listitem [ref=e216]:
+                - link "MCP server 故障排除" [ref=e217] [cursor=pointer]:
+                  - /url: "#mcp-server-%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4"
+              - listitem [ref=e218]:
+                - link "目录结构错误" [ref=e219] [cursor=pointer]:
+                  - /url: "#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E9%94%99%E8%AF%AF"
+              - listitem [ref=e220]:
+                - link "分发和版本管理参考" [ref=e221] [cursor=pointer]:
+                  - /url: "#%E5%88%86%E5%8F%91%E5%92%8C%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%8F%82%E8%80%83"
+              - listitem [ref=e222]:
+                - link "版本管理" [ref=e223] [cursor=pointer]:
+                  - /url: "#%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86"
+              - listitem [ref=e224]:
+                - link "另请参阅" [ref=e225] [cursor=pointer]:
+                  - /url: "#%E5%8F%A6%E8%AF%B7%E5%8F%82%E9%98%85"
+          - generic [ref=e226]:
+            - banner [ref=e227]:
+              - generic [ref=e228]:
+                - generic [ref=e229]: 参考
+                - generic [ref=e230]:
+                  - heading "Plugins 参考" [level=1] [ref=e231]
+                  - generic [ref=e232]:
+                    - button "复制页面" [ref=e233] [cursor=pointer]:
+                      - generic [ref=e234]:
+                        - img [ref=e235]
+                        - generic [ref=e238]: 复制页面
+                    - button "更多操作" [ref=e239] [cursor=pointer]:
+                      - img [ref=e240]
+              - paragraph [ref=e243]: Claude Code 插件系统的完整技术参考，包括架构、CLI 命令和组件规范。
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - img "提示" [ref=e247]
+                - generic [ref=e250]:
+                  - text: 想要安装插件？请参阅
+                  - link "发现和安装插件" [ref=e251] [cursor=pointer]:
+                    - /url: /docs/zh-CN/discover-plugins
+                  - text: 。如需创建插件，请参阅
+                  - link "Plugins" [ref=e252] [cursor=pointer]:
+                    - /url: /docs/zh-CN/plugins
+                  - text: 。如需分发插件，请参阅
+                  - link "Plugin marketplaces" [ref=e253] [cursor=pointer]:
+                    - /url: /docs/zh-CN/plugin-marketplaces
+                  - text: 。
+              - generic [ref=e254]: 本参考提供了 Claude Code 插件系统的完整技术规范，包括组件架构、CLI 命令和开发工具。
+              - generic [ref=e255]:
+                - strong [ref=e256]: plugin
+                - text: 是一个自包含的组件目录，用于扩展 Claude Code 的自定义功能。插件组件包括 skills、agents、hooks、MCP servers、LSP servers 和 monitors。
+              - heading "导航到标题 Plugin 组件参考" [level=2] [ref=e257]:
+                - link "导航到标题" [ref=e258] [cursor=pointer]:
+                  - /url: "#plugin-组件参考"
+                  - img [ref=e260]
+                - generic [ref=e262] [cursor=pointer]: Plugin 组件参考
+              - heading "导航到标题 Skills" [level=3] [ref=e263]:
+                - link "导航到标题" [ref=e264] [cursor=pointer]:
+                  - /url: "#skills"
+                  - img [ref=e266]
+                - generic [ref=e268] [cursor=pointer]: Skills
+              - generic [ref=e269]:
+                - text: Plugins 向 Claude Code 添加 skills，创建可由您或 Claude 调用的
+                - code [ref=e270]: /name
+                - text: 快捷方式。
+              - generic [ref=e271]:
+                - strong [ref=e272]: 位置
+                - text: ：插件根目录中的
+                - code [ref=e273]: skills/
+                - text: 或
+                - code [ref=e274]: commands/
+                - text: 目录
+              - generic [ref=e275]:
+                - strong [ref=e276]: 文件格式
+                - text: ：Skills 是包含
+                - code [ref=e277]: SKILL.md
+                - text: 的目录；commands 是简单的 markdown 文件
+              - generic [ref=e278]:
+                - strong [ref=e279]: Skill 结构
+                - text: ：
+              - generic [ref=e280]:
+                - generic [ref=e281]:
+                  - button "报告错误代码" [ref=e283] [cursor=pointer]:
+                    - img [ref=e284]
+                  - button "复制代码块内容" [ref=e287] [cursor=pointer]:
+                    - img [ref=e288]
+                  - button "询问AI" [ref=e292] [cursor=pointer]:
+                    - img [ref=e293]
+                - code [ref=e299]:
+                  - generic [ref=e300]: skills/
+                  - generic [ref=e301]: ├── pdf-processor/
+                  - generic [ref=e302]: │ ├── SKILL.md
+                  - generic [ref=e303]: │ ├── reference.md (可选)
+                  - generic [ref=e304]: │ └── scripts/ (可选)
+                  - generic [ref=e305]: └── code-reviewer/
+                  - generic [ref=e306]: └── SKILL.md
+              - generic [ref=e307]:
+                - strong [ref=e308]: 集成行为
+                - text: ：
+              - list [ref=e309]:
+                - listitem [ref=e310]: 安装插件时会自动发现 Skills 和 commands
+                - listitem [ref=e311]: Claude 可以根据任务上下文自动调用它们
+                - listitem [ref=e312]: Skills 可以在 SKILL.md 旁边包含支持文件
+              - generic [ref=e313]:
+                - text: 有关完整详情，请参阅
+                - link "Skills" [ref=e314] [cursor=pointer]:
+                  - /url: /docs/zh-CN/skills
+                - text: 。
+              - heading "导航到标题 Agents" [level=3] [ref=e315]:
+                - link "导航到标题" [ref=e316] [cursor=pointer]:
+                  - /url: "#agents"
+                  - img [ref=e318]
+                - generic [ref=e320] [cursor=pointer]: Agents
+              - generic [ref=e321]: Plugins 可以为特定任务提供专门的 subagents，Claude 可以在适当时自动调用。
+              - generic [ref=e322]:
+                - strong [ref=e323]: 位置
+                - text: ：插件根目录中的
+                - code [ref=e324]: agents/
+                - text: 目录
+              - generic [ref=e325]:
+                - strong [ref=e326]: 文件格式
+                - text: ：描述 agent 功能的 Markdown 文件
+              - generic [ref=e327]:
+                - strong [ref=e328]: Agent 结构
+                - text: ：
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - button "报告错误代码" [ref=e332] [cursor=pointer]:
+                    - img [ref=e333]
+                  - button "复制代码块内容" [ref=e336] [cursor=pointer]:
+                    - img [ref=e337]
+                  - button "询问AI" [ref=e341] [cursor=pointer]:
+                    - img [ref=e342]
+                - code [ref=e348]:
+                  - generic [ref=e349]: "---"
+                  - generic [ref=e350]: "name: agent-name"
+                  - generic [ref=e351]: "description: 该 agent 的专长以及 Claude 应何时调用它"
+                  - generic [ref=e352]: "model: sonnet"
+                  - generic [ref=e353]: "effort: medium"
+                  - generic [ref=e354]: "maxTurns: 20"
+                  - generic [ref=e355]: "disallowedTools: Write, Edit"
+                  - generic [ref=e356]: "---"
+                  - generic [ref=e357]: 详细的系统提示，描述 agent 的角色、专业知识和行为。
+              - generic [ref=e358]:
+                - text: Plugin agents 支持
+                - code [ref=e359]: name
+                - text: 、
+                - code [ref=e360]: description
+                - text: 、
+                - code [ref=e361]: model
+                - text: 、
+                - code [ref=e362]: effort
+                - text: 、
+                - code [ref=e363]: maxTurns
+                - text: 、
+                - code [ref=e364]: tools
+                - text: 、
+                - code [ref=e365]: disallowedTools
+                - text: 、
+                - code [ref=e366]: skills
+                - text: 、
+                - code [ref=e367]: memory
+                - text: 、
+                - code [ref=e368]: background
+                - text: 和
+                - code [ref=e369]: isolation
+                - text: frontmatter 字段。唯一有效的
+                - code [ref=e370]: isolation
+                - text: 值是
+                - code [ref=e371]: "\"worktree\""
+                - text: 。出于安全原因，plugin 提供的 agents 不支持
+                - code [ref=e372]: hooks
+                - text: 、
+                - code [ref=e373]: mcpServers
+                - text: 和
+                - code [ref=e374]: permissionMode
+                - text: 。
+              - generic [ref=e375]:
+                - strong [ref=e376]: 集成点
+                - text: ：
+              - list [ref=e377]:
+                - listitem [ref=e378]:
+                  - text: Agents 出现在
+                  - code [ref=e379]: /agents
+                  - text: 界面中
+                - listitem [ref=e380]: Claude 可以根据任务上下文自动调用 agents
+                - listitem [ref=e381]: Agents 可以由用户手动调用
+                - listitem [ref=e382]: Plugin agents 与内置 Claude agents 一起工作
+              - generic [ref=e383]:
+                - text: 有关完整详情，请参阅
+                - link "Subagents" [ref=e384] [cursor=pointer]:
+                  - /url: /docs/zh-CN/sub-agents
+                - text: 。
+              - heading "导航到标题 Hooks" [level=3] [ref=e385]:
+                - link "导航到标题" [ref=e386] [cursor=pointer]:
+                  - /url: "#hooks"
+                  - img [ref=e388]
+                - generic [ref=e390] [cursor=pointer]: Hooks
+              - generic [ref=e391]: Plugins 可以提供事件处理程序，自动响应 Claude Code 事件。
+              - generic [ref=e392]:
+                - strong [ref=e393]: 位置
+                - text: ：插件根目录中的
+                - code [ref=e394]: hooks/hooks.json
+                - text: ，或在 plugin.json 中内联
+              - generic [ref=e395]:
+                - strong [ref=e396]: 格式
+                - text: ：具有事件匹配器和操作的 JSON 配置
+              - generic [ref=e397]:
+                - strong [ref=e398]: Hook 配置
+                - text: ：
+              - generic [ref=e399]:
+                - generic [ref=e400]:
+                  - button "报告错误代码" [ref=e402] [cursor=pointer]:
+                    - img [ref=e403]
+                  - button "复制代码块内容" [ref=e406] [cursor=pointer]:
+                    - img [ref=e407]
+                  - button "询问AI" [ref=e411] [cursor=pointer]:
+                    - img [ref=e412]
+                - code [ref=e418]:
+                  - generic [ref=e419]: "{"
+                  - generic [ref=e420]: "\"hooks\": {"
+                  - generic [ref=e421]: "\"PostToolUse\": ["
+                  - generic [ref=e422]: "{"
+                  - generic [ref=e423]: "\"matcher\": \"Write|Edit\","
+                  - generic [ref=e424]: "\"hooks\": ["
+                  - generic [ref=e425]: "{"
+                  - generic [ref=e426]: "\"type\": \"command\","
+                  - generic [ref=e427]: "\"command\": \"${CLAUDE_PLUGIN_ROOT}/scripts/format-code.sh\""
+                  - generic [ref=e428]: "}"
+                  - generic [ref=e429]: "]"
+                  - generic [ref=e430]: "}"
+                  - generic [ref=e431]: "]"
+                  - generic [ref=e432]: "}"
+                  - generic [ref=e433]: "}"
+              - generic [ref=e434]:
+                - text: Plugin hooks 响应与
+                - link "用户定义的 hooks" [ref=e435] [cursor=pointer]:
+                  - /url: /docs/zh-CN/hooks
+                - text: 相同的生命周期事件：
+              - table [ref=e438]:
+                - rowgroup [ref=e439]:
+                  - row "Event When it fires" [ref=e440]:
+                    - columnheader "Event" [ref=e441]
+                    - columnheader "When it fires" [ref=e442]
+                - rowgroup [ref=e443]:
+                  - row "SessionStart When a session begins or resumes" [ref=e444]:
+                    - cell "SessionStart" [ref=e445]:
+                      - code [ref=e446]: SessionStart
+                    - cell "When a session begins or resumes" [ref=e447]
+                  - row "UserPromptSubmit When you submit a prompt, before Claude processes it" [ref=e448]:
+                    - cell "UserPromptSubmit" [ref=e449]:
+                      - code [ref=e450]: UserPromptSubmit
+                    - cell "When you submit a prompt, before Claude processes it" [ref=e451]
+                  - row "UserPromptExpansion When a user-typed command expands into a prompt, before it reaches Claude. Can block the expansion" [ref=e452]:
+                    - cell "UserPromptExpansion" [ref=e453]:
+                      - code [ref=e454]: UserPromptExpansion
+                    - cell "When a user-typed command expands into a prompt, before it reaches Claude. Can block the expansion" [ref=e455]
+                  - row "PreToolUse Before a tool call executes. Can block it" [ref=e456]:
+                    - cell "PreToolUse" [ref=e457]:
+                      - code [ref=e458]: PreToolUse
+                    - cell "Before a tool call executes. Can block it" [ref=e459]
+                  - row "PermissionRequest When a permission dialog appears" [ref=e460]:
+                    - cell "PermissionRequest" [ref=e461]:
+                      - code [ref=e462]: PermissionRequest
+                    - cell "When a permission dialog appears" [ref=e463]
+                  - 'row "PermissionDenied When a tool call is denied by the auto mode classifier. Return {retry: true} to tell the model it may retry the denied tool call" [ref=e464]':
+                    - cell "PermissionDenied" [ref=e465]:
+                      - code [ref=e466]: PermissionDenied
+                    - 'cell "When a tool call is denied by the auto mode classifier. Return {retry: true} to tell the model it may retry the denied tool call" [ref=e467]':
+                      - text: When a tool call is denied by the auto mode classifier. Return
+                      - code [ref=e468]: "{retry: true}"
+                      - text: to tell the model it may retry the denied tool call
+                  - row "PostToolUse After a tool call succeeds" [ref=e469]:
+                    - cell "PostToolUse" [ref=e470]:
+                      - code [ref=e471]: PostToolUse
+                    - cell "After a tool call succeeds" [ref=e472]
+                  - row "PostToolUseFailure After a tool call fails" [ref=e473]:
+                    - cell "PostToolUseFailure" [ref=e474]:
+                      - code [ref=e475]: PostToolUseFailure
+                    - cell "After a tool call fails" [ref=e476]
+                  - row "PostToolBatch After a full batch of parallel tool calls resolves, before the next model call" [ref=e477]:
+                    - cell "PostToolBatch" [ref=e478]:
+                      - code [ref=e479]: PostToolBatch
+                    - cell "After a full batch of parallel tool calls resolves, before the next model call" [ref=e480]
+                  - row "Notification When Claude Code sends a notification" [ref=e481]:
+                    - cell "Notification" [ref=e482]:
+                      - code [ref=e483]: Notification
+                    - cell "When Claude Code sends a notification" [ref=e484]
+                  - row "SubagentStart When a subagent is spawned" [ref=e485]:
+                    - cell "SubagentStart" [ref=e486]:
+                      - code [ref=e487]: SubagentStart
+                    - cell "When a subagent is spawned" [ref=e488]
+                  - row "SubagentStop When a subagent finishes" [ref=e489]:
+                    - cell "SubagentStop" [ref=e490]:
+                      - code [ref=e491]: SubagentStop
+                    - cell "When a subagent finishes" [ref=e492]
+                  - row "TaskCreated When a task is being created via TaskCreate" [ref=e493]:
+                    - cell "TaskCreated" [ref=e494]:
+                      - code [ref=e495]: TaskCreated
+                    - cell "When a task is being created via TaskCreate" [ref=e496]:
+                      - text: When a task is being created via
+                      - code [ref=e497]: TaskCreate
+                  - row "TaskCompleted When a task is being marked as completed" [ref=e498]:
+                    - cell "TaskCompleted" [ref=e499]:
+                      - code [ref=e500]: TaskCompleted
+                    - cell "When a task is being marked as completed" [ref=e501]
+                  - row "Stop When Claude finishes responding" [ref=e502]:
+                    - cell "Stop" [ref=e503]:
+                      - code [ref=e504]: Stop
+                    - cell "When Claude finishes responding" [ref=e505]
+                  - row "StopFailure When the turn ends due to an API error. Output and exit code are ignored" [ref=e506]:
+                    - cell "StopFailure" [ref=e507]:
+                      - code [ref=e508]: StopFailure
+                    - cell "When the turn ends due to an API error. Output and exit code are ignored" [ref=e509]
+                  - row "TeammateIdle When an agent team teammate is about to go idle" [ref=e510]:
+                    - cell "TeammateIdle" [ref=e511]:
+                      - code [ref=e512]: TeammateIdle
+                    - cell "When an agent team teammate is about to go idle" [ref=e513]:
+                      - text: When an
+                      - link "agent team" [ref=e514] [cursor=pointer]:
+                        - /url: /docs/en/agent-teams
+                      - text: teammate is about to go idle
+                  - row "InstructionsLoaded When a CLAUDE.md or .claude/rules/*.md file is loaded into context. Fires at session start and when files are lazily loaded during a session" [ref=e515]:
+                    - cell "InstructionsLoaded" [ref=e516]:
+                      - code [ref=e517]: InstructionsLoaded
+                    - cell "When a CLAUDE.md or .claude/rules/*.md file is loaded into context. Fires at session start and when files are lazily loaded during a session" [ref=e518]:
+                      - text: When a CLAUDE.md or
+                      - code [ref=e519]: .claude/rules/*.md
+                      - text: file is loaded into context. Fires at session start and when files are lazily loaded during a session
+                  - row "ConfigChange When a configuration file changes during a session" [ref=e520]:
+                    - cell "ConfigChange" [ref=e521]:
+                      - code [ref=e522]: ConfigChange
+                    - cell "When a configuration file changes during a session" [ref=e523]
+                  - row "CwdChanged When the working directory changes, for example when Claude executes a cd command. Useful for reactive environment management with tools like direnv" [ref=e524]:
+                    - cell "CwdChanged" [ref=e525]:
+                      - code [ref=e526]: CwdChanged
+                    - cell "When the working directory changes, for example when Claude executes a cd command. Useful for reactive environment management with tools like direnv" [ref=e527]:
+                      - text: When the working directory changes, for example when Claude executes a
+                      - code [ref=e528]: cd
+                      - text: command. Useful for reactive environment management with tools like direnv
+                  - row "FileChanged When a watched file changes on disk. The matcher field specifies which filenames to watch" [ref=e529]:
+                    - cell "FileChanged" [ref=e530]:
+                      - code [ref=e531]: FileChanged
+                    - cell "When a watched file changes on disk. The matcher field specifies which filenames to watch" [ref=e532]:
+                      - text: When a watched file changes on disk. The
+                      - code [ref=e533]: matcher
+                      - text: field specifies which filenames to watch
+                  - 'row "WorktreeCreate When a worktree is being created via --worktree or isolation: \"worktree\". Replaces default git behavior" [ref=e534]':
+                    - cell "WorktreeCreate" [ref=e535]:
+                      - code [ref=e536]: WorktreeCreate
+                    - 'cell "When a worktree is being created via --worktree or isolation: \"worktree\". Replaces default git behavior" [ref=e537]':
+                      - text: When a worktree is being created via
+                      - code [ref=e538]: "--worktree"
+                      - text: or
+                      - code [ref=e539]: "isolation: \"worktree\""
+                      - text: . Replaces default git behavior
+                  - row "WorktreeRemove When a worktree is being removed, either at session exit or when a subagent finishes" [ref=e540]:
+                    - cell "WorktreeRemove" [ref=e541]:
+                      - code [ref=e542]: WorktreeRemove
+                    - cell "When a worktree is being removed, either at session exit or when a subagent finishes" [ref=e543]
+                  - row "PreCompact Before context compaction" [ref=e544]:
+                    - cell "PreCompact" [ref=e545]:
+                      - code [ref=e546]: PreCompact
+                    - cell "Before context compaction" [ref=e547]
+                  - row "PostCompact After context compaction completes" [ref=e548]:
+                    - cell "PostCompact" [ref=e549]:
+                      - code [ref=e550]: PostCompact
+                    - cell "After context compaction completes" [ref=e551]
+                  - row "Elicitation When an MCP server requests user input during a tool call" [ref=e552]:
+                    - cell "Elicitation" [ref=e553]:
+                      - code [ref=e554]: Elicitation
+                    - cell "When an MCP server requests user input during a tool call" [ref=e555]
+                  - row "ElicitationResult After a user responds to an MCP elicitation, before the response is sent back to the server" [ref=e556]:
+                    - cell "ElicitationResult" [ref=e557]:
+                      - code [ref=e558]: ElicitationResult
+                    - cell "After a user responds to an MCP elicitation, before the response is sent back to the server" [ref=e559]
+                  - row "SessionEnd When a session terminates" [ref=e560]:
+                    - cell "SessionEnd" [ref=e561]:
+                      - code [ref=e562]: SessionEnd
+                    - cell "When a session terminates" [ref=e563]
+              - generic [ref=e564]:
+                - strong [ref=e565]: Hook 类型
+                - text: ：
+              - list [ref=e566]:
+                - listitem [ref=e567]:
+                  - code [ref=e568]: command
+                  - text: ：执行 shell 命令或脚本
+                - listitem [ref=e569]:
+                  - code [ref=e570]: http
+                  - text: ：将事件 JSON 作为 POST 请求发送到 URL
+                - listitem [ref=e571]:
+                  - code [ref=e572]: mcp_tool
+                  - text: ：在配置的
+                  - link "MCP server" [ref=e573] [cursor=pointer]:
+                    - /url: /docs/zh-CN/mcp
+                  - text: 上调用工具
+                - listitem [ref=e574]:
+                  - code [ref=e575]: prompt
+                  - text: ：使用 LLM 评估提示（使用
+                  - code [ref=e576]: $ARGUMENTS
+                  - text: 占位符表示上下文）
+                - listitem [ref=e577]:
+                  - code [ref=e578]: agent
+                  - text: ：运行具有工具的 agentic 验证器以完成复杂验证任务
+              - heading "导航到标题 MCP servers" [level=3] [ref=e579]:
+                - link "导航到标题" [ref=e580] [cursor=pointer]:
+                  - /url: "#mcp-servers"
+                  - img [ref=e582]
+                - generic [ref=e584] [cursor=pointer]: MCP servers
+              - generic [ref=e585]: Plugins 可以捆绑 Model Context Protocol (MCP) servers 以将 Claude Code 与外部工具和服务连接。
+              - generic [ref=e586]:
+                - strong [ref=e587]: 位置
+                - text: ：插件根目录中的
+                - code [ref=e588]: .mcp.json
+                - text: ，或在 plugin.json 中内联
+              - generic [ref=e589]:
+                - strong [ref=e590]: 格式
+                - text: ：标准 MCP server 配置
+              - generic [ref=e591]:
+                - strong [ref=e592]: MCP server 配置
+                - text: ：
+              - generic [ref=e593]:
+                - generic [ref=e594]:
+                  - button "报告错误代码" [ref=e596] [cursor=pointer]:
+                    - img [ref=e597]
+                  - button "复制代码块内容" [ref=e600] [cursor=pointer]:
+                    - img [ref=e601]
+                  - button "询问AI" [ref=e605] [cursor=pointer]:
+                    - img [ref=e606]
+                - code [ref=e612]:
+                  - generic [ref=e613]: "{"
+                  - generic [ref=e614]: "\"mcpServers\": {"
+                  - generic [ref=e615]: "\"plugin-database\": {"
+                  - generic [ref=e616]: "\"command\": \"${CLAUDE_PLUGIN_ROOT}/servers/db-server\","
+                  - generic [ref=e617]: "\"args\": [\"--config\", \"${CLAUDE_PLUGIN_ROOT}/config.json\"],"
+                  - generic [ref=e618]: "\"env\": {"
+                  - generic [ref=e619]: "\"DB_PATH\": \"${CLAUDE_PLUGIN_ROOT}/data\""
+                  - generic [ref=e620]: "}"
+                  - generic [ref=e621]: "},"
+                  - generic [ref=e622]: "\"plugin-api-client\": {"
+                  - generic [ref=e623]: "\"command\": \"npx\","
+                  - generic [ref=e624]: "\"args\": [\"@company/mcp-server\", \"--plugin-mode\"],"
+                  - generic [ref=e625]: "\"cwd\": \"${CLAUDE_PLUGIN_ROOT}\""
+                  - generic [ref=e626]: "}"
+                  - generic [ref=e627]: "}"
+                  - generic [ref=e628]: "}"
+              - generic [ref=e629]:
+                - strong [ref=e630]: 集成行为
+                - text: ：
+              - list [ref=e631]:
+                - listitem [ref=e632]: 启用插件时，Plugin MCP servers 会自动启动
+                - listitem [ref=e633]: Servers 在 Claude 的工具包中显示为标准 MCP 工具
+                - listitem [ref=e634]: Server 功能与 Claude 的现有工具无缝集成
+                - listitem [ref=e635]: Plugin servers 可以独立于用户 MCP servers 进行配置
+              - heading "导航到标题 LSP servers" [level=3] [ref=e636]:
+                - link "导航到标题" [ref=e637] [cursor=pointer]:
+                  - /url: "#lsp-servers"
+                  - img [ref=e639]
+                - generic [ref=e641] [cursor=pointer]: LSP servers
+              - generic [ref=e642]:
+                - img "提示" [ref=e644]
+                - generic [ref=e647]:
+                  - text: 想要使用 LSP plugins？从官方市场安装它们：在
+                  - code [ref=e648]: /plugin
+                  - text: Discover 选项卡中搜索”lsp”。本部分记录了如何为官方市场未涵盖的语言创建 LSP plugins。
+              - generic [ref=e649]:
+                - text: Plugins 可以提供
+                - link "Language Server Protocol" [ref=e650] [cursor=pointer]:
+                  - /url: https://microsoft.github.io/language-server-protocol/
+                - text: (LSP) servers，在处理代码库时为 Claude 提供实时代码智能。
+              - generic [ref=e651]: LSP 集成提供：
+              - list [ref=e652]:
+                - listitem [ref=e653]:
+                  - strong [ref=e654]: 即时诊断
+                  - text: ：Claude 在每次编辑后立即看到错误和警告
+                - listitem [ref=e655]:
+                  - strong [ref=e656]: 代码导航
+                  - text: ：转到定义、查找引用和悬停信息
+                - listitem [ref=e657]:
+                  - strong [ref=e658]: 语言感知
+                  - text: ：代码符号的类型信息和文档
+              - generic [ref=e659]:
+                - strong [ref=e660]: 位置
+                - text: ：插件根目录中的
+                - code [ref=e661]: .lsp.json
+                - text: ，或在
+                - code [ref=e662]: plugin.json
+                - text: 中内联
+              - generic [ref=e663]:
+                - strong [ref=e664]: 格式
+                - text: ：将语言服务器名称映射到其配置的 JSON 配置
+              - generic [ref=e665]:
+                - strong [ref=e666]:
+                  - code [ref=e667]: .lsp.json
+                  - text: 文件格式
+                - text: ：
+              - generic [ref=e668]:
+                - generic [ref=e669]:
+                  - button "报告错误代码" [ref=e671] [cursor=pointer]:
+                    - img [ref=e672]
+                  - button "复制代码块内容" [ref=e675] [cursor=pointer]:
+                    - img [ref=e676]
+                  - button "询问AI" [ref=e680] [cursor=pointer]:
+                    - img [ref=e681]
+                - code [ref=e687]:
+                  - generic [ref=e688]: "{"
+                  - generic [ref=e689]: "\"go\": {"
+                  - generic [ref=e690]: "\"command\": \"gopls\","
+                  - generic [ref=e691]: "\"args\": [\"serve\"],"
+                  - generic [ref=e692]: "\"extensionToLanguage\": {"
+                  - generic [ref=e693]: "\".go\": \"go\""
+                  - generic [ref=e694]: "}"
+                  - generic [ref=e695]: "}"
+                  - generic [ref=e696]: "}"
+              - generic [ref=e697]:
+                - strong [ref=e698]:
+                  - text: 在
+                  - code [ref=e699]: plugin.json
+                  - text: 中内联
+                - text: ：
+              - generic [ref=e700]:
+                - generic [ref=e701]:
+                  - button "报告错误代码" [ref=e703] [cursor=pointer]:
+                    - img [ref=e704]
+                  - button "复制代码块内容" [ref=e707] [cursor=pointer]:
+                    - img [ref=e708]
+                  - button "询问AI" [ref=e712] [cursor=pointer]:
+                    - img [ref=e713]
+                - code [ref=e719]:
+                  - generic [ref=e720]: "{"
+                  - generic [ref=e721]: "\"name\": \"my-plugin\","
+                  - generic [ref=e722]: "\"lspServers\": {"
+                  - generic [ref=e723]: "\"go\": {"
+                  - generic [ref=e724]: "\"command\": \"gopls\","
+                  - generic [ref=e725]: "\"args\": [\"serve\"],"
+                  - generic [ref=e726]: "\"extensionToLanguage\": {"
+                  - generic [ref=e727]: "\".go\": \"go\""
+                  - generic [ref=e728]: "}"
+                  - generic [ref=e729]: "}"
+                  - generic [ref=e730]: "}"
+                  - generic [ref=e731]: "}"
+              - strong [ref=e733]: 必需字段：
+              - table [ref=e736]:
+                - rowgroup [ref=e737]:
+                  - row "字段 描述" [ref=e738]:
+                    - columnheader "字段" [ref=e739]
+                    - columnheader "描述" [ref=e740]
+                - rowgroup [ref=e741]:
+                  - row "command 要执行的 LSP 二进制文件（必须在 PATH 中）" [ref=e742]:
+                    - cell "command" [ref=e743]:
+                      - code [ref=e744]: command
+                    - cell "要执行的 LSP 二进制文件（必须在 PATH 中）" [ref=e745]
+                  - row "extensionToLanguage 将文件扩展名映射到语言标识符" [ref=e746]:
+                    - cell "extensionToLanguage" [ref=e747]:
+                      - code [ref=e748]: extensionToLanguage
+                    - cell "将文件扩展名映射到语言标识符" [ref=e749]
+              - strong [ref=e751]: 可选字段：
+              - table [ref=e754]:
+                - rowgroup [ref=e755]:
+                  - row "字段 描述" [ref=e756]:
+                    - columnheader "字段" [ref=e757]
+                    - columnheader "描述" [ref=e758]
+                - rowgroup [ref=e759]:
+                  - row "args LSP server 的命令行参数" [ref=e760]:
+                    - cell "args" [ref=e761]:
+                      - code [ref=e762]: args
+                    - cell "LSP server 的命令行参数" [ref=e763]
+                  - row "transport 通信传输：stdio（默认）或 socket" [ref=e764]:
+                    - cell "transport" [ref=e765]:
+                      - code [ref=e766]: transport
+                    - cell "通信传输：stdio（默认）或 socket" [ref=e767]:
+                      - text: 通信传输：
+                      - code [ref=e768]: stdio
+                      - text: （默认）或
+                      - code [ref=e769]: socket
+                  - row "env 启动 server 时要设置的环境变量" [ref=e770]:
+                    - cell "env" [ref=e771]:
+                      - code [ref=e772]: env
+                    - cell "启动 server 时要设置的环境变量" [ref=e773]
+                  - row "initializationOptions 在初始化期间传递给 server 的选项" [ref=e774]:
+                    - cell "initializationOptions" [ref=e775]:
+                      - code [ref=e776]: initializationOptions
+                    - cell "在初始化期间传递给 server 的选项" [ref=e777]
+                  - row "settings 通过 workspace/didChangeConfiguration 传递的设置" [ref=e778]:
+                    - cell "settings" [ref=e779]:
+                      - code [ref=e780]: settings
+                    - cell "通过 workspace/didChangeConfiguration 传递的设置" [ref=e781]:
+                      - text: 通过
+                      - code [ref=e782]: workspace/didChangeConfiguration
+                      - text: 传递的设置
+                  - row "workspaceFolder server 的工作区文件夹路径" [ref=e783]:
+                    - cell "workspaceFolder" [ref=e784]:
+                      - code [ref=e785]: workspaceFolder
+                    - cell "server 的工作区文件夹路径" [ref=e786]
+                  - row "startupTimeout 等待 server 启动的最长时间（毫秒）" [ref=e787]:
+                    - cell "startupTimeout" [ref=e788]:
+                      - code [ref=e789]: startupTimeout
+                    - cell "等待 server 启动的最长时间（毫秒）" [ref=e790]
+                  - row "shutdownTimeout 等待正常关闭的最长时间（毫秒）" [ref=e791]:
+                    - cell "shutdownTimeout" [ref=e792]:
+                      - code [ref=e793]: shutdownTimeout
+                    - cell "等待正常关闭的最长时间（毫秒）" [ref=e794]
+                  - row "restartOnCrash server 崩溃时是否自动重启" [ref=e795]:
+                    - cell "restartOnCrash" [ref=e796]:
+                      - code [ref=e797]: restartOnCrash
+                    - cell "server 崩溃时是否自动重启" [ref=e798]
+                  - row "maxRestarts 放弃前的最大重启尝试次数" [ref=e799]:
+                    - cell "maxRestarts" [ref=e800]:
+                      - code [ref=e801]: maxRestarts
+                    - cell "放弃前的最大重启尝试次数" [ref=e802]
+              - generic [ref=e803]:
+                - img "警告" [ref=e805]
+                - generic [ref=e808]:
+                  - strong [ref=e809]: 您必须单独安装语言服务器二进制文件。
+                  - text: LSP plugins 配置 Claude Code 如何连接到语言服务器，但它们不包括服务器本身。如果在
+                  - code [ref=e810]: /plugin
+                  - text: Errors 选项卡中看到
+                  - code [ref=e811]: Executable not found in $PATH
+                  - text: ，请为您的语言安装所需的二进制文件。
+              - strong [ref=e813]: 可用的 LSP plugins：
+              - table [ref=e816]:
+                - rowgroup [ref=e817]:
+                  - row "Plugin 语言服务器 安装命令" [ref=e818]:
+                    - columnheader "Plugin" [ref=e819]
+                    - columnheader "语言服务器" [ref=e820]
+                    - columnheader "安装命令" [ref=e821]
+                - rowgroup [ref=e822]:
+                  - row "pyright-lsp Pyright (Python) pip install pyright 或 npm install -g pyright" [ref=e823]:
+                    - cell "pyright-lsp" [ref=e824]:
+                      - code [ref=e825]: pyright-lsp
+                    - cell "Pyright (Python)" [ref=e826]
+                    - cell "pip install pyright 或 npm install -g pyright" [ref=e827]:
+                      - code [ref=e828]: pip install pyright
+                      - text: 或
+                      - code [ref=e829]: npm install -g pyright
+                  - row "typescript-lsp TypeScript Language Server npm install -g typescript-language-server typescript" [ref=e830]:
+                    - cell "typescript-lsp" [ref=e831]:
+                      - code [ref=e832]: typescript-lsp
+                    - cell "TypeScript Language Server" [ref=e833]
+                    - cell "npm install -g typescript-language-server typescript" [ref=e834]:
+                      - code [ref=e835]: npm install -g typescript-language-server typescript
+                  - row "rust-lsp rust-analyzer 参阅 rust-analyzer 安装" [ref=e836]:
+                    - cell "rust-lsp" [ref=e837]:
+                      - code [ref=e838]: rust-lsp
+                    - cell "rust-analyzer" [ref=e839]
+                    - cell "参阅 rust-analyzer 安装" [ref=e840]:
+                      - link "参阅 rust-analyzer 安装" [ref=e841] [cursor=pointer]:
+                        - /url: https://rust-analyzer.github.io/manual.html#installation
+              - generic [ref=e842]: 首先安装语言服务器，然后从市场安装 plugin。
+              - heading "导航到标题 Monitors" [level=3] [ref=e843]:
+                - link "导航到标题" [ref=e844] [cursor=pointer]:
+                  - /url: "#monitors"
+                  - img [ref=e846]
+                - generic [ref=e848] [cursor=pointer]: Monitors
+              - generic [ref=e849]: Plugins 可以声明后台 monitors，Claude Code 在 plugin 激活时自动启动。每个 monitor 为会话的生命周期运行一个 shell 命令，并将每个 stdout 行作为通知传递给 Claude，以便 Claude 可以对日志条目、状态更改或轮询事件做出反应，而无需被要求启动监视本身。
+              - generic [ref=e850]:
+                - text: Plugin monitors 使用与
+                - link "Monitor tool" [ref=e851] [cursor=pointer]:
+                  - /url: /docs/zh-CN/tools-reference#monitor-tool
+                - text: 相同的机制，并共享其可用性约束。它们仅在交互式 CLI 会话中运行，在与
+                - link "hooks" [ref=e852] [cursor=pointer]:
+                  - /url: "#hooks"
+                - text: 相同的信任级别上无沙箱运行，并在 Monitor tool 不可用的主机上跳过。
+              - generic [ref=e853]:
+                - img "注意" [ref=e855]
+                - generic [ref=e858]: Plugin monitors 需要 Claude Code v2.1.105 或更高版本。
+              - generic [ref=e859]:
+                - strong [ref=e860]: 位置
+                - text: ：插件根目录中的
+                - code [ref=e861]: monitors/monitors.json
+                - text: ，或在 plugin.json 中内联
+              - generic [ref=e862]:
+                - strong [ref=e863]: 格式
+                - text: ：监视器条目的 JSON 数组
+              - generic [ref=e864]:
+                - text: 以下
+                - code [ref=e865]: monitors/monitors.json
+                - text: 监视部署状态端点和本地错误日志：
+              - generic [ref=e866]:
+                - generic [ref=e867]:
+                  - button "报告错误代码" [ref=e869] [cursor=pointer]:
+                    - img [ref=e870]
+                  - button "复制代码块内容" [ref=e873] [cursor=pointer]:
+                    - img [ref=e874]
+                  - button "询问AI" [ref=e878] [cursor=pointer]:
+                    - img [ref=e879]
+                - code [ref=e885]:
+                  - generic [ref=e886]: "["
+                  - generic [ref=e887]: "{"
+                  - generic [ref=e888]: "\"name\": \"deploy-status\","
+                  - generic [ref=e889]: "\"command\": \"${CLAUDE_PLUGIN_ROOT}/scripts/poll-deploy.sh ${user_config.api_endpoint}\","
+                  - generic [ref=e890]: "\"description\": \"Deployment status changes\""
+                  - generic [ref=e891]: "},"
+                  - generic [ref=e892]: "{"
+                  - generic [ref=e893]: "\"name\": \"error-log\","
+                  - generic [ref=e894]: "\"command\": \"tail -F ./logs/error.log\","
+                  - generic [ref=e895]: "\"description\": \"Application error log\","
+                  - generic [ref=e896]: "\"when\": \"on-skill-invoke:debug\""
+                  - generic [ref=e897]: "}"
+                  - generic [ref=e898]: "]"
+              - generic [ref=e899]:
+                - text: 要内联声明 monitors，请将
+                - code [ref=e900]: plugin.json
+                - text: 中的
+                - code [ref=e901]: monitors
+                - text: 键设置为相同的数组。要从非默认路径加载，请将
+                - code [ref=e902]: monitors
+                - text: 设置为相对路径字符串，例如
+                - code [ref=e903]: "\"./config/monitors.json\""
+                - text: 。
+              - strong [ref=e905]: 必需字段：
+              - table [ref=e908]:
+                - rowgroup [ref=e909]:
+                  - row "字段 描述" [ref=e910]:
+                    - columnheader "字段" [ref=e911]
+                    - columnheader "描述" [ref=e912]
+                - rowgroup [ref=e913]:
+                  - row "name 在插件中唯一的标识符。防止插件重新加载或再次调用 skill 时出现重复进程" [ref=e914]:
+                    - cell "name" [ref=e915]:
+                      - code [ref=e916]: name
+                    - cell "在插件中唯一的标识符。防止插件重新加载或再次调用 skill 时出现重复进程" [ref=e917]
+                  - row "command 在会话工作目录中作为持久后台进程运行的 shell 命令" [ref=e918]:
+                    - cell "command" [ref=e919]:
+                      - code [ref=e920]: command
+                    - cell "在会话工作目录中作为持久后台进程运行的 shell 命令" [ref=e921]
+                  - row "description 正在监视的内容的简短摘要。显示在任务面板和通知摘要中" [ref=e922]:
+                    - cell "description" [ref=e923]:
+                      - code [ref=e924]: description
+                    - cell "正在监视的内容的简短摘要。显示在任务面板和通知摘要中" [ref=e925]
+              - strong [ref=e927]: 可选字段：
+              - table [ref=e930]:
+                - rowgroup [ref=e931]:
+                  - row "字段 描述" [ref=e932]:
+                    - columnheader "字段" [ref=e933]
+                    - columnheader "描述" [ref=e934]
+                - rowgroup [ref=e935]:
+                  - row "when 控制 monitor 何时启动。\"always\" 在会话启动和插件重新加载时启动它，这是默认值。\"on-skill-invoke:<skill-name>\" 在此插件中的命名 skill 首次被分派时启动它" [ref=e936]:
+                    - cell "when" [ref=e937]:
+                      - code [ref=e938]: when
+                    - cell "控制 monitor 何时启动。\"always\" 在会话启动和插件重新加载时启动它，这是默认值。\"on-skill-invoke:<skill-name>\" 在此插件中的命名 skill 首次被分派时启动它" [ref=e939]:
+                      - text: 控制 monitor 何时启动。
+                      - code [ref=e940]: "\"always\""
+                      - text: 在会话启动和插件重新加载时启动它，这是默认值。
+                      - code [ref=e941]: "\"on-skill-invoke:<skill-name>\""
+                      - text: 在此插件中的命名 skill 首次被分派时启动它
+              - generic [ref=e942]:
+                - code [ref=e943]: command
+                - text: 值支持与 MCP 和 LSP server 配置相同的
+                - link "变量替换" [ref=e944] [cursor=pointer]:
+                  - /url: "#environment-variables"
+                - text: ：
+                - code [ref=e945]: "${CLAUDE_PLUGIN_ROOT}"
+                - text: 、
+                - code [ref=e946]: "${CLAUDE_PLUGIN_DATA}"
+                - text: 、
+                - code [ref=e947]: "${user_config.*}"
+                - text: 和环境中的任何
+                - code [ref=e948]: "${ENV_VAR}"
+                - text: 。如果脚本需要从插件自己的目录运行，请在命令前加上
+                - code [ref=e949]: "cd \"${CLAUDE_PLUGIN_ROOT}\" &&"
+                - text: 。
+              - generic [ref=e950]: 在会话中途禁用插件不会停止已在运行的 monitors。它们在会话结束时停止。
+              - heading "导航到标题 Themes" [level=3] [ref=e951]:
+                - link "导航到标题" [ref=e952] [cursor=pointer]:
+                  - /url: "#themes"
+                  - img [ref=e954]
+                - generic [ref=e956] [cursor=pointer]: Themes
+              - generic [ref=e957]:
+                - text: Plugins 可以提供颜色主题，这些主题与内置预设和用户的本地主题一起出现在
+                - code [ref=e958]: /theme
+                - text: 中。主题是
+                - code [ref=e959]: themes/
+                - text: 中的 JSON 文件，具有
+                - code [ref=e960]: base
+                - text: 预设和稀疏的
+                - code [ref=e961]: overrides
+                - text: 颜色令牌映射。
+              - generic [ref=e962]:
+                - generic [ref=e963]:
+                  - button "报告错误代码" [ref=e965] [cursor=pointer]:
+                    - img [ref=e966]
+                  - button "复制代码块内容" [ref=e969] [cursor=pointer]:
+                    - img [ref=e970]
+                  - button "询问AI" [ref=e974] [cursor=pointer]:
+                    - img [ref=e975]
+                - code [ref=e981]:
+                  - generic [ref=e982]: "{"
+                  - generic [ref=e983]: "\"name\": \"Dracula\","
+                  - generic [ref=e984]: "\"base\": \"dark\","
+                  - generic [ref=e985]: "\"overrides\": {"
+                  - generic [ref=e986]: "\"claude\": \"#bd93f9\","
+                  - generic [ref=e987]: "\"error\": \"#ff5555\","
+                  - generic [ref=e988]: "\"success\": \"#50fa7b\""
+                  - generic [ref=e989]: "}"
+                  - generic [ref=e990]: "}"
+              - generic [ref=e991]:
+                - text: 选择 plugin 主题会在用户的配置中持久化
+                - code [ref=e992]: custom:<plugin-name>:<slug>
+                - text: 。Plugin 主题是只读的；在
+                - code [ref=e993]: /theme
+                - text: 中按
+                - code [ref=e994]: Ctrl+E
+                - text: 会将其复制到
+                - code [ref=e995]: ~/.claude/themes/
+                - text: ，以便用户可以编辑副本。
+              - separator [ref=e996]
+              - heading "导航到标题 Plugin 安装范围" [level=2] [ref=e997]:
+                - link "导航到标题" [ref=e998] [cursor=pointer]:
+                  - /url: "#plugin-安装范围"
+                  - img [ref=e1000]
+                - generic [ref=e1002] [cursor=pointer]: Plugin 安装范围
+              - generic [ref=e1003]:
+                - text: 安装 plugin 时，您选择一个
+                - strong [ref=e1004]: 范围
+                - text: ，确定 plugin 的可用位置以及谁可以使用它：
+              - table [ref=e1007]:
+                - rowgroup [ref=e1008]:
+                  - row "范围 设置文件 用例" [ref=e1009]:
+                    - columnheader "范围" [ref=e1010]
+                    - columnheader "设置文件" [ref=e1011]
+                    - columnheader "用例" [ref=e1012]
+                - rowgroup [ref=e1013]:
+                  - row "user ~/.claude/settings.json 在所有项目中可用的个人 plugins（默认）" [ref=e1014]:
+                    - cell "user" [ref=e1015]:
+                      - code [ref=e1016]: user
+                    - cell "~/.claude/settings.json" [ref=e1017]:
+                      - code [ref=e1018]: ~/.claude/settings.json
+                    - cell "在所有项目中可用的个人 plugins（默认）" [ref=e1019]
+                  - row "project .claude/settings.json 通过版本控制共享的团队 plugins" [ref=e1020]:
+                    - cell "project" [ref=e1021]:
+                      - code [ref=e1022]: project
+                    - cell ".claude/settings.json" [ref=e1023]:
+                      - code [ref=e1024]: .claude/settings.json
+                    - cell "通过版本控制共享的团队 plugins" [ref=e1025]
+                  - row "local .claude/settings.local.json 项目特定的 plugins，gitignored" [ref=e1026]:
+                    - cell "local" [ref=e1027]:
+                      - code [ref=e1028]: local
+                    - cell ".claude/settings.local.json" [ref=e1029]:
+                      - code [ref=e1030]: .claude/settings.local.json
+                    - cell "项目特定的 plugins，gitignored" [ref=e1031]
+                  - row "managed Managed settings 托管 plugins（只读，仅更新）" [ref=e1032]:
+                    - cell "managed" [ref=e1033]:
+                      - code [ref=e1034]: managed
+                    - cell "Managed settings" [ref=e1035]:
+                      - link "Managed settings" [ref=e1036] [cursor=pointer]:
+                        - /url: /docs/zh-CN/settings#settings-files
+                    - cell "托管 plugins（只读，仅更新）" [ref=e1037]
+              - generic [ref=e1038]:
+                - text: Plugins 使用与其他 Claude Code 配置相同的范围系统。有关安装说明和范围标志，请参阅
+                - link "安装 plugins" [ref=e1039] [cursor=pointer]:
+                  - /url: /docs/zh-CN/discover-plugins#install-plugins
+                - text: 。有关范围的完整说明，请参阅
+                - link "Configuration scopes" [ref=e1040] [cursor=pointer]:
+                  - /url: /docs/zh-CN/settings#configuration-scopes
+                - text: 。
+              - separator [ref=e1041]
+              - heading "导航到标题 Plugin 清单架构" [level=2] [ref=e1042]:
+                - link "导航到标题" [ref=e1043] [cursor=pointer]:
+                  - /url: "#plugin-清单架构"
+                  - img [ref=e1045]
+                - generic [ref=e1047] [cursor=pointer]: Plugin 清单架构
+              - generic [ref=e1048]:
+                - code [ref=e1049]: .claude-plugin/plugin.json
+                - text: 文件定义了您的 plugin 的元数据和配置。本部分记录了所有支持的字段和选项。
+              - generic [ref=e1050]:
+                - text: 清单是可选的。如果省略，Claude Code 会自动发现
+                - link "默认位置" [ref=e1051] [cursor=pointer]:
+                  - /url: "#file-locations-reference"
+                - text: 中的组件，并从目录名称派生 plugin 名称。当您需要提供元数据或自定义组件路径时，使用清单。
+              - heading "导航到标题 完整架构" [level=3] [ref=e1052]:
+                - link "导航到标题" [ref=e1053] [cursor=pointer]:
+                  - /url: "#完整架构"
+                  - img [ref=e1055]
+                - generic [ref=e1057] [cursor=pointer]: 完整架构
+              - generic [ref=e1058]:
+                - generic [ref=e1059]:
+                  - button "报告错误代码" [ref=e1061] [cursor=pointer]:
+                    - img [ref=e1062]
+                  - button "复制代码块内容" [ref=e1065] [cursor=pointer]:
+                    - img [ref=e1066]
+                  - button "询问AI" [ref=e1070] [cursor=pointer]:
+                    - img [ref=e1071]
+                - code [ref=e1077]:
+                  - generic [ref=e1078]: "{"
+                  - generic [ref=e1079]: "\"name\": \"plugin-name\","
+                  - generic [ref=e1080]: "\"version\": \"1.2.0\","
+                  - generic [ref=e1081]: "\"description\": \"Brief plugin description\","
+                  - generic [ref=e1082]: "\"author\": {"
+                  - generic [ref=e1083]: "\"name\": \"Author Name\","
+                  - generic [ref=e1084]: "\"email\": \"author@example.com\","
+                  - generic [ref=e1085]: "\"url\": \"https://github.com/author\""
+                  - generic [ref=e1086]: "},"
+                  - generic [ref=e1087]: "\"homepage\": \"https://docs.example.com/plugin\","
+                  - generic [ref=e1088]: "\"repository\": \"https://github.com/author/plugin\","
+                  - generic [ref=e1089]: "\"license\": \"MIT\","
+                  - generic [ref=e1090]: "\"keywords\": [\"keyword1\", \"keyword2\"],"
+                  - generic [ref=e1091]: "\"skills\": \"./custom/skills/\","
+                  - generic [ref=e1092]: "\"commands\": [\"./custom/commands/special.md\"],"
+                  - generic [ref=e1093]: "\"agents\": \"./custom/agents/\","
+                  - generic [ref=e1094]: "\"hooks\": \"./config/hooks.json\","
+                  - generic [ref=e1095]: "\"mcpServers\": \"./mcp-config.json\","
+                  - generic [ref=e1096]: "\"outputStyles\": \"./styles/\","
+                  - generic [ref=e1097]: "\"themes\": \"./themes/\","
+                  - generic [ref=e1098]: "\"lspServers\": \"./.lsp.json\","
+                  - generic [ref=e1099]: "\"monitors\": \"./monitors.json\","
+                  - generic [ref=e1100]: "\"dependencies\": ["
+                  - generic [ref=e1101]: "\"helper-lib\","
+                  - generic [ref=e1102]: "{ \"name\": \"secrets-vault\", \"version\": \"~2.1.0\" }"
+                  - generic [ref=e1103]: "]"
+                  - generic [ref=e1104]: "}"
+              - heading "导航到标题 必需字段" [level=3] [ref=e1105]:
+                - link "导航到标题" [ref=e1106] [cursor=pointer]:
+                  - /url: "#必需字段"
+                  - img [ref=e1108]
+                - generic [ref=e1110] [cursor=pointer]: 必需字段
+              - generic [ref=e1111]:
+                - text: 如果包含清单，
+                - code [ref=e1112]: name
+                - text: 是唯一必需的字段。
+              - table [ref=e1115]:
+                - rowgroup [ref=e1116]:
+                  - row "字段 类型 描述 示例" [ref=e1117]:
+                    - columnheader "字段" [ref=e1118]
+                    - columnheader "类型" [ref=e1119]
+                    - columnheader "描述" [ref=e1120]
+                    - columnheader "示例" [ref=e1121]
+                - rowgroup [ref=e1122]:
+                  - row "name string 唯一标识符（kebab-case，无空格） \"deployment-tools\"" [ref=e1123]:
+                    - cell "name" [ref=e1124]:
+                      - code [ref=e1125]: name
+                    - cell "string" [ref=e1126]
+                    - cell "唯一标识符（kebab-case，无空格）" [ref=e1127]
+                    - cell "\"deployment-tools\"" [ref=e1128]:
+                      - code [ref=e1129]: "\"deployment-tools\""
+              - generic [ref=e1130]:
+                - text: 此名称用于命名空间组件。例如，在 UI 中，名为
+                - code [ref=e1131]: plugin-dev
+                - text: 的 plugin 的 agent
+                - code [ref=e1132]: agent-creator
+                - text: 将显示为
+                - code [ref=e1133]: plugin-dev:agent-creator
+                - text: 。
+              - heading "导航到标题 元数据字段" [level=3] [ref=e1134]:
+                - link "导航到标题" [ref=e1135] [cursor=pointer]:
+                  - /url: "#元数据字段"
+                  - img [ref=e1137]
+                - generic [ref=e1139] [cursor=pointer]: 元数据字段
+              - table [ref=e1142]:
+                - rowgroup [ref=e1143]:
+                  - row "字段 类型 描述 示例" [ref=e1144]:
+                    - columnheader "字段" [ref=e1145]
+                    - columnheader "类型" [ref=e1146]
+                    - columnheader "描述" [ref=e1147]
+                    - columnheader "示例" [ref=e1148]
+                - rowgroup [ref=e1149]:
+                  - row "version string 可选。语义版本。设置此项会将 plugin 固定到该版本字符串，因此用户仅在您提升版本时才会收到更新。如果省略，Claude Code 会回退到 git commit SHA，因此每个 commit 都被视为新版本。如果也在市场条目中设置，plugin.json 优先。请参阅版本管理。 \"2.1.0\"" [ref=e1150]:
+                    - cell "version" [ref=e1151]:
+                      - code [ref=e1152]: version
+                    - cell "string" [ref=e1153]
+                    - cell "可选。语义版本。设置此项会将 plugin 固定到该版本字符串，因此用户仅在您提升版本时才会收到更新。如果省略，Claude Code 会回退到 git commit SHA，因此每个 commit 都被视为新版本。如果也在市场条目中设置，plugin.json 优先。请参阅版本管理。" [ref=e1154]:
+                      - text: 可选。语义版本。设置此项会将 plugin 固定到该版本字符串，因此用户仅在您提升版本时才会收到更新。如果省略，Claude Code 会回退到 git commit SHA，因此每个 commit 都被视为新版本。如果也在市场条目中设置，
+                      - code [ref=e1155]: plugin.json
+                      - text: 优先。请参阅
+                      - link "版本管理" [ref=e1156] [cursor=pointer]:
+                        - /url: "#version-management"
+                      - text: 。
+                    - cell "\"2.1.0\"" [ref=e1157]:
+                      - code [ref=e1158]: "\"2.1.0\""
+                  - row "description string plugin 目的的简要说明 \"Deployment automation tools\"" [ref=e1159]:
+                    - cell "description" [ref=e1160]:
+                      - code [ref=e1161]: description
+                    - cell "string" [ref=e1162]
+                    - cell "plugin 目的的简要说明" [ref=e1163]
+                    - cell "\"Deployment automation tools\"" [ref=e1164]:
+                      - code [ref=e1165]: "\"Deployment automation tools\""
+                  - 'row "author object 作者信息 {\"name\": \"Dev Team\", \"email\": \"dev@company.com\"}" [ref=e1166]':
+                    - cell "author" [ref=e1167]:
+                      - code [ref=e1168]: author
+                    - cell "object" [ref=e1169]
+                    - cell "作者信息" [ref=e1170]
+                    - 'cell "{\"name\": \"Dev Team\", \"email\": \"dev@company.com\"}" [ref=e1171]':
+                      - code [ref=e1172]: "{\"name\": \"Dev Team\", \"email\": \"dev@company.com\"}"
+                  - row "homepage string 文档 URL \"https://docs.example.com\"" [ref=e1173]:
+                    - cell "homepage" [ref=e1174]:
+                      - code [ref=e1175]: homepage
+                    - cell "string" [ref=e1176]
+                    - cell "文档 URL" [ref=e1177]
+                    - cell "\"https://docs.example.com\"" [ref=e1178]:
+                      - code [ref=e1179]: "\"https://docs.example.com\""
+                  - row "repository string 源代码 URL \"https://github.com/user/plugin\"" [ref=e1180]:
+                    - cell "repository" [ref=e1181]:
+                      - code [ref=e1182]: repository
+                    - cell "string" [ref=e1183]
+                    - cell "源代码 URL" [ref=e1184]
+                    - cell "\"https://github.com/user/plugin\"" [ref=e1185]:
+                      - code [ref=e1186]: "\"https://github.com/user/plugin\""
+                  - row "license string 许可证标识符 \"MIT\"、\"Apache-2.0\"" [ref=e1187]:
+                    - cell "license" [ref=e1188]:
+                      - code [ref=e1189]: license
+                    - cell "string" [ref=e1190]
+                    - cell "许可证标识符" [ref=e1191]
+                    - cell "\"MIT\"、\"Apache-2.0\"" [ref=e1192]:
+                      - code [ref=e1193]: "\"MIT\""
+                      - text: 、
+                      - code [ref=e1194]: "\"Apache-2.0\""
+                  - row "keywords array 发现标签 [\"deployment\", \"ci-cd\"]" [ref=e1195]:
+                    - cell "keywords" [ref=e1196]:
+                      - code [ref=e1197]: keywords
+                    - cell "array" [ref=e1198]
+                    - cell "发现标签" [ref=e1199]
+                    - cell "[\"deployment\", \"ci-cd\"]" [ref=e1200]:
+                      - code [ref=e1201]: "[\"deployment\", \"ci-cd\"]"
+              - heading "导航到标题 组件路径字段" [level=3] [ref=e1202]:
+                - link "导航到标题" [ref=e1203] [cursor=pointer]:
+                  - /url: "#组件路径字段"
+                  - img [ref=e1205]
+                - generic [ref=e1207] [cursor=pointer]: 组件路径字段
+              - table [ref=e1210]:
+                - rowgroup [ref=e1211]:
+                  - row "字段 类型 描述 示例" [ref=e1212]:
+                    - columnheader "字段" [ref=e1213]
+                    - columnheader "类型" [ref=e1214]
+                    - columnheader "描述" [ref=e1215]
+                    - columnheader "示例" [ref=e1216]
+                - rowgroup [ref=e1217]:
+                  - row "skills string|array 包含 <name>/SKILL.md 的自定义 skill 目录（替换默认 skills/） \"./custom/skills/\"" [ref=e1218]:
+                    - cell "skills" [ref=e1219]:
+                      - code [ref=e1220]: skills
+                    - cell "string|array" [ref=e1221]
+                    - cell "包含 <name>/SKILL.md 的自定义 skill 目录（替换默认 skills/）" [ref=e1222]:
+                      - text: 包含
+                      - code [ref=e1223]: <name>/SKILL.md
+                      - text: 的自定义 skill 目录（替换默认
+                      - code [ref=e1224]: skills/
+                      - text: ）
+                    - cell "\"./custom/skills/\"" [ref=e1225]:
+                      - code [ref=e1226]: "\"./custom/skills/\""
+                  - row "commands string|array 自定义平面 .md skill 文件或目录（替换默认 commands/） \"./custom/cmd.md\" 或 [\"./cmd1.md\"]" [ref=e1227]:
+                    - cell "commands" [ref=e1228]:
+                      - code [ref=e1229]: commands
+                    - cell "string|array" [ref=e1230]
+                    - cell "自定义平面 .md skill 文件或目录（替换默认 commands/）" [ref=e1231]:
+                      - text: 自定义平面
+                      - code [ref=e1232]: .md
+                      - text: skill 文件或目录（替换默认
+                      - code [ref=e1233]: commands/
+                      - text: ）
+                    - cell "\"./custom/cmd.md\" 或 [\"./cmd1.md\"]" [ref=e1234]:
+                      - code [ref=e1235]: "\"./custom/cmd.md\""
+                      - text: 或
+                      - code [ref=e1236]: "[\"./cmd1.md\"]"
+                  - row "agents string|array 自定义 agent 文件（替换默认 agents/） \"./custom/agents/reviewer.md\"" [ref=e1237]:
+                    - cell "agents" [ref=e1238]:
+                      - code [ref=e1239]: agents
+                    - cell "string|array" [ref=e1240]
+                    - cell "自定义 agent 文件（替换默认 agents/）" [ref=e1241]:
+                      - text: 自定义 agent 文件（替换默认
+                      - code [ref=e1242]: agents/
+                      - text: ）
+                    - cell "\"./custom/agents/reviewer.md\"" [ref=e1243]:
+                      - code [ref=e1244]: "\"./custom/agents/reviewer.md\""
+                  - row "hooks string|array|object Hook 配置路径或内联配置 \"./my-extra-hooks.json\"" [ref=e1245]:
+                    - cell "hooks" [ref=e1246]:
+                      - code [ref=e1247]: hooks
+                    - cell "string|array|object" [ref=e1248]
+                    - cell "Hook 配置路径或内联配置" [ref=e1249]
+                    - cell "\"./my-extra-hooks.json\"" [ref=e1250]:
+                      - code [ref=e1251]: "\"./my-extra-hooks.json\""
+                  - row "mcpServers string|array|object MCP 配置路径或内联配置 \"./my-extra-mcp-config.json\"" [ref=e1252]:
+                    - cell "mcpServers" [ref=e1253]:
+                      - code [ref=e1254]: mcpServers
+                    - cell "string|array|object" [ref=e1255]
+                    - cell "MCP 配置路径或内联配置" [ref=e1256]
+                    - cell "\"./my-extra-mcp-config.json\"" [ref=e1257]:
+                      - code [ref=e1258]: "\"./my-extra-mcp-config.json\""
+                  - row "outputStyles string|array 自定义输出样式文件/目录（替换默认 output-styles/） \"./styles/\"" [ref=e1259]:
+                    - cell "outputStyles" [ref=e1260]:
+                      - code [ref=e1261]: outputStyles
+                    - cell "string|array" [ref=e1262]
+                    - cell "自定义输出样式文件/目录（替换默认 output-styles/）" [ref=e1263]:
+                      - text: 自定义输出样式文件/目录（替换默认
+                      - code [ref=e1264]: output-styles/
+                      - text: ）
+                    - cell "\"./styles/\"" [ref=e1265]:
+                      - code [ref=e1266]: "\"./styles/\""
+                  - row "themes string|array 颜色主题文件/目录（替换默认 themes/）。请参阅Themes \"./themes/\"" [ref=e1267]:
+                    - cell "themes" [ref=e1268]:
+                      - code [ref=e1269]: themes
+                    - cell "string|array" [ref=e1270]
+                    - cell "颜色主题文件/目录（替换默认 themes/）。请参阅Themes" [ref=e1271]:
+                      - text: 颜色主题文件/目录（替换默认
+                      - code [ref=e1272]: themes/
+                      - text: ）。请参阅
+                      - link "Themes" [ref=e1273] [cursor=pointer]:
+                        - /url: "#themes"
+                    - cell "\"./themes/\"" [ref=e1274]:
+                      - code [ref=e1275]: "\"./themes/\""
+                  - row "lspServers string|array|object Language Server Protocol 配置用于代码智能（转到定义、查找引用等） \"./.lsp.json\"" [ref=e1276]:
+                    - cell "lspServers" [ref=e1277]:
+                      - code [ref=e1278]: lspServers
+                    - cell "string|array|object" [ref=e1279]
+                    - cell "Language Server Protocol 配置用于代码智能（转到定义、查找引用等）" [ref=e1280]:
+                      - link "Language Server Protocol" [ref=e1281] [cursor=pointer]:
+                        - /url: https://microsoft.github.io/language-server-protocol/
+                      - text: 配置用于代码智能（转到定义、查找引用等）
+                    - cell "\"./.lsp.json\"" [ref=e1282]:
+                      - code [ref=e1283]: "\"./.lsp.json\""
+                  - row "monitors string|array 后台Monitor配置，在 plugin 激活时自动启动。请参阅Monitors \"./monitors.json\"" [ref=e1284]:
+                    - cell "monitors" [ref=e1285]:
+                      - code [ref=e1286]: monitors
+                    - cell "string|array" [ref=e1287]
+                    - cell "后台Monitor配置，在 plugin 激活时自动启动。请参阅Monitors" [ref=e1288]:
+                      - text: 后台
+                      - link "Monitor" [ref=e1289] [cursor=pointer]:
+                        - /url: /docs/zh-CN/tools-reference#monitor-tool
+                      - text: 配置，在 plugin 激活时自动启动。请参阅
+                      - link "Monitors" [ref=e1290] [cursor=pointer]:
+                        - /url: "#monitors"
+                    - cell "\"./monitors.json\"" [ref=e1291]:
+                      - code [ref=e1292]: "\"./monitors.json\""
+                  - row "userConfig object 用户可配置的值，在启用时提示。请参阅用户配置 见下文" [ref=e1293]:
+                    - cell "userConfig" [ref=e1294]:
+                      - code [ref=e1295]: userConfig
+                    - cell "object" [ref=e1296]
+                    - cell "用户可配置的值，在启用时提示。请参阅用户配置" [ref=e1297]:
+                      - text: 用户可配置的值，在启用时提示。请参阅
+                      - link "用户配置" [ref=e1298] [cursor=pointer]:
+                        - /url: "#user-configuration"
+                    - cell "见下文" [ref=e1299]
+                  - row "channels array 消息注入的频道声明（Telegram、Slack、Discord 风格）。请参阅Channels 见下文" [ref=e1300]:
+                    - cell "channels" [ref=e1301]:
+                      - code [ref=e1302]: channels
+                    - cell "array" [ref=e1303]
+                    - cell "消息注入的频道声明（Telegram、Slack、Discord 风格）。请参阅Channels" [ref=e1304]:
+                      - text: 消息注入的频道声明（Telegram、Slack、Discord 风格）。请参阅
+                      - link "Channels" [ref=e1305] [cursor=pointer]:
+                        - /url: "#channels"
+                    - cell "见下文" [ref=e1306]
+                  - 'row "dependencies array 此 plugin 需要的其他 plugins，可选择带有 semver 版本约束。请参阅约束 plugin 依赖版本 [{ \"name\": \"secrets-vault\", \"version\": \"~2.1.0\" }]" [ref=e1307]':
+                    - cell "dependencies" [ref=e1308]:
+                      - code [ref=e1309]: dependencies
+                    - cell "array" [ref=e1310]
+                    - cell "此 plugin 需要的其他 plugins，可选择带有 semver 版本约束。请参阅约束 plugin 依赖版本" [ref=e1311]:
+                      - text: 此 plugin 需要的其他 plugins，可选择带有 semver 版本约束。请参阅
+                      - link "约束 plugin 依赖版本" [ref=e1312] [cursor=pointer]:
+                        - /url: /docs/zh-CN/plugin-dependencies
+                    - 'cell "[{ \"name\": \"secrets-vault\", \"version\": \"~2.1.0\" }]" [ref=e1313]':
+                      - code [ref=e1314]: "[{ \"name\": \"secrets-vault\", \"version\": \"~2.1.0\" }]"
+              - heading "导航到标题 用户配置" [level=3] [ref=e1315]:
+                - link "导航到标题" [ref=e1316] [cursor=pointer]:
+                  - /url: "#用户配置"
+                  - img [ref=e1318]
+                - generic [ref=e1320] [cursor=pointer]: 用户配置
+              - generic [ref=e1321]:
+                - code [ref=e1322]: userConfig
+                - text: 字段声明了 Claude Code 在启用 plugin 时提示用户的值。使用此字段而不是要求用户手动编辑
+                - code [ref=e1323]: settings.json
+                - text: 。
+              - generic [ref=e1324]:
+                - generic [ref=e1325]:
+                  - button "报告错误代码" [ref=e1327] [cursor=pointer]:
+                    - img [ref=e1328]
+                  - button "复制代码块内容" [ref=e1331] [cursor=pointer]:
+                    - img [ref=e1332]
+                  - button "询问AI" [ref=e1336] [cursor=pointer]:
+                    - img [ref=e1337]
+                - code [ref=e1343]:
+                  - generic [ref=e1344]: "{"
+                  - generic [ref=e1345]: "\"userConfig\": {"
+                  - generic [ref=e1346]: "\"api_endpoint\": {"
+                  - generic [ref=e1347]: "\"type\": \"string\","
+                  - generic [ref=e1348]: "\"title\": \"API endpoint\","
+                  - generic [ref=e1349]: "\"description\": \"Your team's API endpoint\""
+                  - generic [ref=e1350]: "},"
+                  - generic [ref=e1351]: "\"api_token\": {"
+                  - generic [ref=e1352]: "\"type\": \"string\","
+                  - generic [ref=e1353]: "\"title\": \"API token\","
+                  - generic [ref=e1354]: "\"description\": \"API authentication token\","
+                  - generic [ref=e1355]: "\"sensitive\": true"
+                  - generic [ref=e1356]: "}"
+                  - generic [ref=e1357]: "}"
+                  - generic [ref=e1358]: "}"
+              - generic [ref=e1359]: 键必须是有效的标识符。每个选项支持这些字段：
+              - table [ref=e1362]:
+                - rowgroup [ref=e1363]:
+                  - row "字段 必需 描述" [ref=e1364]:
+                    - columnheader "字段" [ref=e1365]
+                    - columnheader "必需" [ref=e1366]
+                    - columnheader "描述" [ref=e1367]
+                - rowgroup [ref=e1368]:
+                  - row "type 是 以下之一：string、number、boolean、directory 或 file" [ref=e1369]:
+                    - cell "type" [ref=e1370]:
+                      - code [ref=e1371]: type
+                    - cell "是" [ref=e1372]
+                    - cell "以下之一：string、number、boolean、directory 或 file" [ref=e1373]:
+                      - text: 以下之一：
+                      - code [ref=e1374]: string
+                      - text: 、
+                      - code [ref=e1375]: number
+                      - text: 、
+                      - code [ref=e1376]: boolean
+                      - text: 、
+                      - code [ref=e1377]: directory
+                      - text: 或
+                      - code [ref=e1378]: file
+                  - row "title 是 在配置对话框中显示的标签" [ref=e1379]:
+                    - cell "title" [ref=e1380]:
+                      - code [ref=e1381]: title
+                    - cell "是" [ref=e1382]
+                    - cell "在配置对话框中显示的标签" [ref=e1383]
+                  - row "description 是 显示在字段下方的帮助文本" [ref=e1384]:
+                    - cell "description" [ref=e1385]:
+                      - code [ref=e1386]: description
+                    - cell "是" [ref=e1387]
+                    - cell "显示在字段下方的帮助文本" [ref=e1388]
+                  - row "sensitive 否 如果为 true，掩盖输入并将值存储在安全存储中而不是 settings.json" [ref=e1389]:
+                    - cell "sensitive" [ref=e1390]:
+                      - code [ref=e1391]: sensitive
+                    - cell "否" [ref=e1392]
+                    - cell "如果为 true，掩盖输入并将值存储在安全存储中而不是 settings.json" [ref=e1393]:
+                      - text: 如果为
+                      - code [ref=e1394]: "true"
+                      - text: ，掩盖输入并将值存储在安全存储中而不是
+                      - code [ref=e1395]: settings.json
+                  - row "required 否 如果为 true，当字段为空时验证失败" [ref=e1396]:
+                    - cell "required" [ref=e1397]:
+                      - code [ref=e1398]: required
+                    - cell "否" [ref=e1399]
+                    - cell "如果为 true，当字段为空时验证失败" [ref=e1400]:
+                      - text: 如果为
+                      - code [ref=e1401]: "true"
+                      - text: ，当字段为空时验证失败
+                  - row "default 否 用户未提供任何内容时使用的值" [ref=e1402]:
+                    - cell "default" [ref=e1403]:
+                      - code [ref=e1404]: default
+                    - cell "否" [ref=e1405]
+                    - cell "用户未提供任何内容时使用的值" [ref=e1406]
+                  - row "multiple 否 对于 string 类型，允许字符串数组" [ref=e1407]:
+                    - cell "multiple" [ref=e1408]:
+                      - code [ref=e1409]: multiple
+                    - cell "否" [ref=e1410]
+                    - cell "对于 string 类型，允许字符串数组" [ref=e1411]:
+                      - text: 对于
+                      - code [ref=e1412]: string
+                      - text: 类型，允许字符串数组
+                  - row "min / max 否 number 类型的边界" [ref=e1413]:
+                    - cell "min / max" [ref=e1414]:
+                      - code [ref=e1415]: min
+                      - text: /
+                      - code [ref=e1416]: max
+                    - cell "否" [ref=e1417]
+                    - cell "number 类型的边界" [ref=e1418]:
+                      - code [ref=e1419]: number
+                      - text: 类型的边界
+              - generic [ref=e1420]:
+                - text: 每个值都可用于在 MCP 和 LSP server 配置、hook 命令和 monitor 命令中作为
+                - code [ref=e1421]: "${user_config.KEY}"
+                - text: 进行替换。非敏感值也可以在 skill 和 agent 内容中替换。所有值都作为
+                - code [ref=e1422]: CLAUDE_PLUGIN_OPTION_<KEY>
+                - text: 环境变量导出到 plugin 子进程。
+              - generic [ref=e1423]:
+                - text: 非敏感值存储在
+                - code [ref=e1424]: settings.json
+                - text: 中的
+                - code [ref=e1425]: pluginConfigs[<plugin-id>].options
+                - text: 下。敏感值进入系统钥匙链（或在钥匙链不可用的地方进入
+                - code [ref=e1426]: ~/.claude/.credentials.json
+                - text: ）。钥匙链存储与 OAuth 令牌共享，总限制约为 2 KB，因此请保持敏感值较小。
+              - heading "导航到标题 Channels" [level=3] [ref=e1427]:
+                - link "导航到标题" [ref=e1428] [cursor=pointer]:
+                  - /url: "#channels"
+                  - img [ref=e1430]
+                - generic [ref=e1432] [cursor=pointer]: Channels
+              - generic [ref=e1433]:
+                - code [ref=e1434]: channels
+                - text: 字段允许 plugin 声明一个或多个消息频道，将内容注入到对话中。每个频道绑定到 plugin 提供的 MCP server。
+              - generic [ref=e1435]:
+                - generic [ref=e1436]:
+                  - button "报告错误代码" [ref=e1438] [cursor=pointer]:
+                    - img [ref=e1439]
+                  - button "复制代码块内容" [ref=e1442] [cursor=pointer]:
+                    - img [ref=e1443]
+                  - button "询问AI" [ref=e1447] [cursor=pointer]:
+                    - img [ref=e1448]
+                - code [ref=e1454]:
+                  - generic [ref=e1455]: "{"
+                  - generic [ref=e1456]: "\"channels\": ["
+                  - generic [ref=e1457]: "{"
+                  - generic [ref=e1458]: "\"server\": \"telegram\","
+                  - generic [ref=e1459]: "\"userConfig\": {"
+                  - generic [ref=e1460]: "\"bot_token\": {"
+                  - generic [ref=e1461]: "\"type\": \"string\","
+                  - generic [ref=e1462]: "\"title\": \"Bot token\","
+                  - generic [ref=e1463]: "\"description\": \"Telegram bot token\","
+                  - generic [ref=e1464]: "\"sensitive\": true"
+                  - generic [ref=e1465]: "},"
+                  - generic [ref=e1466]: "\"owner_id\": {"
+                  - generic [ref=e1467]: "\"type\": \"string\","
+                  - generic [ref=e1468]: "\"title\": \"Owner ID\","
+                  - generic [ref=e1469]: "\"description\": \"Your Telegram user ID\""
+                  - generic [ref=e1470]: "}"
+                  - generic [ref=e1471]: "}"
+                  - generic [ref=e1472]: "}"
+                  - generic [ref=e1473]: "]"
+                  - generic [ref=e1474]: "}"
+              - generic [ref=e1475]:
+                - code [ref=e1476]: server
+                - text: 字段是必需的，必须与 plugin 的
+                - code [ref=e1477]: mcpServers
+                - text: 中的键匹配。可选的每个频道
+                - code [ref=e1478]: userConfig
+                - text: 使用与顶级字段相同的架构，允许 plugin 在启用 plugin 时提示输入机器人令牌或所有者 ID。
+              - heading "导航到标题 路径行为规则" [level=3] [ref=e1479]:
+                - link "导航到标题" [ref=e1480] [cursor=pointer]:
+                  - /url: "#路径行为规则"
+                  - img [ref=e1482]
+                - generic [ref=e1484] [cursor=pointer]: 路径行为规则
+              - generic [ref=e1485]:
+                - text: 对于
+                - code [ref=e1486]: skills
+                - text: 、
+                - code [ref=e1487]: commands
+                - text: 、
+                - code [ref=e1488]: agents
+                - text: 、
+                - code [ref=e1489]: outputStyles
+                - text: 、
+                - code [ref=e1490]: themes
+                - text: 和
+                - code [ref=e1491]: monitors
+                - text: ，自定义路径替换默认值。如果清单指定
+                - code [ref=e1492]: skills
+                - text: ，则不会扫描默认
+                - code [ref=e1493]: skills/
+                - text: 目录；如果指定
+                - code [ref=e1494]: monitors
+                - text: ，则不会加载默认
+                - code [ref=e1495]: monitors/monitors.json
+                - text: 。
+                - link "Hooks" [ref=e1496] [cursor=pointer]:
+                  - /url: "#hooks"
+                - text: 、
+                - link "MCP servers" [ref=e1497] [cursor=pointer]:
+                  - /url: "#mcp-servers"
+                - text: 和
+                - link "LSP servers" [ref=e1498] [cursor=pointer]:
+                  - /url: "#lsp-servers"
+                - text: 对处理多个源有不同的语义。
+              - list [ref=e1499]:
+                - listitem [ref=e1500]:
+                  - text: 所有路径必须相对于 plugin 根目录，并以
+                  - code [ref=e1501]: ./
+                  - text: 开头
+                - listitem [ref=e1502]: 来自自定义路径的组件使用相同的命名和命名空间规则
+                - listitem [ref=e1503]: 可以将多个路径指定为数组
+                - listitem [ref=e1504]:
+                  - text: 要保留默认目录并为 skills、commands、agents 或 output styles 添加更多路径，请在数组中包含默认值：
+                  - code [ref=e1505]: "\"skills\": [\"./skills/\", \"./extras/\"]"
+                - listitem [ref=e1506]:
+                  - text: 当 skill 路径指向直接包含
+                  - code [ref=e1507]: SKILL.md
+                  - text: 的目录时，例如
+                  - code [ref=e1508]: "\"skills\": [\"./\"]"
+                  - text: 指向 plugin 根目录，frontmatter 中的
+                  - code [ref=e1509]: name
+                  - text: 字段确定 skill 的调用名称。这提供了一个稳定的名称，无论安装目录如何。如果 frontmatter 中未设置
+                  - code [ref=e1510]: name
+                  - text: ，则使用目录基名作为后备。
+              - generic [ref=e1511]:
+                - strong [ref=e1512]: 路径示例
+                - text: ：
+              - generic [ref=e1513]:
+                - generic [ref=e1514]:
+                  - button "报告错误代码" [ref=e1516] [cursor=pointer]:
+                    - img [ref=e1517]
+                  - button "复制代码块内容" [ref=e1520] [cursor=pointer]:
+                    - img [ref=e1521]
+                  - button "询问AI" [ref=e1525] [cursor=pointer]:
+                    - img [ref=e1526]
+                - code [ref=e1532]:
+                  - generic [ref=e1533]: "{"
+                  - generic [ref=e1534]: "\"commands\": ["
+                  - generic [ref=e1535]: "\"./specialized/deploy.md\","
+                  - generic [ref=e1536]: "\"./utilities/batch-process.md\""
+                  - generic [ref=e1537]: "],"
+                  - generic [ref=e1538]: "\"agents\": ["
+                  - generic [ref=e1539]: "\"./custom-agents/reviewer.md\","
+                  - generic [ref=e1540]: "\"./custom-agents/tester.md\""
+                  - generic [ref=e1541]: "]"
+                  - generic [ref=e1542]: "}"
+              - heading "导航到标题 环境变量" [level=3] [ref=e1543]:
+                - link "导航到标题" [ref=e1544] [cursor=pointer]:
+                  - /url: "#环境变量"
+                  - img [ref=e1546]
+                - generic [ref=e1548] [cursor=pointer]: 环境变量
+              - generic [ref=e1549]: Claude Code 提供两个变量用于引用 plugin 路径。两者都在 skill 内容、agent 内容、hook 命令、monitor 命令以及 MCP 或 LSP server 配置中出现的任何地方进行内联替换。两者也都作为环境变量导出到 hook 进程和 MCP 或 LSP server 子进程。
+              - generic [ref=e1550]:
+                - strong [ref=e1551]:
+                  - code [ref=e1552]: "${CLAUDE_PLUGIN_ROOT}"
+                - text: ：plugin 安装目录的绝对路径。使用此路径引用与 plugin 捆绑的脚本、二进制文件和配置文件。当 plugin 更新时，此路径会更改，因此您在此处写入的文件不会在更新后保留。
+              - generic [ref=e1553]:
+                - strong [ref=e1554]:
+                  - code [ref=e1555]: "${CLAUDE_PLUGIN_DATA}"
+                - text: ：用于 plugin 状态的持久目录，在更新后保留。使用此目录用于已安装的依赖项，如
+                - code [ref=e1556]: node_modules
+                - text: 或 Python 虚拟环境、生成的代码、缓存以及任何应在 plugin 版本之间保留的其他文件。首次引用此变量时，目录会自动创建。
+              - generic [ref=e1557]:
+                - generic [ref=e1558]:
+                  - button "报告错误代码" [ref=e1560] [cursor=pointer]:
+                    - img [ref=e1561]
+                  - button "复制代码块内容" [ref=e1564] [cursor=pointer]:
+                    - img [ref=e1565]
+                  - button "询问AI" [ref=e1569] [cursor=pointer]:
+                    - img [ref=e1570]
+                - code [ref=e1576]:
+                  - generic [ref=e1577]: "{"
+                  - generic [ref=e1578]: "\"hooks\": {"
+                  - generic [ref=e1579]: "\"PostToolUse\": ["
+                  - generic [ref=e1580]: "{"
+                  - generic [ref=e1581]: "\"hooks\": ["
+                  - generic [ref=e1582]: "{"
+                  - generic [ref=e1583]: "\"type\": \"command\","
+                  - generic [ref=e1584]: "\"command\": \"${CLAUDE_PLUGIN_ROOT}/scripts/process.sh\""
+                  - generic [ref=e1585]: "}"
+                  - generic [ref=e1586]: "]"
+                  - generic [ref=e1587]: "}"
+                  - generic [ref=e1588]: "]"
+                  - generic [ref=e1589]: "}"
+                  - generic [ref=e1590]: "}"
+              - heading "导航到标题 持久数据目录" [level=4] [ref=e1591]:
+                - link "导航到标题" [ref=e1592] [cursor=pointer]:
+                  - /url: "#持久数据目录"
+                  - img [ref=e1594]
+                - generic [ref=e1596] [cursor=pointer]: 持久数据目录
+              - generic [ref=e1597]:
+                - code [ref=e1598]: "${CLAUDE_PLUGIN_DATA}"
+                - text: 目录解析为
+                - code [ref=e1599]: "~/.claude/plugins/data/{id}/"
+                - text: ，其中
+                - code [ref=e1600]: "{id}"
+                - text: 是 plugin 标识符，其中
+                - code [ref=e1601]: a-z
+                - text: 、
+                - code [ref=e1602]: A-Z
+                - text: 、
+                - code [ref=e1603]: 0-9
+                - text: 、
+                - code [ref=e1604]: _
+                - text: 和
+                - code [ref=e1605]: "-"
+                - text: 之外的字符被替换为
+                - code [ref=e1606]: "-"
+                - text: 。对于安装为
+                - code [ref=e1607]: formatter@my-marketplace
+                - text: 的 plugin，目录是
+                - code [ref=e1608]: ~/.claude/plugins/data/formatter-my-marketplace/
+                - text: 。
+              - generic [ref=e1609]: 常见用途是一次安装语言依赖项并在会话和 plugin 更新中重复使用它们。由于数据目录的生命周期长于任何单个 plugin 版本，仅检查目录存在性无法检测到更新何时更改了 plugin 的依赖项清单。推荐的模式是将捆绑的清单与数据目录中的副本进行比较，并在它们不同时重新安装。
+              - generic [ref=e1610]:
+                - text: 此
+                - code [ref=e1611]: SessionStart
+                - text: hook 在第一次运行时安装
+                - code [ref=e1612]: node_modules
+                - text: ，并在 plugin 更新包含更改的
+                - code [ref=e1613]: package.json
+                - text: 时再次安装：
+              - generic [ref=e1614]:
+                - generic [ref=e1615]:
+                  - button "报告错误代码" [ref=e1617] [cursor=pointer]:
+                    - img [ref=e1618]
+                  - button "复制代码块内容" [ref=e1621] [cursor=pointer]:
+                    - img [ref=e1622]
+                  - button "询问AI" [ref=e1626] [cursor=pointer]:
+                    - img [ref=e1627]
+                - code [ref=e1633]:
+                  - generic [ref=e1634]: "{"
+                  - generic [ref=e1635]: "\"hooks\": {"
+                  - generic [ref=e1636]: "\"SessionStart\": ["
+                  - generic [ref=e1637]: "{"
+                  - generic [ref=e1638]: "\"hooks\": ["
+                  - generic [ref=e1639]: "{"
+                  - generic [ref=e1640]: "\"type\": \"command\","
+                  - generic [ref=e1641]: "\"command\": \"diff -q \\\"${CLAUDE_PLUGIN_ROOT}/package.json\\\" \\\"${CLAUDE_PLUGIN_DATA}/package.json\\\" >/dev/null 2>&1 || (cd \\\"${CLAUDE_PLUGIN_DATA}\\\" && cp \\\"${CLAUDE_PLUGIN_ROOT}/package.json\\\" . && npm install) || rm -f \\\"${CLAUDE_PLUGIN_DATA}/package.json\\\"\""
+                  - generic [ref=e1642]: "}"
+                  - generic [ref=e1643]: "]"
+                  - generic [ref=e1644]: "}"
+                  - generic [ref=e1645]: "]"
+                  - generic [ref=e1646]: "}"
+                  - generic [ref=e1647]: "}"
+              - generic [ref=e1648]:
+                - text: 当存储的副本缺失或与捆绑的副本不同时，
+                - code [ref=e1649]: diff
+                - text: 退出非零，涵盖第一次运行和依赖项更改的更新。如果
+                - code [ref=e1650]: npm install
+                - text: 失败，尾部的
+                - code [ref=e1651]: rm
+                - text: 会删除复制的清单，以便下一个会话重试。
+              - generic [ref=e1652]:
+                - text: 捆绑在
+                - code [ref=e1653]: "${CLAUDE_PLUGIN_ROOT}"
+                - text: 中的脚本可以针对持久的
+                - code [ref=e1654]: node_modules
+                - text: 运行：
+              - generic [ref=e1655]:
+                - generic [ref=e1656]:
+                  - button "报告错误代码" [ref=e1658] [cursor=pointer]:
+                    - img [ref=e1659]
+                  - button "复制代码块内容" [ref=e1662] [cursor=pointer]:
+                    - img [ref=e1663]
+                  - button "询问AI" [ref=e1667] [cursor=pointer]:
+                    - img [ref=e1668]
+                - code [ref=e1674]:
+                  - generic [ref=e1675]: "{"
+                  - generic [ref=e1676]: "\"mcpServers\": {"
+                  - generic [ref=e1677]: "\"routines\": {"
+                  - generic [ref=e1678]: "\"command\": \"node\","
+                  - generic [ref=e1679]: "\"args\": [\"${CLAUDE_PLUGIN_ROOT}/server.js\"],"
+                  - generic [ref=e1680]: "\"env\": {"
+                  - generic [ref=e1681]: "\"NODE_PATH\": \"${CLAUDE_PLUGIN_DATA}/node_modules\""
+                  - generic [ref=e1682]: "}"
+                  - generic [ref=e1683]: "}"
+                  - generic [ref=e1684]: "}"
+                  - generic [ref=e1685]: "}"
+              - generic [ref=e1686]:
+                - text: 当您从最后一个安装了 plugin 的范围卸载 plugin 时，数据目录会自动删除。
+                - code [ref=e1687]: /plugin
+                - text: 界面显示目录大小并在删除前提示。CLI 默认删除；传递
+                - link "--keep-data" [ref=e1688] [cursor=pointer]:
+                  - /url: "#plugin-uninstall"
+                  - code [ref=e1689]: "--keep-data"
+                - text: 以保留它。
+              - separator [ref=e1690]
+              - heading "导航到标题 Plugin 缓存和文件解析" [level=2] [ref=e1691]:
+                - link "导航到标题" [ref=e1692] [cursor=pointer]:
+                  - /url: "#plugin-缓存和文件解析"
+                  - img [ref=e1694]
+                - generic [ref=e1696] [cursor=pointer]: Plugin 缓存和文件解析
+              - generic [ref=e1697]: Plugins 通过以下两种方式之一指定：
+              - list [ref=e1698]:
+                - listitem [ref=e1699]:
+                  - text: 通过
+                  - code [ref=e1700]: claude --plugin-dir
+                  - text: ，用于会话期间。
+                - listitem [ref=e1701]: 通过市场，为将来的会话安装。
+              - generic [ref=e1702]:
+                - text: 出于安全和验证目的，Claude Code 将_市场_ plugins 复制到用户的本地
+                - strong [ref=e1703]: plugin 缓存
+                - text: （
+                - code [ref=e1704]: ~/.claude/plugins/cache
+                - text: ），而不是就地使用它们。在开发引用外部文件的 plugins 时，理解此行为很重要。
+              - generic [ref=e1705]: 每个已安装的版本是缓存中的单独目录。当您更新或卸载 plugin 时，前一个版本目录被标记为孤立，并在 7 天后自动删除。宽限期允许已加载旧版本的并发 Claude Code 会话继续运行而不出错。
+              - generic [ref=e1706]: Claude 的 Glob 和 Grep 工具在搜索期间跳过孤立版本目录，因此文件结果不包括过时的插件代码。
+              - heading "导航到标题 路径遍历限制" [level=3] [ref=e1707]:
+                - link "导航到标题" [ref=e1708] [cursor=pointer]:
+                  - /url: "#路径遍历限制"
+                  - img [ref=e1710]
+                - generic [ref=e1712] [cursor=pointer]: 路径遍历限制
+              - generic [ref=e1713]:
+                - text: 已安装的 plugins 无法引用其目录外的文件。遍历 plugin 根目录外的路径（例如
+                - code [ref=e1714]: ../shared-utils
+                - text: ）在安装后将不起作用，因为这些外部文件不会被复制到缓存中。
+              - heading "导航到标题 使用外部依赖" [level=3] [ref=e1715]:
+                - link "导航到标题" [ref=e1716] [cursor=pointer]:
+                  - /url: "#使用外部依赖"
+                  - img [ref=e1718]
+                - generic [ref=e1720] [cursor=pointer]: 使用外部依赖
+              - generic [ref=e1721]: 如果您的 plugin 需要访问其目录外的文件，您可以在 plugin 目录中创建指向外部文件的符号链接。符号链接在缓存中被保留而不是解引用，并在运行时解析到其目标。以下命令在插件目录内创建指向共享实用程序位置的链接：
+              - generic [ref=e1722]:
+                - generic [ref=e1723]:
+                  - button "报告错误代码" [ref=e1725] [cursor=pointer]:
+                    - img [ref=e1726]
+                  - button "复制代码块内容" [ref=e1729] [cursor=pointer]:
+                    - img [ref=e1730]
+                  - button "询问AI" [ref=e1734] [cursor=pointer]:
+                    - img [ref=e1735]
+                - code [ref=e1741]:
+                  - generic [ref=e1742]: ln -s /path/to/shared-utils ./shared-utils
+              - generic [ref=e1743]: 这在保持缓存系统安全优势的同时提供了灵活性。
+              - separator [ref=e1744]
+              - heading "导航到标题 Plugin 目录结构" [level=2] [ref=e1745]:
+                - link "导航到标题" [ref=e1746] [cursor=pointer]:
+                  - /url: "#plugin-目录结构"
+                  - img [ref=e1748]
+                - generic [ref=e1750] [cursor=pointer]: Plugin 目录结构
+              - heading "导航到标题 标准 plugin 布局" [level=3] [ref=e1751]:
+                - link "导航到标题" [ref=e1752] [cursor=pointer]:
+                  - /url: "#标准-plugin-布局"
+                  - img [ref=e1754]
+                - generic [ref=e1756] [cursor=pointer]: 标准 plugin 布局
+              - generic [ref=e1757]: 完整的 plugin 遵循此结构：
+              - generic [ref=e1758]:
+                - generic [ref=e1759]:
+                  - button "报告错误代码" [ref=e1761] [cursor=pointer]:
+                    - img [ref=e1762]
+                  - button "复制代码块内容" [ref=e1765] [cursor=pointer]:
+                    - img [ref=e1766]
+                  - button "询问AI" [ref=e1770] [cursor=pointer]:
+                    - img [ref=e1771]
+                - code [ref=e1777]:
+                  - generic [ref=e1778]: enterprise-plugin/
+                  - generic [ref=e1779]: "├── .claude-plugin/ # 元数据目录（可选）"
+                  - generic [ref=e1780]: "│ └── plugin.json # plugin 清单"
+                  - generic [ref=e1781]: "├── skills/ # Skills"
+                  - generic [ref=e1782]: │ ├── code-reviewer/
+                  - generic [ref=e1783]: │ │ └── SKILL.md
+                  - generic [ref=e1784]: │ └── pdf-processor/
+                  - generic [ref=e1785]: │ ├── SKILL.md
+                  - generic [ref=e1786]: │ └── scripts/
+                  - generic [ref=e1787]: "├── commands/ # Skills 作为平面 .md 文件"
+                  - generic [ref=e1788]: │ ├── status.md
+                  - generic [ref=e1789]: │ └── logs.md
+                  - generic [ref=e1790]: "├── agents/ # Subagent 定义"
+                  - generic [ref=e1791]: │ ├── security-reviewer.md
+                  - generic [ref=e1792]: │ ├── performance-tester.md
+                  - generic [ref=e1793]: │ └── compliance-checker.md
+                  - generic [ref=e1794]: "├── output-styles/ # 输出样式定义"
+                  - generic [ref=e1795]: │ └── terse.md
+                  - generic [ref=e1796]: "├── themes/ # 颜色主题定义"
+                  - generic [ref=e1797]: │ └── dracula.json
+                  - generic [ref=e1798]: "├── monitors/ # 后台 monitor 配置"
+                  - generic [ref=e1799]: │ └── monitors.json
+                  - generic [ref=e1800]: "├── hooks/ # Hook 配置"
+                  - generic [ref=e1801]: "│ ├── hooks.json # 主 hook 配置"
+                  - generic [ref=e1802]: "│ └── security-hooks.json # 其他 hooks"
+                  - generic [ref=e1803]: "├── bin/ # 添加到 PATH 的 plugin 可执行文件"
+                  - generic [ref=e1804]: "│ └── my-tool # 在 Bash tool 中可作为裸命令调用"
+                  - generic [ref=e1805]: "├── settings.json # plugin 的默认设置"
+                  - generic [ref=e1806]: "├── .mcp.json # MCP server 定义"
+                  - generic [ref=e1807]: "├── .lsp.json # LSP server 配置"
+                  - generic [ref=e1808]: "├── scripts/ # Hook 和实用脚本"
+                  - generic [ref=e1809]: │ ├── security-scan.sh
+                  - generic [ref=e1810]: │ ├── format-code.py
+                  - generic [ref=e1811]: │ └── deploy.js
+                  - generic [ref=e1812]: "├── LICENSE # 许可证文件"
+                  - generic [ref=e1813]: "└── CHANGELOG.md # 版本历史"
+              - generic [ref=e1814]:
+                - img "警告" [ref=e1816]
+                - generic [ref=e1819]:
+                  - code [ref=e1820]: .claude-plugin/
+                  - text: 目录包含
+                  - code [ref=e1821]: plugin.json
+                  - text: 文件。所有其他目录（commands/、agents/、skills/、output-styles/、themes/、monitors/、hooks/）必须在 plugin 根目录，而不是在
+                  - code [ref=e1822]: .claude-plugin/
+                  - text: 内。
+              - heading "导航到标题 文件位置参考" [level=3] [ref=e1823]:
+                - link "导航到标题" [ref=e1824] [cursor=pointer]:
+                  - /url: "#文件位置参考"
+                  - img [ref=e1826]
+                - generic [ref=e1828] [cursor=pointer]: 文件位置参考
+              - table [ref=e1831]:
+                - rowgroup [ref=e1832]:
+                  - row "组件 默认位置 目的" [ref=e1833]:
+                    - columnheader "组件" [ref=e1834]
+                    - columnheader "默认位置" [ref=e1835]
+                    - columnheader "目的" [ref=e1836]
+                - rowgroup [ref=e1837]:
+                  - row "清单 .claude-plugin/plugin.json Plugin 元数据和配置（可选）" [ref=e1838]:
+                    - cell "清单" [ref=e1839]:
+                      - strong [ref=e1840]: 清单
+                    - cell ".claude-plugin/plugin.json" [ref=e1841]:
+                      - code [ref=e1842]: .claude-plugin/plugin.json
+                    - cell "Plugin 元数据和配置（可选）" [ref=e1843]
+                  - row "Skills skills/ 具有 <name>/SKILL.md 结构的 Skills" [ref=e1844]:
+                    - cell "Skills" [ref=e1845]:
+                      - strong [ref=e1846]: Skills
+                    - cell "skills/" [ref=e1847]:
+                      - code [ref=e1848]: skills/
+                    - cell "具有 <name>/SKILL.md 结构的 Skills" [ref=e1849]:
+                      - text: 具有
+                      - code [ref=e1850]: <name>/SKILL.md
+                      - text: 结构的 Skills
+                  - row "Commands commands/ Skills 作为平面 Markdown 文件。新 plugins 使用 skills/" [ref=e1851]:
+                    - cell "Commands" [ref=e1852]:
+                      - strong [ref=e1853]: Commands
+                    - cell "commands/" [ref=e1854]:
+                      - code [ref=e1855]: commands/
+                    - cell "Skills 作为平面 Markdown 文件。新 plugins 使用 skills/" [ref=e1856]:
+                      - text: Skills 作为平面 Markdown 文件。新 plugins 使用
+                      - code [ref=e1857]: skills/
+                  - row "Agents agents/ Subagent Markdown 文件" [ref=e1858]:
+                    - cell "Agents" [ref=e1859]:
+                      - strong [ref=e1860]: Agents
+                    - cell "agents/" [ref=e1861]:
+                      - code [ref=e1862]: agents/
+                    - cell "Subagent Markdown 文件" [ref=e1863]
+                  - row "Output styles output-styles/ 输出样式定义" [ref=e1864]:
+                    - cell "Output styles" [ref=e1865]:
+                      - strong [ref=e1866]: Output styles
+                    - cell "output-styles/" [ref=e1867]:
+                      - code [ref=e1868]: output-styles/
+                    - cell "输出样式定义" [ref=e1869]
+                  - row "Themes themes/ 颜色主题定义" [ref=e1870]:
+                    - cell "Themes" [ref=e1871]:
+                      - strong [ref=e1872]: Themes
+                    - cell "themes/" [ref=e1873]:
+                      - code [ref=e1874]: themes/
+                    - cell "颜色主题定义" [ref=e1875]
+                  - row "Hooks hooks/hooks.json Hook 配置" [ref=e1876]:
+                    - cell "Hooks" [ref=e1877]:
+                      - strong [ref=e1878]: Hooks
+                    - cell "hooks/hooks.json" [ref=e1879]:
+                      - code [ref=e1880]: hooks/hooks.json
+                    - cell "Hook 配置" [ref=e1881]
+                  - row "MCP servers .mcp.json MCP server 定义" [ref=e1882]:
+                    - cell "MCP servers" [ref=e1883]:
+                      - strong [ref=e1884]: MCP servers
+                    - cell ".mcp.json" [ref=e1885]:
+                      - code [ref=e1886]: .mcp.json
+                    - cell "MCP server 定义" [ref=e1887]
+                  - row "LSP servers .lsp.json 语言服务器配置" [ref=e1888]:
+                    - cell "LSP servers" [ref=e1889]:
+                      - strong [ref=e1890]: LSP servers
+                    - cell ".lsp.json" [ref=e1891]:
+                      - code [ref=e1892]: .lsp.json
+                    - cell "语言服务器配置" [ref=e1893]
+                  - row "Monitors monitors/monitors.json 后台 monitor 配置" [ref=e1894]:
+                    - cell "Monitors" [ref=e1895]:
+                      - strong [ref=e1896]: Monitors
+                    - cell "monitors/monitors.json" [ref=e1897]:
+                      - code [ref=e1898]: monitors/monitors.json
+                    - cell "后台 monitor 配置" [ref=e1899]
+                  - row "Executables bin/ 添加到 Bash tool 的 PATH 的可执行文件。此处的文件在 plugin 启用时可作为任何 Bash tool 调用中的裸命令调用" [ref=e1900]:
+                    - cell "Executables" [ref=e1901]:
+                      - strong [ref=e1902]: Executables
+                    - cell "bin/" [ref=e1903]:
+                      - code [ref=e1904]: bin/
+                    - cell "添加到 Bash tool 的 PATH 的可执行文件。此处的文件在 plugin 启用时可作为任何 Bash tool 调用中的裸命令调用" [ref=e1905]:
+                      - text: 添加到 Bash tool 的
+                      - code [ref=e1906]: PATH
+                      - text: 的可执行文件。此处的文件在 plugin 启用时可作为任何 Bash tool 调用中的裸命令调用
+                  - row "Settings settings.json 启用 plugin 时应用的默认配置。目前仅支持 agent 和 subagentStatusLine 键" [ref=e1907]:
+                    - cell "Settings" [ref=e1908]:
+                      - strong [ref=e1909]: Settings
+                    - cell "settings.json" [ref=e1910]:
+                      - code [ref=e1911]: settings.json
+                    - cell "启用 plugin 时应用的默认配置。目前仅支持 agent 和 subagentStatusLine 键" [ref=e1912]:
+                      - text: 启用 plugin 时应用的默认配置。目前仅支持
+                      - link "agent" [ref=e1913] [cursor=pointer]:
+                        - /url: /docs/zh-CN/sub-agents
+                        - code [ref=e1914]: agent
+                      - text: 和
+                      - link "subagentStatusLine" [ref=e1915] [cursor=pointer]:
+                        - /url: /docs/zh-CN/statusline#subagent-status-lines
+                        - code [ref=e1916]: subagentStatusLine
+                      - text: 键
+              - separator [ref=e1917]
+              - heading "导航到标题 CLI 命令参考" [level=2] [ref=e1918]:
+                - link "导航到标题" [ref=e1919] [cursor=pointer]:
+                  - /url: "#cli-命令参考"
+                  - img [ref=e1921]
+                - generic [ref=e1923] [cursor=pointer]: CLI 命令参考
+              - generic [ref=e1924]: Claude Code 提供了用于非交互式 plugin 管理的 CLI 命令，对脚本和自动化很有用。
+              - heading "导航到标题 plugin install" [level=3] [ref=e1925]:
+                - link "导航到标题" [ref=e1926] [cursor=pointer]:
+                  - /url: "#plugin-install"
+                  - img [ref=e1928]
+                - generic [ref=e1930] [cursor=pointer]: plugin install
+              - generic [ref=e1931]: 从可用市场安装 plugin。
+              - generic [ref=e1932]:
+                - generic [ref=e1933]:
+                  - button "报告错误代码" [ref=e1935] [cursor=pointer]:
+                    - img [ref=e1936]
+                  - button "复制代码块内容" [ref=e1939] [cursor=pointer]:
+                    - img [ref=e1940]
+                  - button "询问AI" [ref=e1944] [cursor=pointer]:
+                    - img [ref=e1945]
+                - code [ref=e1951]:
+                  - generic [ref=e1952]: claude plugin install <plugin> [options]
+              - strong [ref=e1954]: 参数：
+              - list [ref=e1955]:
+                - listitem [ref=e1956]:
+                  - code [ref=e1957]: <plugin>
+                  - text: ：Plugin 名称或
+                  - code [ref=e1958]: plugin-name@marketplace-name
+                  - text: 用于特定市场
+              - strong [ref=e1960]: 选项：
+              - table [ref=e1963]:
+                - rowgroup [ref=e1964]:
+                  - row "选项 描述 默认值" [ref=e1965]:
+                    - columnheader "选项" [ref=e1966]
+                    - columnheader "描述" [ref=e1967]
+                    - columnheader "默认值" [ref=e1968]
+                - rowgroup [ref=e1969]:
+                  - row "-s, --scope <scope> 安装范围：user、project 或 local user" [ref=e1970]:
+                    - cell "-s, --scope <scope>" [ref=e1971]:
+                      - code [ref=e1972]: "-s, --scope <scope>"
+                    - cell "安装范围：user、project 或 local" [ref=e1973]:
+                      - text: 安装范围：
+                      - code [ref=e1974]: user
+                      - text: 、
+                      - code [ref=e1975]: project
+                      - text: 或
+                      - code [ref=e1976]: local
+                    - cell "user" [ref=e1977]:
+                      - code [ref=e1978]: user
+                  - row "-h, --help 显示命令帮助" [ref=e1979]:
+                    - cell "-h, --help" [ref=e1980]:
+                      - code [ref=e1981]: "-h, --help"
+                    - cell "显示命令帮助" [ref=e1982]
+                    - cell [ref=e1983]
+              - generic [ref=e1984]:
+                - text: 范围确定将已安装的 plugin 添加到哪个设置文件。例如，
+                - code [ref=e1985]: "--scope project"
+                - text: 写入
+                - code [ref=e1986]: .claude/settings.json
+                - text: 中的
+                - code [ref=e1987]: enabledPlugins
+                - text: ，使 plugin 对克隆项目存储库的每个人都可用。
+              - strong [ref=e1989]: 示例：
+              - generic [ref=e1990]:
+                - generic [ref=e1991]:
+                  - button "报告错误代码" [ref=e1993] [cursor=pointer]:
+                    - img [ref=e1994]
+                  - button "复制代码块内容" [ref=e1997] [cursor=pointer]:
+                    - img [ref=e1998]
+                  - button "询问AI" [ref=e2002] [cursor=pointer]:
+                    - img [ref=e2003]
+                - code [ref=e2009]:
+                  - generic [ref=e2010]: "# 安装到用户范围（默认）"
+                  - generic [ref=e2011]: claude plugin install formatter@my-marketplace
+                  - generic [ref=e2012]: "# 安装到项目范围（与团队共享）"
+                  - generic [ref=e2013]: claude plugin install formatter@my-marketplace --scope project
+                  - generic [ref=e2014]: "# 安装到本地范围（gitignored）"
+                  - generic [ref=e2015]: claude plugin install formatter@my-marketplace --scope local
+              - heading "导航到标题 plugin uninstall" [level=3] [ref=e2016]:
+                - link "导航到标题" [ref=e2017] [cursor=pointer]:
+                  - /url: "#plugin-uninstall"
+                  - img [ref=e2019]
+                - generic [ref=e2021] [cursor=pointer]: plugin uninstall
+              - generic [ref=e2022]: 删除已安装的 plugin。
+              - generic [ref=e2023]:
+                - generic [ref=e2024]:
+                  - button "报告错误代码" [ref=e2026] [cursor=pointer]:
+                    - img [ref=e2027]
+                  - button "复制代码块内容" [ref=e2030] [cursor=pointer]:
+                    - img [ref=e2031]
+                  - button "询问AI" [ref=e2035] [cursor=pointer]:
+                    - img [ref=e2036]
+                - code [ref=e2042]:
+                  - generic [ref=e2043]: claude plugin uninstall <plugin> [options]
+              - strong [ref=e2045]: 参数：
+              - list [ref=e2046]:
+                - listitem [ref=e2047]:
+                  - code [ref=e2048]: <plugin>
+                  - text: ：Plugin 名称或
+                  - code [ref=e2049]: plugin-name@marketplace-name
+              - strong [ref=e2051]: 选项：
+              - table [ref=e2054]:
+                - rowgroup [ref=e2055]:
+                  - row "选项 描述 默认值" [ref=e2056]:
+                    - columnheader "选项" [ref=e2057]
+                    - columnheader "描述" [ref=e2058]
+                    - columnheader "默认值" [ref=e2059]
+                - rowgroup [ref=e2060]:
+                  - row "-s, --scope <scope> 从范围卸载：user、project 或 local user" [ref=e2061]:
+                    - cell "-s, --scope <scope>" [ref=e2062]:
+                      - code [ref=e2063]: "-s, --scope <scope>"
+                    - cell "从范围卸载：user、project 或 local" [ref=e2064]:
+                      - text: 从范围卸载：
+                      - code [ref=e2065]: user
+                      - text: 、
+                      - code [ref=e2066]: project
+                      - text: 或
+                      - code [ref=e2067]: local
+                    - cell "user" [ref=e2068]:
+                      - code [ref=e2069]: user
+                  - row "--keep-data 保留插件的持久数据目录" [ref=e2070]:
+                    - cell "--keep-data" [ref=e2071]:
+                      - code [ref=e2072]: "--keep-data"
+                    - cell "保留插件的持久数据目录" [ref=e2073]:
+                      - text: 保留插件的
+                      - link "持久数据目录" [ref=e2074] [cursor=pointer]:
+                        - /url: "#persistent-data-directory"
+                    - cell [ref=e2075]
+                  - row "-h, --help 显示命令帮助" [ref=e2076]:
+                    - cell "-h, --help" [ref=e2077]:
+                      - code [ref=e2078]: "-h, --help"
+                    - cell "显示命令帮助" [ref=e2079]
+                    - cell [ref=e2080]
+              - generic [ref=e2081]:
+                - strong [ref=e2082]: 别名：
+                - code [ref=e2083]: remove
+                - text: 、
+                - code [ref=e2084]: rm
+              - generic [ref=e2085]:
+                - text: 默认情况下，从最后一个剩余范围卸载也会删除插件的
+                - code [ref=e2086]: "${CLAUDE_PLUGIN_DATA}"
+                - text: 目录。使用
+                - code [ref=e2087]: "--keep-data"
+                - text: 保留它，例如在测试新版本后重新安装时。
+              - heading "导航到标题 plugin enable" [level=3] [ref=e2088]:
+                - link "导航到标题" [ref=e2089] [cursor=pointer]:
+                  - /url: "#plugin-enable"
+                  - img [ref=e2091]
+                - generic [ref=e2093] [cursor=pointer]: plugin enable
+              - generic [ref=e2094]: 启用已禁用的 plugin。
+              - generic [ref=e2095]:
+                - generic [ref=e2096]:
+                  - button "报告错误代码" [ref=e2098] [cursor=pointer]:
+                    - img [ref=e2099]
+                  - button "复制代码块内容" [ref=e2102] [cursor=pointer]:
+                    - img [ref=e2103]
+                  - button "询问AI" [ref=e2107] [cursor=pointer]:
+                    - img [ref=e2108]
+                - code [ref=e2114]:
+                  - generic [ref=e2115]: claude plugin enable <plugin> [options]
+              - strong [ref=e2117]: 参数：
+              - list [ref=e2118]:
+                - listitem [ref=e2119]:
+                  - code [ref=e2120]: <plugin>
+                  - text: ：Plugin 名称或
+                  - code [ref=e2121]: plugin-name@marketplace-name
+              - strong [ref=e2123]: 选项：
+              - table [ref=e2126]:
+                - rowgroup [ref=e2127]:
+                  - row "选项 描述 默认值" [ref=e2128]:
+                    - columnheader "选项" [ref=e2129]
+                    - columnheader "描述" [ref=e2130]
+                    - columnheader "默认值" [ref=e2131]
+                - rowgroup [ref=e2132]:
+                  - row "-s, --scope <scope> 要启用的范围：user、project 或 local user" [ref=e2133]:
+                    - cell "-s, --scope <scope>" [ref=e2134]:
+                      - code [ref=e2135]: "-s, --scope <scope>"
+                    - cell "要启用的范围：user、project 或 local" [ref=e2136]:
+                      - text: 要启用的范围：
+                      - code [ref=e2137]: user
+                      - text: 、
+                      - code [ref=e2138]: project
+                      - text: 或
+                      - code [ref=e2139]: local
+                    - cell "user" [ref=e2140]:
+                      - code [ref=e2141]: user
+                  - row "-h, --help 显示命令帮助" [ref=e2142]:
+                    - cell "-h, --help" [ref=e2143]:
+                      - code [ref=e2144]: "-h, --help"
+                    - cell "显示命令帮助" [ref=e2145]
+                    - cell [ref=e2146]
+              - heading "导航到标题 plugin disable" [level=3] [ref=e2147]:
+                - link "导航到标题" [ref=e2148] [cursor=pointer]:
+                  - /url: "#plugin-disable"
+                  - img [ref=e2150]
+                - generic [ref=e2152] [cursor=pointer]: plugin disable
+              - generic [ref=e2153]: 禁用 plugin 而不卸载它。
+              - generic [ref=e2154]:
+                - generic [ref=e2155]:
+                  - button "报告错误代码" [ref=e2157] [cursor=pointer]:
+                    - img [ref=e2158]
+                  - button "复制代码块内容" [ref=e2161] [cursor=pointer]:
+                    - img [ref=e2162]
+                  - button "询问AI" [ref=e2166] [cursor=pointer]:
+                    - img [ref=e2167]
+                - code [ref=e2173]:
+                  - generic [ref=e2174]: claude plugin disable <plugin> [options]
+              - strong [ref=e2176]: 参数：
+              - list [ref=e2177]:
+                - listitem [ref=e2178]:
+                  - code [ref=e2179]: <plugin>
+                  - text: ：Plugin 名称或
+                  - code [ref=e2180]: plugin-name@marketplace-name
+              - strong [ref=e2182]: 选项：
+              - table [ref=e2185]:
+                - rowgroup [ref=e2186]:
+                  - row "选项 描述 默认值" [ref=e2187]:
+                    - columnheader "选项" [ref=e2188]
+                    - columnheader "描述" [ref=e2189]
+                    - columnheader "默认值" [ref=e2190]
+                - rowgroup [ref=e2191]:
+                  - row "-s, --scope <scope> 要禁用的范围：user、project 或 local user" [ref=e2192]:
+                    - cell "-s, --scope <scope>" [ref=e2193]:
+                      - code [ref=e2194]: "-s, --scope <scope>"
+                    - cell "要禁用的范围：user、project 或 local" [ref=e2195]:
+                      - text: 要禁用的范围：
+                      - code [ref=e2196]: user
+                      - text: 、
+                      - code [ref=e2197]: project
+                      - text: 或
+                      - code [ref=e2198]: local
+                    - cell "user" [ref=e2199]:
+                      - code [ref=e2200]: user
+                  - row "-h, --help 显示命令帮助" [ref=e2201]:
+                    - cell "-h, --help" [ref=e2202]:
+                      - code [ref=e2203]: "-h, --help"
+                    - cell "显示命令帮助" [ref=e2204]
+                    - cell [ref=e2205]
+              - heading "导航到标题 plugin update" [level=3] [ref=e2206]:
+                - link "导航到标题" [ref=e2207] [cursor=pointer]:
+                  - /url: "#plugin-update"
+                  - img [ref=e2209]
+                - generic [ref=e2211] [cursor=pointer]: plugin update
+              - generic [ref=e2212]: 将 plugin 更新到最新版本。
+              - generic [ref=e2213]:
+                - generic [ref=e2214]:
+                  - button "报告错误代码" [ref=e2216] [cursor=pointer]:
+                    - img [ref=e2217]
+                  - button "复制代码块内容" [ref=e2220] [cursor=pointer]:
+                    - img [ref=e2221]
+                  - button "询问AI" [ref=e2225] [cursor=pointer]:
+                    - img [ref=e2226]
+                - code [ref=e2232]:
+                  - generic [ref=e2233]: claude plugin update <plugin> [options]
+              - strong [ref=e2235]: 参数：
+              - list [ref=e2236]:
+                - listitem [ref=e2237]:
+                  - code [ref=e2238]: <plugin>
+                  - text: ：Plugin 名称或
+                  - code [ref=e2239]: plugin-name@marketplace-name
+              - strong [ref=e2241]: 选项：
+              - table [ref=e2244]:
+                - rowgroup [ref=e2245]:
+                  - row "选项 描述 默认值" [ref=e2246]:
+                    - columnheader "选项" [ref=e2247]
+                    - columnheader "描述" [ref=e2248]
+                    - columnheader "默认值" [ref=e2249]
+                - rowgroup [ref=e2250]:
+                  - row "-s, --scope <scope> 要更新的范围：user、project、local 或 managed user" [ref=e2251]:
+                    - cell "-s, --scope <scope>" [ref=e2252]:
+                      - code [ref=e2253]: "-s, --scope <scope>"
+                    - cell "要更新的范围：user、project、local 或 managed" [ref=e2254]:
+                      - text: 要更新的范围：
+                      - code [ref=e2255]: user
+                      - text: 、
+                      - code [ref=e2256]: project
+                      - text: 、
+                      - code [ref=e2257]: local
+                      - text: 或
+                      - code [ref=e2258]: managed
+                    - cell "user" [ref=e2259]:
+                      - code [ref=e2260]: user
+                  - row "-h, --help 显示命令帮助" [ref=e2261]:
+                    - cell "-h, --help" [ref=e2262]:
+                      - code [ref=e2263]: "-h, --help"
+                    - cell "显示命令帮助" [ref=e2264]
+                    - cell [ref=e2265]
+              - separator [ref=e2266]
+              - heading "导航到标题 plugin list" [level=3] [ref=e2267]:
+                - link "导航到标题" [ref=e2268] [cursor=pointer]:
+                  - /url: "#plugin-list"
+                  - img [ref=e2270]
+                - generic [ref=e2272] [cursor=pointer]: plugin list
+              - generic [ref=e2273]: 列出已安装的 plugins 及其版本、源市场和启用状态。
+              - generic [ref=e2274]:
+                - generic [ref=e2275]:
+                  - button "报告错误代码" [ref=e2277] [cursor=pointer]:
+                    - img [ref=e2278]
+                  - button "复制代码块内容" [ref=e2281] [cursor=pointer]:
+                    - img [ref=e2282]
+                  - button "询问AI" [ref=e2286] [cursor=pointer]:
+                    - img [ref=e2287]
+                - code [ref=e2293]:
+                  - generic [ref=e2294]: claude plugin list [options]
+              - strong [ref=e2296]: 选项：
+              - table [ref=e2299]:
+                - rowgroup [ref=e2300]:
+                  - row "选项 描述 默认值" [ref=e2301]:
+                    - columnheader "选项" [ref=e2302]
+                    - columnheader "描述" [ref=e2303]
+                    - columnheader "默认值" [ref=e2304]
+                - rowgroup [ref=e2305]:
+                  - row "--json 输出为 JSON" [ref=e2306]:
+                    - cell "--json" [ref=e2307]:
+                      - code [ref=e2308]: "--json"
+                    - cell "输出为 JSON" [ref=e2309]
+                    - cell [ref=e2310]
+                  - row "--available 包括来自市场的可用 plugins。需要 --json" [ref=e2311]:
+                    - cell "--available" [ref=e2312]:
+                      - code [ref=e2313]: "--available"
+                    - cell "包括来自市场的可用 plugins。需要 --json" [ref=e2314]:
+                      - text: 包括来自市场的可用 plugins。需要
+                      - code [ref=e2315]: "--json"
+                    - cell [ref=e2316]
+                  - row "-h, --help 显示命令帮助" [ref=e2317]:
+                    - cell "-h, --help" [ref=e2318]:
+                      - code [ref=e2319]: "-h, --help"
+                    - cell "显示命令帮助" [ref=e2320]
+                    - cell [ref=e2321]
+              - heading "导航到标题 plugin tag" [level=3] [ref=e2322]:
+                - link "导航到标题" [ref=e2323] [cursor=pointer]:
+                  - /url: "#plugin-tag"
+                  - img [ref=e2325]
+                - generic [ref=e2327] [cursor=pointer]: plugin tag
+              - generic [ref=e2328]:
+                - text: 为当前目录中的 plugin 创建发布 git 标签。从 plugin 的文件夹内运行。请参阅
+                - link "标记 plugin 发布" [ref=e2329] [cursor=pointer]:
+                  - /url: /docs/zh-CN/plugin-dependencies#tag-plugin-releases-for-version-resolution
+                - text: 。
+              - generic [ref=e2330]:
+                - generic [ref=e2331]:
+                  - button "报告错误代码" [ref=e2333] [cursor=pointer]:
+                    - img [ref=e2334]
+                  - button "复制代码块内容" [ref=e2337] [cursor=pointer]:
+                    - img [ref=e2338]
+                  - button "询问AI" [ref=e2342] [cursor=pointer]:
+                    - img [ref=e2343]
+                - code [ref=e2349]:
+                  - generic [ref=e2350]: claude plugin tag [options]
+              - strong [ref=e2352]: 选项：
+              - table [ref=e2355]:
+                - rowgroup [ref=e2356]:
+                  - row "选项 描述 默认值" [ref=e2357]:
+                    - columnheader "选项" [ref=e2358]
+                    - columnheader "描述" [ref=e2359]
+                    - columnheader "默认值" [ref=e2360]
+                - rowgroup [ref=e2361]:
+                  - row "--push 创建标签后将其推送到远程" [ref=e2362]:
+                    - cell "--push" [ref=e2363]:
+                      - code [ref=e2364]: "--push"
+                    - cell "创建标签后将其推送到远程" [ref=e2365]
+                    - cell [ref=e2366]
+                  - row "--dry-run 打印将被标记的内容而不创建标签" [ref=e2367]:
+                    - cell "--dry-run" [ref=e2368]:
+                      - code [ref=e2369]: "--dry-run"
+                    - cell "打印将被标记的内容而不创建标签" [ref=e2370]
+                    - cell [ref=e2371]
+                  - row "-f, --force 即使工作树是脏的或标签已存在，也创建标签" [ref=e2372]:
+                    - cell "-f, --force" [ref=e2373]:
+                      - code [ref=e2374]: "-f, --force"
+                    - cell "即使工作树是脏的或标签已存在，也创建标签" [ref=e2375]
+                    - cell [ref=e2376]
+                  - row "-h, --help 显示命令帮助" [ref=e2377]:
+                    - cell "-h, --help" [ref=e2378]:
+                      - code [ref=e2379]: "-h, --help"
+                    - cell "显示命令帮助" [ref=e2380]
+                    - cell [ref=e2381]
+              - separator [ref=e2382]
+              - heading "导航到标题 调试和开发工具" [level=2] [ref=e2383]:
+                - link "导航到标题" [ref=e2384] [cursor=pointer]:
+                  - /url: "#调试和开发工具"
+                  - img [ref=e2386]
+                - generic [ref=e2388] [cursor=pointer]: 调试和开发工具
+              - heading "导航到标题 调试命令" [level=3] [ref=e2389]:
+                - link "导航到标题" [ref=e2390] [cursor=pointer]:
+                  - /url: "#调试命令"
+                  - img [ref=e2392]
+                - generic [ref=e2394] [cursor=pointer]: 调试命令
+              - generic [ref=e2395]:
+                - text: 使用
+                - code [ref=e2396]: claude --debug
+                - text: 查看 plugin 加载详情：
+              - generic [ref=e2397]: 这显示：
+              - list [ref=e2398]:
+                - listitem [ref=e2399]: 正在加载哪些 plugins
+                - listitem [ref=e2400]: plugin 清单中的任何错误
+                - listitem [ref=e2401]: Skill、agent 和 hook 注册
+                - listitem [ref=e2402]: MCP server 初始化
+              - heading "导航到标题 常见问题" [level=3] [ref=e2403]:
+                - link "导航到标题" [ref=e2404] [cursor=pointer]:
+                  - /url: "#常见问题"
+                  - img [ref=e2406]
+                - generic [ref=e2408] [cursor=pointer]: 常见问题
+              - table [ref=e2411]:
+                - rowgroup [ref=e2412]:
+                  - row "问题 原因 解决方案" [ref=e2413]:
+                    - columnheader "问题" [ref=e2414]
+                    - columnheader "原因" [ref=e2415]
+                    - columnheader "解决方案" [ref=e2416]
+                - rowgroup [ref=e2417]:
+                  - row "Plugin 未加载 无效的 plugin.json 运行 claude plugin validate 或 /plugin validate 检查 plugin.json、skill/agent/command frontmatter 和 hooks/hooks.json 的语法和架构错误" [ref=e2418]:
+                    - cell "Plugin 未加载" [ref=e2419]
+                    - cell "无效的 plugin.json" [ref=e2420]:
+                      - text: 无效的
+                      - code [ref=e2421]: plugin.json
+                    - cell "运行 claude plugin validate 或 /plugin validate 检查 plugin.json、skill/agent/command frontmatter 和 hooks/hooks.json 的语法和架构错误" [ref=e2422]:
+                      - text: 运行
+                      - code [ref=e2423]: claude plugin validate
+                      - text: 或
+                      - code [ref=e2424]: /plugin validate
+                      - text: 检查
+                      - code [ref=e2425]: plugin.json
+                      - text: 、skill/agent/command frontmatter 和
+                      - code [ref=e2426]: hooks/hooks.json
+                      - text: 的语法和架构错误
+                  - row "Skills 未出现 目录结构错误 确保 skills/ 或 commands/ 在根目录，而不是在 .claude-plugin/ 中" [ref=e2427]:
+                    - cell "Skills 未出现" [ref=e2428]
+                    - cell "目录结构错误" [ref=e2429]
+                    - cell "确保 skills/ 或 commands/ 在根目录，而不是在 .claude-plugin/ 中" [ref=e2430]:
+                      - text: 确保
+                      - code [ref=e2431]: skills/
+                      - text: 或
+                      - code [ref=e2432]: commands/
+                      - text: 在根目录，而不是在
+                      - code [ref=e2433]: .claude-plugin/
+                      - text: 中
+                  - row "Hooks 未触发 脚本不可执行 运行 chmod +x script.sh" [ref=e2434]:
+                    - cell "Hooks 未触发" [ref=e2435]
+                    - cell "脚本不可执行" [ref=e2436]
+                    - cell "运行 chmod +x script.sh" [ref=e2437]:
+                      - text: 运行
+                      - code [ref=e2438]: chmod +x script.sh
+                  - 'row "MCP server 失败 缺少 ${CLAUDE_PLUGIN_ROOT} 对所有 plugin 路径使用变量" [ref=e2439]':
+                    - cell "MCP server 失败" [ref=e2440]
+                    - 'cell "缺少 ${CLAUDE_PLUGIN_ROOT}" [ref=e2441]':
+                      - text: 缺少
+                      - code [ref=e2442]: "${CLAUDE_PLUGIN_ROOT}"
+                    - cell "对所有 plugin 路径使用变量" [ref=e2443]
+                  - row "路径错误 使用了绝对路径 所有路径必须是相对的，并以 ./ 开头" [ref=e2444]:
+                    - cell "路径错误" [ref=e2445]
+                    - cell "使用了绝对路径" [ref=e2446]
+                    - cell "所有路径必须是相对的，并以 ./ 开头" [ref=e2447]:
+                      - text: 所有路径必须是相对的，并以
+                      - code [ref=e2448]: ./
+                      - text: 开头
+                  - row "LSP Executable not found in $PATH 语言服务器未安装 安装二进制文件（例如，npm install -g typescript-language-server typescript）" [ref=e2449]:
+                    - cell "LSP Executable not found in $PATH" [ref=e2450]:
+                      - text: LSP
+                      - code [ref=e2451]: Executable not found in $PATH
+                    - cell "语言服务器未安装" [ref=e2452]
+                    - cell "安装二进制文件（例如，npm install -g typescript-language-server typescript）" [ref=e2453]:
+                      - text: 安装二进制文件（例如，
+                      - code [ref=e2454]: npm install -g typescript-language-server typescript
+                      - text: ）
+              - heading "导航到标题 示例错误消息" [level=3] [ref=e2455]:
+                - link "导航到标题" [ref=e2456] [cursor=pointer]:
+                  - /url: "#示例错误消息"
+                  - img [ref=e2458]
+                - generic [ref=e2460] [cursor=pointer]: 示例错误消息
+              - generic [ref=e2461]:
+                - strong [ref=e2462]: 清单验证错误
+                - text: ：
+              - list [ref=e2463]:
+                - listitem [ref=e2464]:
+                  - code [ref=e2465]: "Invalid JSON syntax: Unexpected token } in JSON at position 142"
+                  - text: ：检查缺少的逗号、多余的逗号或未引用的字符串
+                - listitem [ref=e2466]:
+                  - code [ref=e2467]: "Plugin has an invalid manifest file at .claude-plugin/plugin.json. Validation errors: name: Required"
+                  - text: ：缺少必需字段
+                - listitem [ref=e2468]:
+                  - code [ref=e2469]: "Plugin has a corrupt manifest file at .claude-plugin/plugin.json. JSON parse error: ..."
+                  - text: ：JSON 语法错误
+              - generic [ref=e2470]:
+                - strong [ref=e2471]: Plugin 加载错误
+                - text: ：
+              - list [ref=e2472]:
+                - listitem [ref=e2473]:
+                  - code [ref=e2474]: "Warning: No commands found in plugin my-plugin custom directory: ./cmds. Expected .md files or SKILL.md in subdirectories."
+                  - text: ：命令路径存在但不包含有效的命令文件
+                - listitem [ref=e2475]:
+                  - code [ref=e2476]: "Plugin directory not found at path: ./plugins/my-plugin. Check that the marketplace entry has the correct path."
+                  - text: ：marketplace.json 中的
+                  - code [ref=e2477]: source
+                  - text: 路径指向不存在的目录
+                - listitem [ref=e2478]:
+                  - code [ref=e2479]: "Plugin my-plugin has conflicting manifests: both plugin.json and marketplace entry specify components."
+                  - text: ：删除重复的组件定义或删除 marketplace 条目中的
+                  - code [ref=e2480]: "strict: false"
+              - heading "导航到标题 Hook 故障排除" [level=3] [ref=e2481]:
+                - link "导航到标题" [ref=e2482] [cursor=pointer]:
+                  - /url: "#hook-故障排除"
+                  - img [ref=e2484]
+                - generic [ref=e2486] [cursor=pointer]: Hook 故障排除
+              - generic [ref=e2487]:
+                - strong [ref=e2488]: Hook 脚本未执行
+                - text: ：
+              - list [ref=e2489]:
+                - listitem [ref=e2490]:
+                  - text: 检查脚本是否可执行：
+                  - code [ref=e2491]: chmod +x ./scripts/your-script.sh
+                - listitem [ref=e2492]:
+                  - text: 验证 shebang 行：第一行应该是
+                  - code [ref=e2493]: "#!/bin/bash"
+                  - text: 或
+                  - code [ref=e2494]: "#!/usr/bin/env bash"
+                - listitem [ref=e2495]:
+                  - text: 检查路径是否使用
+                  - code [ref=e2496]: "${CLAUDE_PLUGIN_ROOT}"
+                  - text: ：
+                  - code [ref=e2497]: "\"command\": \"${CLAUDE_PLUGIN_ROOT}/scripts/your-script.sh\""
+                - listitem [ref=e2498]:
+                  - text: 手动测试脚本：
+                  - code [ref=e2499]: ./scripts/your-script.sh
+              - generic [ref=e2500]:
+                - strong [ref=e2501]: Hook 未在预期事件上触发
+                - text: ：
+              - list [ref=e2502]:
+                - listitem [ref=e2503]:
+                  - text: 验证事件名称是否正确（区分大小写）：
+                  - code [ref=e2504]: PostToolUse
+                  - text: ，而不是
+                  - code [ref=e2505]: postToolUse
+                - listitem [ref=e2506]:
+                  - text: 检查匹配器模式是否与您的工具匹配：
+                  - code [ref=e2507]: "\"matcher\": \"Write|Edit\""
+                  - text: 用于文件操作
+                - listitem [ref=e2508]:
+                  - text: 确认 hook 类型有效：
+                  - code [ref=e2509]: command
+                  - text: 、
+                  - code [ref=e2510]: http
+                  - text: 、
+                  - code [ref=e2511]: mcp_tool
+                  - text: 、
+                  - code [ref=e2512]: prompt
+                  - text: 或
+                  - code [ref=e2513]: agent
+              - heading "导航到标题 MCP server 故障排除" [level=3] [ref=e2514]:
+                - link "导航到标题" [ref=e2515] [cursor=pointer]:
+                  - /url: "#mcp-server-故障排除"
+                  - img [ref=e2517]
+                - generic [ref=e2519] [cursor=pointer]: MCP server 故障排除
+              - generic [ref=e2520]:
+                - strong [ref=e2521]: Server 未启动
+                - text: ：
+              - list [ref=e2522]:
+                - listitem [ref=e2523]: 检查命令是否存在且可执行
+                - listitem [ref=e2524]:
+                  - text: 验证所有路径是否使用
+                  - code [ref=e2525]: "${CLAUDE_PLUGIN_ROOT}"
+                  - text: 变量
+                - listitem [ref=e2526]:
+                  - text: 检查 MCP server 日志：
+                  - code [ref=e2527]: claude --debug
+                  - text: 显示初始化错误
+                - listitem [ref=e2528]: 在 Claude Code 外手动测试 server
+              - generic [ref=e2529]:
+                - strong [ref=e2530]: Server 工具未出现
+                - text: ：
+              - list [ref=e2531]:
+                - listitem [ref=e2532]:
+                  - text: 确保 server 在
+                  - code [ref=e2533]: .mcp.json
+                  - text: 或
+                  - code [ref=e2534]: plugin.json
+                  - text: 中正确配置
+                - listitem [ref=e2535]: 验证 server 是否正确实现 MCP 协议
+                - listitem [ref=e2536]: 检查调试输出中的连接超时
+              - heading "导航到标题 目录结构错误" [level=3] [ref=e2537]:
+                - link "导航到标题" [ref=e2538] [cursor=pointer]:
+                  - /url: "#目录结构错误"
+                  - img [ref=e2540]
+                - generic [ref=e2542] [cursor=pointer]: 目录结构错误
+              - generic [ref=e2543]:
+                - strong [ref=e2544]: 症状
+                - text: ：Plugin 加载但组件（skills、agents、hooks）缺失。
+              - generic [ref=e2545]:
+                - strong [ref=e2546]: 正确结构
+                - text: ：组件必须在 plugin 根目录，而不是在
+                - code [ref=e2547]: .claude-plugin/
+                - text: 内。只有
+                - code [ref=e2548]: plugin.json
+                - text: 属于
+                - code [ref=e2549]: .claude-plugin/
+                - text: 。
+              - generic [ref=e2550]:
+                - generic [ref=e2551]:
+                  - button "报告错误代码" [ref=e2553] [cursor=pointer]:
+                    - img [ref=e2554]
+                  - button "复制代码块内容" [ref=e2557] [cursor=pointer]:
+                    - img [ref=e2558]
+                  - button "询问AI" [ref=e2562] [cursor=pointer]:
+                    - img [ref=e2563]
+                - code [ref=e2569]:
+                  - generic [ref=e2570]: my-plugin/
+                  - generic [ref=e2571]: ├── .claude-plugin/
+                  - generic [ref=e2572]: │ └── plugin.json ← 仅清单在此处
+                  - generic [ref=e2573]: ├── commands/ ← 在根级别
+                  - generic [ref=e2574]: ├── agents/ ← 在根级别
+                  - generic [ref=e2575]: └── hooks/ ← 在根级别
+              - generic [ref=e2576]:
+                - text: 如果您的组件在
+                - code [ref=e2577]: .claude-plugin/
+                - text: 内，请将它们移到 plugin 根目录。
+              - generic [ref=e2578]:
+                - strong [ref=e2579]: 调试清单
+                - text: ：
+              - list [ref=e2580]:
+                - listitem [ref=e2581]:
+                  - text: 运行
+                  - code [ref=e2582]: claude --debug
+                  - text: 并查找”loading plugin”消息
+                - listitem [ref=e2583]: 检查每个组件目录是否在调试输出中列出
+                - listitem [ref=e2584]: 验证文件权限允许读取 plugin 文件
+              - separator [ref=e2585]
+              - heading "导航到标题 分发和版本管理参考" [level=2] [ref=e2586]:
+                - link "导航到标题" [ref=e2587] [cursor=pointer]:
+                  - /url: "#分发和版本管理参考"
+                  - img [ref=e2589]
+                - generic [ref=e2591] [cursor=pointer]: 分发和版本管理参考
+              - heading "导航到标题 版本管理" [level=3] [ref=e2592]:
+                - link "导航到标题" [ref=e2593] [cursor=pointer]:
+                  - /url: "#版本管理"
+                  - img [ref=e2595]
+                - generic [ref=e2597] [cursor=pointer]: 版本管理
+              - generic [ref=e2598]:
+                - text: Claude Code 使用 plugin 的版本作为缓存键，以确定是否有可用的更新。当你运行
+                - code [ref=e2599]: /plugin update
+                - text: 或自动更新触发时，Claude Code 会计算当前版本，如果与已安装的版本匹配，则跳过更新。
+              - generic [ref=e2600]: 版本从以下第一个设置的字段解析：
+              - list [ref=e2601]:
+                - listitem [ref=e2602]:
+                  - text: plugin 的
+                  - code [ref=e2603]: plugin.json
+                  - text: 中的
+                  - code [ref=e2604]: version
+                  - text: 字段
+                - listitem [ref=e2605]:
+                  - text: plugin 的
+                  - code [ref=e2606]: marketplace.json
+                  - text: 中的市场条目中的
+                  - code [ref=e2607]: version
+                  - text: 字段
+                - listitem [ref=e2608]:
+                  - text: plugin 源的 git 提交 SHA，用于 git 托管市场中的
+                  - code [ref=e2609]: github
+                  - text: 、
+                  - code [ref=e2610]: url
+                  - text: 、
+                  - code [ref=e2611]: git-subdir
+                  - text: 和相对路径源
+                - listitem [ref=e2612]:
+                  - code [ref=e2613]: unknown
+                  - text: ，用于
+                  - code [ref=e2614]: npm
+                  - text: 源或不在 git 仓库内的本地目录
+              - generic [ref=e2615]: 这为你提供了两种方式来对 plugin 进行版本管理：
+              - table [ref=e2618]:
+                - rowgroup [ref=e2619]:
+                  - row "方法 如何操作 更新行为 最适合" [ref=e2620]:
+                    - columnheader "方法" [ref=e2621]
+                    - columnheader "如何操作" [ref=e2622]
+                    - columnheader "更新行为" [ref=e2623]
+                    - columnheader "最适合" [ref=e2624]
+                - rowgroup [ref=e2625]:
+                  - 'row "显式版本 在 plugin.json 中设置 \"version\": \"2.1.0\" 用户仅在你提升此字段时获得更新。推送新提交而不提升它没有效果，/plugin update 报告”已是最新版本”。 具有稳定发布周期的已发布 plugin" [ref=e2626]':
+                    - cell "显式版本" [ref=e2627]:
+                      - strong [ref=e2628]: 显式版本
+                    - 'cell "在 plugin.json 中设置 \"version\": \"2.1.0\"" [ref=e2629]':
+                      - text: 在
+                      - code [ref=e2630]: plugin.json
+                      - text: 中设置
+                      - code [ref=e2631]: "\"version\": \"2.1.0\""
+                    - cell "用户仅在你提升此字段时获得更新。推送新提交而不提升它没有效果，/plugin update 报告”已是最新版本”。" [ref=e2632]:
+                      - text: 用户仅在你提升此字段时获得更新。推送新提交而不提升它没有效果，
+                      - code [ref=e2633]: /plugin update
+                      - text: 报告”已是最新版本”。
+                    - cell "具有稳定发布周期的已发布 plugin" [ref=e2634]
+                  - row "提交 SHA 版本 从 plugin.json 和市场条目中省略 version 用户在每次对 plugin 的 git 源进行新提交时获得更新 正在积极开发的内部或团队 plugin" [ref=e2635]:
+                    - cell "提交 SHA 版本" [ref=e2636]:
+                      - strong [ref=e2637]: 提交 SHA 版本
+                    - cell "从 plugin.json 和市场条目中省略 version" [ref=e2638]:
+                      - text: 从
+                      - code [ref=e2639]: plugin.json
+                      - text: 和市场条目中省略
+                      - code [ref=e2640]: version
+                    - cell "用户在每次对 plugin 的 git 源进行新提交时获得更新" [ref=e2641]
+                    - cell "正在积极开发的内部或团队 plugin" [ref=e2642]
+              - generic [ref=e2643]:
+                - img "警告" [ref=e2645]
+                - generic [ref=e2648]:
+                  - text: 如果你在
+                  - code [ref=e2649]: plugin.json
+                  - text: 中设置
+                  - code [ref=e2650]: version
+                  - text: ，你必须在每次想让用户接收更改时提升它。仅推送新提交是不够的，因为 Claude Code 看到相同的版本字符串并保留缓存副本。如果你迭代速度很快，请不设置
+                  - code [ref=e2651]: version
+                  - text: ，以便改用 git 提交 SHA。
+              - generic [ref=e2652]:
+                - text: 如果你使用显式版本，请遵循
+                - link "语义版本控制" [ref=e2653] [cursor=pointer]:
+                  - /url: https://semver.org
+                - text: （
+                - code [ref=e2654]: MAJOR.MINOR.PATCH
+                - text: ）：为破坏性更改提升 MAJOR，为新功能提升 MINOR，为错误修复提升 PATCH。在
+                - code [ref=e2655]: CHANGELOG.md
+                - text: 中记录更改。
+              - separator [ref=e2656]
+              - heading "导航到标题 另请参阅" [level=2] [ref=e2657]:
+                - link "导航到标题" [ref=e2658] [cursor=pointer]:
+                  - /url: "#另请参阅"
+                  - img [ref=e2660]
+                - generic [ref=e2662] [cursor=pointer]: 另请参阅
+              - list [ref=e2663]:
+                - listitem [ref=e2664]:
+                  - link "Plugins" [ref=e2665] [cursor=pointer]:
+                    - /url: /docs/zh-CN/plugins
+                  - text: "- 教程和实际用法"
+                - listitem [ref=e2666]:
+                  - link "Plugin marketplaces" [ref=e2667] [cursor=pointer]:
+                    - /url: /docs/zh-CN/plugin-marketplaces
+                  - text: "- 创建和管理市场"
+                - listitem [ref=e2668]:
+                  - link "Skills" [ref=e2669] [cursor=pointer]:
+                    - /url: /docs/zh-CN/skills
+                  - text: "- Skill 开发详情"
+                - listitem [ref=e2670]:
+                  - link "Subagents" [ref=e2671] [cursor=pointer]:
+                    - /url: /docs/zh-CN/sub-agents
+                  - text: "- Agent 配置和功能"
+                - listitem [ref=e2672]:
+                  - link "Hooks" [ref=e2673] [cursor=pointer]:
+                    - /url: /docs/zh-CN/hooks
+                  - text: "- 事件处理和自动化"
+                - listitem [ref=e2674]:
+                  - link "MCP" [ref=e2675] [cursor=pointer]:
+                    - /url: /docs/zh-CN/mcp
+                  - text: "- 外部工具集成"
+                - listitem [ref=e2676]:
+                  - link "Settings" [ref=e2677] [cursor=pointer]:
+                    - /url: /docs/zh-CN/settings
+                  - text: "- Plugins 的配置选项"
+            - generic [ref=e2679]:
+              - paragraph [ref=e2680]: 此页面对您有帮助吗？
+              - generic [ref=e2682]:
+                - button "是" [ref=e2683] [cursor=pointer]:
+                  - img [ref=e2684]
+                  - generic [ref=e2686]: 是
+                - button "否" [ref=e2687] [cursor=pointer]:
+                  - img [ref=e2688]
+                  - generic [ref=e2690]: 否
+            - generic [ref=e2691]:
+              - link "Hooks 参考" [ref=e2692] [cursor=pointer]:
+                - /url: /docs/zh-CN/hooks
+                - img [ref=e2693]
+                - generic [ref=e2695]: Hooks 参考
+              - link "Channels 参考" [ref=e2696] [cursor=pointer]:
+                - /url: /docs/zh-CN/channels-reference
+                - generic [ref=e2697]: Channels 参考
+                - img [ref=e2698]
+            - generic [ref=e2701]:
+              - textbox "提出问题..." [ref=e2702]
+              - generic: Ctrl+I
+              - button "发送消息" [disabled] [ref=e2703]:
+                - img [ref=e2704]
+      - contentinfo [ref=e2706]:
+        - generic [ref=e2708]:
+          - generic [ref=e2709]:
+            - link "Claude Code Docs home page light logo" [ref=e2710] [cursor=pointer]:
+              - /url: /docs/zh-CN/overview
+              - generic [ref=e2711]: Claude Code Docs home page
+              - img "light logo" [ref=e2712]
+            - generic [ref=e2713]:
+              - link "x" [ref=e2714] [cursor=pointer]:
+                - /url: https://x.com/AnthropicAI
+                - generic [ref=e2715]: x
+                - img [ref=e2716]
+              - link "linkedin" [ref=e2717] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/anthropicresearch
+                - generic [ref=e2718]: linkedin
+                - img [ref=e2719]
+          - generic [ref=e2720]:
+            - generic [ref=e2722]:
+              - paragraph [ref=e2723]: Company
+              - link "Anthropic" [ref=e2724] [cursor=pointer]:
+                - /url: https://www.anthropic.com/company
+              - link "Careers" [ref=e2725] [cursor=pointer]:
+                - /url: https://www.anthropic.com/careers
+              - link "Economic Futures" [ref=e2726] [cursor=pointer]:
+                - /url: https://www.anthropic.com/economic-futures
+              - link "Research" [ref=e2727] [cursor=pointer]:
+                - /url: https://www.anthropic.com/research
+              - link "News" [ref=e2728] [cursor=pointer]:
+                - /url: https://www.anthropic.com/news
+              - link "Trust center" [ref=e2729] [cursor=pointer]:
+                - /url: https://trust.anthropic.com/
+              - link "Transparency" [ref=e2730] [cursor=pointer]:
+                - /url: https://www.anthropic.com/transparency
+            - generic [ref=e2732]:
+              - paragraph [ref=e2733]: Help and security
+              - link "Availability" [ref=e2734] [cursor=pointer]:
+                - /url: https://www.anthropic.com/supported-countries
+              - link "Status" [ref=e2735] [cursor=pointer]:
+                - /url: https://status.anthropic.com/
+              - link "Support center" [ref=e2736] [cursor=pointer]:
+                - /url: https://support.claude.com/
+            - generic [ref=e2738]:
+              - paragraph [ref=e2739]: Learn
+              - link "Courses" [ref=e2740] [cursor=pointer]:
+                - /url: https://www.anthropic.com/learn
+              - link "MCP connectors" [ref=e2741] [cursor=pointer]:
+                - /url: https://claude.com/partners/mcp
+              - link "Customer stories" [ref=e2742] [cursor=pointer]:
+                - /url: https://www.claude.com/customers
+              - link "Engineering blog" [ref=e2743] [cursor=pointer]:
+                - /url: https://www.anthropic.com/engineering
+              - link "Events" [ref=e2744] [cursor=pointer]:
+                - /url: https://www.anthropic.com/events
+              - link "Powered by Claude" [ref=e2745] [cursor=pointer]:
+                - /url: https://claude.com/partners/powered-by-claude
+              - link "Service partners" [ref=e2746] [cursor=pointer]:
+                - /url: https://claude.com/partners/services
+              - link "Startups program" [ref=e2747] [cursor=pointer]:
+                - /url: https://claude.com/programs/startups
+            - generic [ref=e2749]:
+              - paragraph [ref=e2750]: Terms and policies
+              - link "Privacy choices" [ref=e2751] [cursor=pointer]:
+                - /url: "#"
+              - link "Privacy policy" [ref=e2752] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/privacy
+              - link "Disclosure policy" [ref=e2753] [cursor=pointer]:
+                - /url: https://www.anthropic.com/responsible-disclosure-policy
+              - link "Usage policy" [ref=e2754] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/aup
+              - link "Commercial terms" [ref=e2755] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/commercial-terms
+              - link "Consumer terms" [ref=e2756] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/consumer-terms
+  - alert [ref=e2757]

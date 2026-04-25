@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "跳转到主要内容" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - generic [ref=e13]
+          - generic [ref=e22]
+          - generic [ref=e35]
+        - generic [ref=e57]:
+          - link "快速开始" [ref=e58] [cursor=pointer]:
+            - /url: /docs/zh-CN/overview
+          - link "使用 Claude Code 构建" [ref=e60] [cursor=pointer]:
+            - /url: /docs/zh-CN/sub-agents
+          - link "部署" [ref=e62] [cursor=pointer]:
+            - /url: /docs/zh-CN/third-party-integrations
+          - link "管理" [ref=e64] [cursor=pointer]:
+            - /url: /docs/zh-CN/admin-setup
+          - link "配置" [ref=e66] [cursor=pointer]:
+            - /url: /docs/zh-CN/settings
+          - link "参考" [ref=e68] [cursor=pointer]:
+            - /url: /docs/zh-CN/cli-reference
+          - link "Agent SDK" [ref=e70] [cursor=pointer]:
+            - /url: /docs/zh-CN/agent-sdk/overview
+          - link "最新动态" [ref=e72] [cursor=pointer]:
+            - /url: /docs/zh-CN/whats-new
+          - link "资源" [ref=e74] [cursor=pointer]:
+            - /url: /docs/zh-CN/legal-and-compliance
+      - generic [ref=e76]:
+        - generic [ref=e80]:
+          - generic [ref=e81]
+          - generic [ref=e110]
+          - generic [ref=e129]
+          - generic [ref=e143]
+        - generic [ref=e164]:
+          - banner [ref=e165]
+          - generic [ref=e182]
+          - generic [ref=e2946]
+          - generic [ref=e2958]
+          - generic [ref=e2968]
+      - contentinfo [ref=e2973]:
+        - generic [ref=e2975]:
+          - generic [ref=e2976]
+          - generic [ref=e2987]
+  - alert [ref=e3024]
