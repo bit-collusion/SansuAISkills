@@ -4,9 +4,22 @@ Claude Code 技能集，提供游戏调研相关的标准化 SKILL.md。
 
 ## 安装
 
-Claude Code 通过 `.claude/skills/` 目录加载技能，支持项目级和用户级两种安装方式。
+### 方式一：通过 Marketplace 安装（推荐）
 
-### 方式一：项目级安装（推荐）
+将本仓库添加为 Claude Code marketplace，然后安装 plugin：
+
+```bash
+/plugin marketplace add https://github.com/bit-collusion/SansuAISkills
+/plugin install game-research@sansuai-skills
+```
+
+安装后，Claude Code 会自动加载 skills。更新 marketplace：
+
+```bash
+/plugin marketplace update
+```
+
+### 方式二：项目级手动安装
 
 仅对当前项目生效，技能文件跟随仓库共享给团队成员。
 
@@ -22,7 +35,7 @@ New-Item -ItemType Directory -Force -Path .claude\skills
 Copy-Item -Recurse -Force skills\* .claude\skills\
 ```
 
-### 方式二：用户级安装
+### 方式三：用户级手动安装
 
 对所有项目生效，技能文件保存在用户目录下。
 
@@ -66,6 +79,9 @@ Copy-Item -Recurse -Force skills\* $skillsDir\
 
 ```
 .
+├── .claude-plugin/
+│   ├── marketplace.json    # Marketplace 定义
+│   └── plugin.json         # Plugin 清单
 ├── skills/
 │   ├── gaas-game-research/
 │   │   ├── SKILL.md
