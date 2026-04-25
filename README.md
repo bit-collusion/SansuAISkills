@@ -4,20 +4,22 @@ Claude Code 技能集，提供游戏调研相关的标准化 SKILL.md。
 
 ## 安装
 
-### 方式一：通过 Marketplace 安装（推荐）
+### 方式一：通过 GitHub Marketplace 安装（推荐）
 
-将本仓库添加为 Claude Code marketplace，然后安装 plugin：
+本仓库托管于 GitHub，直接添加 marketplace 并安装即可：
 
 ```bash
-/plugin marketplace add https://github.com/bit-collusion/SansuAISkills
+/plugin marketplace add bit-collusion/SansuAISkills
 /plugin install game-research@sansuai-skills
 ```
 
-安装后，Claude Code 会自动加载 skills。更新 marketplace：
+**更新：**
 
 ```bash
 /plugin marketplace update
 ```
+
+> 使用 GitHub 托管的优点：内置版本控制、问题跟踪和团队协作功能。
 
 ### 方式二：项目级手动安装
 
