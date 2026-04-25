@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "SansuAI 游戏调研相关 Claude Code skills marketplace",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
