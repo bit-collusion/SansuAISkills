@@ -1,18 +1,42 @@
 # SansuAI Skills
 
-Claude Code 插件市场包，提供游戏调研相关的标准化技能集。
+Claude Code 技能集，提供游戏调研相关的标准化 SKILL.md。
 
 ## 安装
 
-### 方式一：本地安装
+Claude Code 通过 `.claude/skills/` 目录加载技能，支持项目级和用户级两种安装方式。
+
+### 方式一：项目级安装（推荐）
+
+仅对当前项目生效，技能文件跟随仓库共享给团队成员。
+
 ```bash
-claude plugin install https://github.com/bit-collusion/SansuAISkills
+# 在项目根目录执行
+mkdir -p .claude/skills
+cp -r skills/* .claude/skills/
 ```
 
-### 方式二：添加为 Marketplace 源
+Windows (PowerShell):
+```powershell
+New-Item -ItemType Directory -Force -Path .claude\skills
+Copy-Item -Recurse -Force skills\* .claude\skills\
+```
+
+### 方式二：用户级安装
+
+对所有项目生效，技能文件保存在用户目录下。
+
+**macOS/Linux:**
 ```bash
-claude plugin marketplace add bit-collusion/SansuAISkills
-claude plugin install game-research-skills@bit-collusion/SansuAISkills
+mkdir -p ~/.claude/skills
+cp -r skills/* ~/.claude/skills/
+```
+
+**Windows (PowerShell):**
+```powershell
+$skillsDir = "$env:USERPROFILE\.claude\skills"
+New-Item -ItemType Directory -Force -Path $skillsDir
+Copy-Item -Recurse -Force skills\* $skillsDir\
 ```
 
 ## Skills 列表
@@ -42,19 +66,17 @@ claude plugin install game-research-skills@bit-collusion/SansuAISkills
 
 ```
 .
-├── .claude-plugin/
-│   ├── plugin.json          # 插件清单
-│   └── marketplace.json     # Marketplace 索引
-└── skills/
-    ├── gaas-game-research/
-    │   ├── SKILL.md
-    │   ├── expansion-lifecycle/
-    │   ├── gaas-score-review/
-    │   └── references/
-    └── premium-game-research/
-        ├── SKILL.md
-        ├── premium-score-review/
-        └── references/
+├── skills/
+│   ├── gaas-game-research/
+│   │   ├── SKILL.md
+│   │   ├── expansion-lifecycle/
+│   │   ├── gaas-score-review/
+│   │   └── references/
+│   └── premium-game-research/
+│       ├── SKILL.md
+│       ├── premium-score-review/
+│       └── references/
+└── README.md
 ```
 
 ## License
